@@ -199,3 +199,11 @@ Inspected the rendered scenery and verified an open arena route, grounded placem
 - Centered the boss display at the new arena and updated its area label.
 
 Verified the walking route, sealed mountain boundary, normal timed boss spawn and client display in Studio. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
+
+### Inventory Categories — 9 September 2026
+
+- Added separate Misc and Materials buttons to Inventory. Food and boost potions appear under Misc; mob ingredients and crafting crystals appear under Materials.
+- Search filters the selected category. Switching clears the previous item selection and scroll position, while inventory refreshes preserve the chosen category.
+- Preserved highest-Forge-Power-first material ordering, item details, consumption rules and the shared menu entrance.
+
+Verified all 55 catalog entries across the two categories, actual button switching, search, loading and empty states, selection reset, refresh behavior and material consumption remaining disabled in Studio. Layout checks passed at four desktop and smaller container sizes; physical phone input remains untested. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
