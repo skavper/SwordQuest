@@ -18,13 +18,15 @@ Sign in to Render, authorize repository access as needed, and review the Bluepri
 
 If the button does not select the branch, use **New -> Blueprint**, select `skavper/SwordQuest`, set branch `feat/discord-notifications` and Blueprint path `render.yaml`.
 
-Enter the three values requested by the setup form:
+The destination channel is preconfigured as **`1546997127211778118`**, the supplied SwordQuest drops channel. Enter the two private setup values and review the channel below:
 
-| Render variable | What to enter |
+| Render variable | Value |
 | --- | --- |
-| `DISCORD_BOT_TOKEN` | Your newly reset, private token, without a `Bot ` prefix. |
-| `DISCORD_CHANNEL_ID` | The numeric ID of the destination Discord text channel. Enable Developer Mode in Discord and use Copy Channel ID. |
-| `ROBLOX_UNIVERSE_ID` | Your experience's universe ID (`game.GameId`), not its place ID (`game.PlaceId`). |
+| `DISCORD_BOT_TOKEN` | Enter your private token, without a `Bot ` prefix. Rotate any exposed token as described above. |
+| `DISCORD_CHANNEL_ID` | Already set to `1546997127211778118` in `render.yaml`; no need to supply it again. |
+| `ROBLOX_UNIVERSE_ID` | Enter your experience's universe ID (`game.GameId`), not its place ID (`game.PlaceId`). |
+
+This configures the deployment template, not a running service. Eligible rare drops will use this channel after deployment and game integration. Pet-hatch notifications also use it unless `DISCORD_HATCH_CHANNEL_ID` is set separately. The channel ID is not a credential; bot tokens and shared keys must remain private.
 
 The template generates `ROBLOX_API_KEY` privately in Render. You do not need to generate it yourself. It also configures Node 24, the correct service folder and start command, a `/healthz` check, one instance, and persistent database storage at `/var/data/notifications.sqlite`. The build runs the automated tests before starting. [1]
 
