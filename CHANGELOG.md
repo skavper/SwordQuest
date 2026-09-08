@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-These changes were verified in Roblox Studio and saved to Roblox on 8 September 2026. Publication to the live game is not confirmed. This repository documents development changes; it does not contain the complete game source.
+The initial entries below were verified in Roblox Studio and saved to Roblox on 8 September 2026. Later updates state their own verification status. Publication to the live game is not confirmed. This repository documents development changes; it does not contain the complete game source.
 
 ### Added
 
@@ -24,3 +24,10 @@ These changes were verified in Roblox Studio and saved to Roblox on 8 September 
 
 - Prevented notifications from stacking over one another and covering the level and coin display.
 - Standardized capitalization across inventory labels, item stats and related UI.
+
+### Weighted Sword Carry — 8 September 2026
+
+- Added a braced sword walking animation with delayed stride sway, upper-body counterbalance, and a smooth settle when stopping.
+- Preserved custom cosmetic carry poses and hand placement, with smooth transitions into attacks and back to walking. Damage, reach, and attack timing are unchanged.
+
+Verified equipped walking, directional movement, stopping, moving attacks, and repeated equipping in Studio. Sprint blending was checked numerically; a real sprint playtest remains pending. Cloud save for this update is pending; no live release is claimed.
