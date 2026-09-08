@@ -163,7 +163,7 @@ Verified all 36 mappings, rendered icons, pickup collection and descending inven
 ### Unique Spawn Houses — 8 September 2026
 
 - Replaced the old spawn cottages with four original low-poly buildings: a large medieval blacksmith, a two-story inn, an alchemist house and a provision shop.
-- Arranged the houses at the four diagonal positions facing the open spawn plaza, with fitted approaches and blended foundations.
+- Placed the houses directly against the spawn circle at four diagonal positions, with blended foundations and no connecting roads. Moved the boards and benches into the side gaps.
 - Added an open smithing yard with a large anvil, hammer, furnace and lava cauldron, including fire, embers, warm lighting and chimney smoke.
 
-Verified all four models and their textures in Studio, foundation contact, all four entrance routes and an actual player walk into the forge yard. Saved to Roblox on 8 September 2026 at 22:10 UTC; not published live. These are scenery assets; shop and crafting gameplay are not part of this update. Complete game source and Blender assets are delivered separately.
+Verified all four models and their textures in Studio, foundation contact, all four entrance routes and an actual player walk into the forge yard. Saved to Roblox on 8 September 2026 at 22:23 UTC; not published live. These are scenery assets; shop and crafting gameplay are not part of this update. Complete game source and Blender assets are delivered separately.
