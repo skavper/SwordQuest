@@ -128,3 +128,11 @@ Verified ground contact for 2,149 scenery objects, attachment for 378 mountain d
 - Retained boss stats, rewards, timers and area progression.
 
 Verified all nine bosses attacking, animating, grounding and displaying their complete artwork in a clean Studio playtest. All nine natural spawns also loaded the upgraded models. Published the combined SwordQuest update to Roblox on 8 September 2026 at 20:56 UTC, including these boss areas and the text-outline fix. New servers receive the update; existing servers were not forcibly restarted. Ordinary mob artwork was not rebuilt in this pass. Public multiplayer and mobile hardware testing remain unverified. This PR contains change notes only; game source and Blender assets are delivered separately.
+
+### Sword Card Readability — 8 September 2026
+
+- Made sword names substantially smaller and kept them on a centered single line with fitting for long names.
+- Enlarged DMG in a bright gold row and added thousands separators to large damage values.
+- Tidied spacing between names, damage and existence counts, retaining the raised slate cards and existing inventory actions.
+
+Verified the rendered inventory, long-name and large-number samples, and smaller card layouts in Studio. Saved to Roblox on 8 September 2026 at 21:11 UTC; not published live. Full phone usability is outside this typography change. This entry documents a Studio change; game source is delivered separately.
