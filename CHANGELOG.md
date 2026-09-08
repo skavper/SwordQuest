@@ -151,3 +151,11 @@ Verified all nine walking routes, exact prop scaling, grass-free arena interiors
 - Kept reward notifications visible above the open Gifts menu. Claim failures appear inline and do not create reward icons.
 
 Verified the Claim All handler, all reward types and quantities, loaded artwork, five-second cleanup and repeated-claim rejection in Studio. Normal gift timers were restored after testing. Installed and exported locally; this change's Roblox cloud save and live publication are unconfirmed.
+
+### Mob Crafting Materials — 8 September 2026
+
+- Added 36 distinctive signature materials, one guaranteed drop for every active mob type, using the existing cartoon icon pack. Materials accompany existing sword and consumable loot.
+- Added Forge Power and crafting affinities for future rings. Inventory materials sort by highest Forge Power first and show their power, affinity and source mob; search supports these details.
+- Protected materials from consumption and included each boss's guaranteed material in its loot preview. Blacksmith and ring crafting gameplay remain planned for a later update.
+
+Verified all 36 mappings, rendered icons, pickup collection and descending inventory order in Studio. Credited ordinary-mob and boss kills awarded the correct material; consumption rejection, profile round trips and compact inventory details passed. Saved to Roblox on 8 September 2026 at 21:59 UTC; not published live. Production database rejoin and multiplayer behavior remain unverified. This entry documents a Studio change; game source is delivered separately.
