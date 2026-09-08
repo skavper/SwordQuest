@@ -144,3 +144,10 @@ Verified the rendered inventory, long-name and large-number samples, and smaller
 - Cleared grass and obstructing vegetation from the fighting spaces, blended the cleared ground into each biome and relocated nearby scenery, including large landmarks.
 
 Verified all nine walking routes, exact prop scaling, grass-free arena interiors and grounded, non-overlapping relocated scenery in Studio. All nine bosses spawned naturally at their new homes. Saved to Roblox on 8 September 2026 at 21:24 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
+
+### Unified Gift Reward Notifications — 8 September 2026
+
+- Removed the central gift reward popup. Gift coins, XP and miscellaneous items now appear through the same icon notification row as ordinary item drops, with item details and quantities in its tooltips.
+- Kept reward notifications visible above the open Gifts menu. Claim failures appear inline and do not create reward icons.
+
+Verified the Claim All handler, all reward types and quantities, loaded artwork, five-second cleanup and repeated-claim rejection in Studio. Normal gift timers were restored after testing. Installed and exported locally; this change's Roblox cloud save and live publication are unconfirmed.
