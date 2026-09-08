@@ -40,3 +40,13 @@ Verified equipped walking, directional movement, stopping, moving attacks, and r
 - Preserved undiscovered collection silhouettes, exclusive rarity styling, and saved owner counts. Reduced-motion preferences suppress extra Arsenal aura particles and ribbons.
 
 Verified the shop and collection UI, all twenty custom swings, hand seating, unchanged damage, aura cleanup, real Roblox product prices, receipt replay protection, and delayed-save recovery in Studio. Saved to Roblox on 8 September 2026 at 14:54 UTC. Live Robux checkout and worldwide owner totals remain unverified; this is not a live release.
+
+### Sword Inventory and Fusion Presentation — 8 September 2026
+
+- Enlarged sword cards into a clean three-column layout with raised slate surfaces, soft shadows, and a darker inventory window.
+- Separated bold rarity-colored headings from small bracketed fusion tiers, and moved stack counts outside the top-right corner. Names, damage, and ownership counts retain their actual values.
+- Added a subtle animated rainbow background to the Cosmetics button.
+- Standardized game UI on bold outlined Fredoka lettering and removed competing text outlines.
+- Replaced fused-sword orbit rings with animated backglow matching each fusion tier, with flame particles on equipped swords and motion-aware preview effects.
+
+Verified card layout, selection, scrolling, stack badges, actual damage, Cosmetics navigation, shared typography, moving preview glow, and equipped flame emitters in Studio. The final cloud save is pending; no live release is claimed.
