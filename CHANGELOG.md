@@ -136,3 +136,11 @@ Verified all nine bosses attacking, animating, grounding and displaying their co
 - Tidied spacing between names, damage and existence counts, retaining the raised slate cards and existing inventory actions.
 
 Verified the rendered inventory, long-name and large-number samples, and smaller card layouts in Studio. Saved to Roblox on 8 September 2026 at 21:11 UTC; not published live. Full phone usability is outside this typography change. This entry documents a Studio change; game source is delivered separately.
+
+### Larger Boss Courts — 8 September 2026
+
+- Moved all nine boss courts to the middle of their existing areas along the right-hand mountain edge, retaining Slime King's mountain grotto.
+- Doubled the thrones, rear landmarks, flanking props and entrance pieces, and expanded the grotto floor to accommodate them.
+- Cleared grass and obstructing vegetation from the fighting spaces, blended the cleared ground into each biome and relocated nearby scenery, including large landmarks.
+
+Verified all nine walking routes, exact prop scaling, grass-free arena interiors and grounded, non-overlapping relocated scenery in Studio. All nine bosses spawned naturally at their new homes. Saved to Roblox on 8 September 2026 at 21:24 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
