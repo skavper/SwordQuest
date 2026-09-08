@@ -77,3 +77,10 @@ Verified tooltip visibility and readability, moving artwork, repeated-item count
 - Added server crossing checks and full-reset integration.
 
 Verified all six leader kills, unlocked crossings, blocked bypass attempts, profile save/reload, progress surviving a delayed save, and animated fill/fade in Studio. Saved to Roblox on 8 September 2026. Production multiplayer and database rejoin testing remain unverified; this is not a live release.
+
+### Emerald Hollow Forest Asset Kit — 8 September 2026
+
+- Created 24 original forest scenery assets in the same chunky low-poly visual family as the desert kit: five tree types, foliage, logs, mossy rocks, ruins, wooden props, a well and a cottage.
+- Prepared editable Blender source, individual FBX and glTF exports, a visual catalog and a reusable modeling guide. The unique meshes total 14,132 triangles and share one small palette texture.
+
+Verified all 48 individual export round trips in Blender, including geometry, dimensions, UVs, textures and ground-center pivots, and inspected the rendered assets. This entry documents completed asset authoring; the forest models have not been imported into Studio, placed in the game or published. Asset binaries are delivered separately and are not included in this documentation-only PR.
