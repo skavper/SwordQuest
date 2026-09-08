@@ -75,7 +75,9 @@ export function loadConfig(env = process.env) {
     return value;
   };
   const apiKey = required('ROBLOX_API_KEY');
-  if (!/^[A-Za-z0-9_-]{32,256}$/.test(apiKey)) throw new Error('ROBLOX_API_KEY must have 32-256 URL-safe characters');
+  // Render generates standard base64; local tooling generates base64url/hex.
+  // The key travels in an HTTP header, not a URL, so +, / and = are safe.
+  if (!/^[A-Za-z0-9_+\/=-]{32,256}$/.test(apiKey)) throw new Error('ROBLOX_API_KEY must have 32-256 base64/base64url characters');
   const token = required('DISCORD_BOT_TOKEN');
   if (/\s/.test(token) || token.startsWith('Bot ')) throw new Error('Use the raw Discord bot token, without a prefix');
   const rarities = (env.NOTIFY_RARITIES || 'Legendary,Mythic,Mythical,Secret').split(',').map((s) => s.trim().toLowerCase());
