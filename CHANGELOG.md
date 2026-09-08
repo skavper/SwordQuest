@@ -167,3 +167,11 @@ Verified all 36 mappings, rendered icons, pickup collection and descending inven
 - Added an open smithing yard with a large anvil, hammer, furnace and lava cauldron, including fire, embers, warm lighting and chimney smoke.
 
 Verified all four models and their textures in Studio, foundation contact, all four entrance routes and an actual player walk into the forge yard. Saved to Roblox on 8 September 2026 at 22:23 UTC; not published live. These are scenery assets; shop and crafting gameplay are not part of this update. Complete game source and Blender assets are delivered separately.
+
+### Desktop Controls and Menu Recovery — 8 September 2026
+
+- Restored desktop spacing and action sizes in Pets, miscellaneous inventory and community menus after phone layout changes.
+- Kept phone layout selection separate from mouse-and-keyboard computers and stopped phone controls from disabling native sword activation.
+- Prevented the Roblox player list from covering menu close buttons, restoring it after menus close.
+
+Verified desktop layouts at 1536×548 and 1536×726, menu opening and closing, and six server-confirmed mouse swings including a three-hit combo after closing menus. Saved to Roblox on 8 September 2026 at 22:37 UTC; not published live. Complete phone-device testing remains pending. This entry documents a Studio change; game source is delivered separately.
