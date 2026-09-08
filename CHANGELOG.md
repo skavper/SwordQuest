@@ -101,3 +101,13 @@ Final Studio checks found no overlapping bounding boxes among the 976 kit ground
 - Text outlines now fade and reappear with the lettering while retaining the shared cartoon font and colors.
 
 Verified hidden-text outlines and fade/reappear behavior in a fresh Studio playtest, plus actual egg controls in wide and narrow test containers. Applied in Studio and exported locally; cloud save confirmation is pending. No live release is claimed.
+
+
+### Area Bosses — 8 September 2026
+
+- Added a timed boss to every area across all three zones, retaining Slime King and promoting the eight themed area leaders into boss encounters with enlarged family rigs.
+- Increased difficulty sharply across the nine bosses: health rises from 3,000 to 3,000,000, with steadily increasing base damage and rewards. Existing family attacks, leader quest credit and sword loot remain integrated.
+- Set initial spawns and post-defeat respawns to 1 minute 30 seconds, with one living boss per area.
+- Extended the boss loot display to every area with the correct identity, level, preview, loot pool and countdown. Fixed distant-area streaming and kept the panel clear of the tutorial and combat controls.
+
+Verified all nine initial spawns, actual attacks, credited kills and full 90-second respawns in Studio, including unchanged stats, fixed homes and no duplicates. Persistent Studio edits and source exports are complete; combined cloud-save confirmation is pending. Mobile hardware, multiplayer behavior and extended balance testing remain unverified. This documentation update does not contain complete game source or claim a live release.
