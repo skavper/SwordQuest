@@ -191,3 +191,11 @@ Verified all three abilities' actual damage, E-key activation, blocked-wall reje
 - Kept the court and its approach clear and retained the existing encounter and mountain boundary.
 
 Inspected the rendered scenery and verified an open arena route, grounded placements and no overlapping bounding boxes among the added trees and details. The complete addition contains 118 BaseParts and reuses existing forest meshes. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. Mobile hardware performance remains untested. This entry documents a Studio change; game source and assets are delivered separately.
+
+### Open Slime King Arena — 9 September 2026
+
+- Replaced Slime King's cave with an open court matching the other boss arenas, centered along Slime Grove beside the right mountains.
+- Added blended, grass-free fighting ground, sealed the former cave opening and moved nearby scenery and Slime homes clear of the court.
+- Centered the boss display at the new arena and updated its area label.
+
+Verified the walking route, sealed mountain boundary, normal timed boss spawn and client display in Studio. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
