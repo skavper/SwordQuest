@@ -175,3 +175,19 @@ Verified all four models and their textures in Studio, foundation contact, all f
 - Prevented the Roblox player list from covering menu close buttons, restoring it after menus close.
 
 Verified desktop layouts at 1536×548 and 1536×726, menu opening and closing, and six server-confirmed mouse swings including a three-hit combo after closing menus. Saved to Roblox on 8 September 2026 at 22:37 UTC; not published live. Complete phone-device testing remains pending. This entry documents a Studio change; game source is delivered separately.
+
+### Super Combo Abilities — 9 September 2026
+
+- Added Flash Triple at x20, Cyclone Barrage at x50, and Heavenbreaker at x100 successful combo hits, with rapid sword strikes, colored slash effects and afterimages.
+- Added an E keycap prompt and draining 0.33-second reaction meter, with touch activation and controller support. Successful activation is limited to one use per earned opportunity.
+- Kept damage, reach, visibility and eligibility checks on the server. Bonus strikes preserve the earned combo count; ordinary attacks resume afterward.
+
+Verified all three abilities' actual damage, E-key activation, blocked-wall rejection, normal attacks afterward, prompt timing, loaded opening sound and effect cleanup in Studio. An isolated 39-assertion suite passed milestone, expiry, replay, cross-player and character-reset checks. Physical mobile/gamepad devices, production network latency and extended balance remain untested. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
+
+### Slime Arena Forest Backdrop — 9 September 2026
+
+- Filled the rear of Slime King's open court with five layered mountain groups, 65 varied trees in irregular clusters, and 18 forest details.
+- Mixed tree species, ages, sizes and terrace heights to replace the evenly spaced rows with a denser, asymmetric woodland backdrop.
+- Kept the court and its approach clear and retained the existing encounter and mountain boundary.
+
+Inspected the rendered scenery and verified an open arena route, grounded placements and no overlapping bounding boxes among the added trees and details. The complete addition contains 118 BaseParts and reuses existing forest meshes. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. Mobile hardware performance remains untested. This entry documents a Studio change; game source and assets are delivered separately.
