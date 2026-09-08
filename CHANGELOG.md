@@ -83,4 +83,13 @@ Verified all six leader kills, unlocked crossings, blocked bypass attempts, prof
 - Created 24 original forest scenery assets in the same chunky low-poly visual family as the desert kit: five tree types, foliage, logs, mossy rocks, ruins, wooden props, a well and a cottage.
 - Prepared editable Blender source, individual FBX and glTF exports, a visual catalog and a reusable modeling guide. The unique meshes total 14,132 triangles and share one small palette texture.
 
-Verified all 48 individual export round trips in Blender, including geometry, dimensions, UVs, textures and ground-center pivots, and inspected the rendered assets. This entry documents completed asset authoring; the forest models have not been imported into Studio, placed in the game or published. Asset binaries are delivered separately and are not included in this documentation-only PR.
+Verified all 48 individual export round trips in Blender, including geometry, dimensions, UVs, textures and ground-center pivots, and inspected the rendered assets. Imported the kit into Studio, replaced 86 Grasslands trees and placed 203 forest Models across the first three areas. Revised their spacing to clear other scenery and routes. Saved to Roblox with the scenery update on 8 September 2026 at 19:36 UTC. Asset binaries are delivered separately; this documentation-only PR does not claim a live release.
+
+### Biome Scenery and Mountain Detail — 8 September 2026
+
+- Added 22 original low-poly scenery assets totaling 5,992 unique triangles, including slime springs and nests, orc camp props, thorn ruins, desert supplies, forge details and frozen relics.
+- Added 624 ground prop placements across nine areas and 378 mountain-detail Models, including rock-face treatments, hanging foliage, shelves and cap accents.
+- Integrated the 149-Model desert scenery set and revised forest and desert placement to prevent separate ground models from intersecting. Removed 455 old bush and snowy-shrub pieces and disabled their old generator helper.
+- Supplied editable Blender source, FBX/glTF exports and a native Roblox library containing 46 forest and biome-detail templates.
+
+Final Studio checks found no overlapping bounding boxes among the 976 kit ground Models, no central-road intrusions and no changes to protected spawn, gate, path, cave or mountain part geometry and collisions. All nine area routes and the cave approach passed pathfinding checks. New asset-instance loading passed without failures during a Studio play session. Mobile hardware performance and public-server behavior remain untested. Saved to the existing game on Roblox on 8 September 2026 at 19:36 UTC; not published live. Model binaries and complete game source are delivered separately.
