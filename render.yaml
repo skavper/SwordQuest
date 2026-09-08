@@ -34,7 +34,7 @@ services:
       - key: DISCORD_BOT_TOKEN
         sync: false
       - key: DISCORD_CHANNEL_ID
-        sync: false
+        value: "1546997127211778118"
       - key: ROBLOX_UNIVERSE_ID
         sync: false
       - key: ROBLOX_API_KEY
