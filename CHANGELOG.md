@@ -64,7 +64,8 @@ Verified session rules, overlapping requests, delayed-save recovery, reward roun
 ### Item Reward Icons and Stack Counts — 8 September 2026
 
 - Replaced large item-drop text panels with rounded icon boxes and a NEW ITEM heading above the health bar. Item names, rarity, quantity and descriptions appear only in a dark hover tooltip.
-- Added smooth pop entrances, gentle artwork motion inside stable boxes, sideways list movement and horizontal overflow scrolling. Repeated items combine and refresh their one-minute lifetime.
+- Added smooth pop entrances, smooth vertical artwork motion without wobble inside stable boxes, sideways list movement and horizontal overflow scrolling. Repeated items combine without extending their five-second lifetime, followed by a quick fade.
 - Enlarged sword inventory quantities to plain outlined text outside the top-right corner, removing their background boxes.
 
-Verified tooltip visibility and readability, moving artwork, repeated-item counts, nine-item overflow and one-minute cleanup in Studio. Source snapshots were exported locally. The final cloud save is unconfirmed; no live release is claimed.
+Verified tooltip visibility and readability, moving artwork, repeated-item counts, nine-item overflow and five-second cleanup even when repeated pickups arrive in Studio. Source snapshots were exported locally. The final cloud save is unconfirmed; no live release is claimed.
+
