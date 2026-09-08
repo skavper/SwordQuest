@@ -100,7 +100,7 @@ Final Studio checks found no overlapping bounding boxes among the 976 kit ground
 - Fixed offset ghost lettering behind icon-button captions, including egg-opening controls, by hiding outlines with their source text.
 - Text outlines now fade and reappear with the lettering while retaining the shared cartoon font and colors.
 
-Verified hidden-text outlines and fade/reappear behavior in a fresh Studio playtest, plus actual egg controls in wide and narrow test containers. Applied in Studio and exported locally; cloud save confirmation is pending. No live release is claimed.
+Verified hidden-text outlines and fade/reappear behavior in a fresh Studio playtest, plus actual egg controls in wide and narrow test containers. Applied in Studio, exported locally and saved to Roblox with the combined update on 8 September 2026 at 20:31 UTC. No live release is claimed.
 
 
 ### Area Bosses — 8 September 2026
@@ -110,4 +110,12 @@ Verified hidden-text outlines and fade/reappear behavior in a fresh Studio playt
 - Set initial spawns and post-defeat respawns to 1 minute 30 seconds, with one living boss per area.
 - Extended the boss loot display to every area with the correct identity, level, preview, loot pool and countdown. Fixed distant-area streaming and kept the panel clear of the tutorial and combat controls.
 
-Verified all nine initial spawns, actual attacks, credited kills and full 90-second respawns in Studio, including unchanged stats, fixed homes and no duplicates. Persistent Studio edits and source exports are complete; combined cloud-save confirmation is pending. Mobile hardware, multiplayer behavior and extended balance testing remain unverified. This documentation update does not contain complete game source or claim a live release.
+Verified all nine initial spawns, actual attacks, credited kills and full 90-second respawns in Studio, including unchanged stats, fixed homes and no duplicates. Persistent Studio edits and source exports are complete; saved to Roblox with the combined update on 8 September 2026 at 20:31 UTC. Mobile hardware, multiplayer behavior and extended balance testing remain unverified. This documentation update does not contain complete game source or claim a live release.
+
+### Grounded Scenery and Mountain Seams — 8 September 2026
+
+- Grounded 88 scenery objects across the map, including pyramid bases, riverbank props and unsupported mountain-top decorations. Added a mount beneath the temple's sun emblem.
+- Closed unintended mountain openings with 17 overlapping low-poly rock groups, including the spawn backdrop, cave-side boundary and ice-area ridges. Mountain rebuilds retain the seam repairs.
+- Preserved spacing between separate scenery models and kept the spawn, roads, cave, quest gates and encounter markers unchanged.
+
+Verified ground contact for 2,149 scenery objects, attachment for 378 mountain decorations and no bounding-box overlaps among 976 kit ground models. All nine area routes, the spawn route and cave approach passed pathfinding. Boundary checks found no outer or rear openings at the sampled player heights; three apparent seams beyond the enclosure were unreachable. Saved to Roblox on 8 September 2026 at 20:31 UTC; not published live. Complete game source is delivered separately.
