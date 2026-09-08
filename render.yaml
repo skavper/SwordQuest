@@ -1,0 +1,43 @@
+# Deployment template only: creating these resources on Render incurs charges.
+# Review the service + 1 GB persistent disk price before approving deployment.
+# Never put a real Discord token or API key in this file.
+services:
+  - type: web
+    name: goodgames-swordquest-notifications
+    runtime: node
+    plan: 0.5c-512mb
+    region: frankfurt
+    repo: https://github.com/skavper/SwordQuest
+    branch: feat/discord-notifications
+    rootDir: discord-bot
+    buildCommand: npm test
+    startCommand: npm start
+    healthCheckPath: /healthz
+    numInstances: 1
+    autoDeployTrigger: "off"
+    maxShutdownDelaySeconds: 30
+    disk:
+      name: notification-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: "10000"
+      - key: DATABASE_PATH
+        value: /var/data/notifications.sqlite
+      - key: DISCORD_BOT_TOKEN
+        sync: false
+      - key: DISCORD_CHANNEL_ID
+        value: "1546997127211778118"
+      - key: ROBLOX_UNIVERSE_ID
+        sync: false
+      - key: ROBLOX_API_KEY
+        generateValue: true
+      - key: NOTIFY_RARITIES
+        value: Legendary,Mythic,Mythical,Secret

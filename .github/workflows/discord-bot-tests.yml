@@ -1,0 +1,24 @@
+name: Discord bot tests
+on:
+  pull_request:
+    paths: ['discord-bot/**', '.github/workflows/discord-bot-tests.yml']
+  push:
+    branches: [main, 'feat/discord-notifications']
+    paths: ['discord-bot/**', '.github/workflows/discord-bot-tests.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: discord-bot
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - run: npm test
