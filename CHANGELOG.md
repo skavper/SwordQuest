@@ -93,3 +93,11 @@ Verified all 48 individual export round trips in Blender, including geometry, di
 - Supplied editable Blender source, FBX/glTF exports and a native Roblox library containing 46 forest and biome-detail templates.
 
 Final Studio checks found no overlapping bounding boxes among the 976 kit ground Models, no central-road intrusions and no changes to protected spawn, gate, path, cave or mountain part geometry and collisions. All nine area routes and the cave approach passed pathfinding checks. New asset-instance loading passed without failures during a Studio play session. Mobile hardware performance and public-server behavior remain untested. Saved to the existing game on Roblox on 8 September 2026 at 19:36 UTC; not published live. Model binaries and complete game source are delivered separately.
+
+
+### Text Outline Visibility — 8 September 2026
+
+- Fixed offset ghost lettering behind icon-button captions, including egg-opening controls, by hiding outlines with their source text.
+- Text outlines now fade and reappear with the lettering while retaining the shared cartoon font and colors.
+
+Verified hidden-text outlines and fade/reappear behavior in a fresh Studio playtest, plus actual egg controls in wide and narrow test containers. Applied in Studio and exported locally; cloud save confirmation is pending. No live release is claimed.
