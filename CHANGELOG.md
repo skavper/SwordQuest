@@ -69,3 +69,11 @@ Verified session rules, overlapping requests, delayed-save recovery, reward roun
 
 Verified tooltip visibility and readability, moving artwork, repeated-item counts, nine-item overflow and five-second cleanup even when repeated pickups arrive in Studio. Source snapshots were exported locally. The final cloud save is unconfirmed; no live release is claimed.
 
+### Area Quest Walls — 8 September 2026
+
+- Added six quest walls between areas inside Grasslands, Desert and Ice Land, while retaining the existing biome level requirements.
+- Each wall requires defeating the preceding area's leader, beginning with Slime King for Ironfang Camp. Unlocks are personal and saved with player progression.
+- Added grey walls at 30% opacity so the next area remains visible, bold outlined Fredoka lettering, animated progress bars and a fading unlock effect.
+- Added server crossing checks and full-reset integration.
+
+Verified all six leader kills, unlocked crossings, blocked bypass attempts, profile save/reload, progress surviving a delayed save, and animated fill/fade in Studio. Saved to Roblox on 8 September 2026. Production multiplayer and database rejoin testing remain unverified; this is not a live release.
