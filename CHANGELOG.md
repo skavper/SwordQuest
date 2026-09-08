@@ -50,3 +50,13 @@ Verified the shop and collection UI, all twenty custom swings, hand seating, unc
 - Replaced fused-sword orbit rings with animated backglow matching each fusion tier, with flame particles on equipped swords and motion-aware preview effects.
 
 Verified card layout, selection, scrolling, stack badges, actual damage, Cosmetics navigation, shared typography, moving preview glow, and equipped flame emitters in Studio. The final cloud save is pending; no live release is claimed.
+
+### Playtime Gifts — 8 September 2026
+
+- Added 12 session gifts with independent playtime milestones, a HUD countdown and claimable-count badge, individual claims, and Claim All.
+- Added modest random coins, XP and existing consumables through the normal progression profile. Server validation prevents early claims, repeated payouts and rerolling through retries.
+- Gift eligibility resets on leaving while earned rewards remain in saved progression. Respawns preserve timers; collecting every gift does not restart the session.
+- Added a responsive Gifts menu with larger white-outlined presents and chests, small shadows, a gift header icon, shared outlined lettering and pop-opening motion. Only countdowns and claim states appear; rewards are revealed after claiming.
+- Presents pop, lift and tilt on hover, squash on press and settle on exit while their countdowns stay still.
+
+Verified session rules, overlapping requests, delayed-save recovery, reward round trips, level-up behavior and the UI in Studio. Production database rejoin behavior remains unverified. The final cloud save is unconfirmed; this is not a live release. Game source is not included in this documentation update.
