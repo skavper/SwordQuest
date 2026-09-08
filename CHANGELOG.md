@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-The initial entries below were verified in Roblox Studio and saved to Roblox on 8 September 2026. Later updates state their own verification status. Publication to the live game is not confirmed. This repository documents development changes; it does not contain the complete game source.
+The initial entries below were verified in Roblox Studio and saved to Roblox on 8 September 2026. Later updates state their own verification status. Publication status is recorded in the dated updates below; earlier verification notes describe their status at the time. This repository documents development changes; it does not contain the complete game source.
 
 ### Added
 
@@ -119,3 +119,12 @@ Verified all nine initial spawns, actual attacks, credited kills and full 90-sec
 - Preserved spacing between separate scenery models and kept the spawn, roads, cave, quest gates and encounter markers unchanged.
 
 Verified ground contact for 2,149 scenery objects, attachment for 378 mountain decorations and no bounding-box overlaps among 976 kit ground models. All nine area routes, the spawn route and cave approach passed pathfinding. Boundary checks found no outer or rear openings at the sampled player heights; three apparent seams beyond the enclosure were unreachable. Saved to Roblox on 8 September 2026 at 20:31 UTC; not published live. Complete game source is delivered separately.
+
+
+### Boss Artwork and Dedicated Arenas — 8 September 2026
+
+- Rebuilt all nine bosses in Blender with detailed low-poly silhouettes, themed armor and palette textures matching the map artwork. Preserved their combat rigs, weapons and jelly animation.
+- Added a dedicated themed boss spot inside every existing area, with a rear landmark, flanking decorations and a ground-fitted entrance. Moved nearby scenery clear of the fighting spaces.
+- Retained boss stats, rewards, timers and area progression.
+
+Verified all nine bosses attacking, animating, grounding and displaying their complete artwork in a clean Studio playtest. All nine natural spawns also loaded the upgraded models. Published the combined SwordQuest update to Roblox on 8 September 2026 at 20:56 UTC, including these boss areas and the text-outline fix. New servers receive the update; existing servers were not forcibly restarted. Ordinary mob artwork was not rebuilt in this pass. Public multiplayer and mobile hardware testing remain unverified. This PR contains change notes only; game source and Blender assets are delivered separately.
