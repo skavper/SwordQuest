@@ -159,3 +159,11 @@ Verified the Claim All handler, all reward types and quantities, loaded artwork,
 - Protected materials from consumption and included each boss's guaranteed material in its loot preview. Blacksmith and ring crafting gameplay remain planned for a later update.
 
 Verified all 36 mappings, rendered icons, pickup collection and descending inventory order in Studio. Credited ordinary-mob and boss kills awarded the correct material; consumption rejection, profile round trips and compact inventory details passed. Saved to Roblox on 8 September 2026 at 21:59 UTC; not published live. Production database rejoin and multiplayer behavior remain unverified. This entry documents a Studio change; game source is delivered separately.
+
+### Unique Spawn Houses — 8 September 2026
+
+- Replaced the old spawn cottages with four original low-poly buildings: a large medieval blacksmith, a two-story inn, an alchemist house and a provision shop.
+- Arranged the houses at the four diagonal positions facing the open spawn plaza, with fitted approaches and blended foundations.
+- Added an open smithing yard with a large anvil, hammer, furnace and lava cauldron, including fire, embers, warm lighting and chimney smoke.
+
+Verified all four models and their textures in Studio, foundation contact, all four entrance routes and an actual player walk into the forge yard. Saved to Roblox on 8 September 2026 at 22:10 UTC; not published live. These are scenery assets; shop and crafting gameplay are not part of this update. Complete game source and Blender assets are delivered separately.
