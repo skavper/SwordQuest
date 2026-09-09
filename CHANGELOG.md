@@ -216,3 +216,11 @@ Verified all 55 catalog entries across the two categories, actual button switchi
 - Added a purple equipment panel beside a searchable white ring inventory, stat filters, equip/unequip controls and confirmed deletion. Five standard slots unlock at levels 1, 25, 100, 250 and 500; three premium slots have ownership checks and configurable game passes.
 
 Verified recipe limits, all four crafts, equipment bonuses, actual coin/EXP awards, rejected remote requests, the walk-in menu and the NPC wave in Studio. Rule and persistence checks passed, including a lost save acknowledgement followed by retry without duplicating a ring or consuming extra materials. Saved to Roblox on 9 September 2026 at 00:42 UTC; not published live. Premium game-pass IDs remain unconfigured, so checkout is unavailable. All four ring icons rendered correctly in a fresh Studio playtest after Roblox processed the uploads. Physical phone/controller input, production multiplayer and live database rejoins remain untested. This entry documents a Studio change; game source and artwork are delivered separately.
+
+### Rings and FORGE Visual Polish — 9 September 2026
+
+- Replaced all four ring images with genuinely transparent artwork, removing the square backgrounds from the HUD launcher, menu header and crafting previews.
+- Added deeper shadows, rounded inner highlights and stronger selected outlines to slots, cards and buttons. Increased purple and orange saturation, brightened action colors and added dark stat strips and a clearer details panel.
+- Preserved dark-label contrast on pale cards and corrected shadow layering while retaining the existing menu layout and opening motion.
+
+Verified all four transparent icons, populated and empty menus, locked/unlocked slots, selected materials, enabled/disabled Forge actions and a compact layout in Studio using temporary presentation fixtures. The final playtest console was clean, and the fixtures were removed before saving. Saved to Roblox on 9 September 2026 at 01:10 UTC; not published live. This update changes presentation only; premium game-pass configuration remains pending. Game source and artwork are delivered separately.
