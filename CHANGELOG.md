@@ -312,3 +312,13 @@ Verified all nine drop rolls, 181 inventory assertions and 36 actual combat hits
 - Preserved reduced-motion and sound preferences, with cleanup when the animation finishes or is cancelled.
 
 Verified 26 data assertions, actual 14-pet drag selection and deletion, both fusion tiers and XP bonuses, loaded effect sounds, model previews, mute/reduced-motion behavior, and an 82-frame health-clearance/cleanup check in Studio. Saved to Roblox on 9 September 2026 at 21:48 UTC; not published live. Physical touch devices and production multiplayer remain untested. This entry documents Studio changes; game source is delivered separately.
+
+
+### Reference Sword Inventory and Damage Icon — 9 September 2026
+
+- Rebuilt the Swords inventory with four columns of wide rounded cards, diagonal weapon previews, rarity stars, fusion labels and rarity-to-fusion gradient outlines.
+- Added a narrow sword tooltip with damage, Equip, Stats, Fuse and Lock controls, bold Fredoka One lettering, and a simple cartoon sword damage icon.
+- Added saved stack locks that prevent manual deletion, batch deletion and manual or automatic fusion until unlocked.
+- Retained search, rarity filtering, Equip Best, Auto Fuse, cosmetic navigation, sword effects and shared menu opening motion and sound.
+
+Verified the desktop layout, loaded icon, hover/click tooltip, stats and cosmetics presentation in Studio. Seventeen isolated inventory checks covered lock persistence, legacy saves, protected deletion/fusion, atomic batch rejection and unlock recovery. Actual tooltip locking reached the server and blocked fusion without consuming swords. Saved to Roblox on 9 September 2026 at 22:09 UTC; not published live. Physical touch devices and production database rejoins remain untested. This entry documents Studio changes; game source is delivered separately.
