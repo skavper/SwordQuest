@@ -332,3 +332,13 @@ Verified the desktop layout, loaded icon, hover/click tooltip, stats and cosmeti
 - Fixed expanded area lists staying open: pressing Close or clicking the same zone header again now collapses the dropdown.
 
 Verified 710 progression/terrain checks, invalid and locked destination rejection, actual travel, boss-unlock updates, Shop navigation, rapid reopening and loaded artwork in Studio. Desktop and phone simulator layouts were inspected; physical phone/controller input, production multiplayer and database rejoins remain untested. Dropdown opening and closing through both controls were verified with in-game clicks. Saved to Roblox on 9 September 2026 at 22:23 UTC. Not published live. This entry documents a Studio change; game source and photos are delivered separately.
+
+### Teleport Curtain Animation — 9 September 2026
+
+- Added a smooth purple curtain with playful folds, a bouncing destination card and a quick arrival reveal.
+- The curtain waits for destination streaming and nearby visual assets before travel and checks loading again after arrival.
+- Added departure and arrival sounds, a fast screen fade and a FOV bounce that composes with sprint and dash.
+- Added reduced-motion and UI-audio mute support, duplicate-request protection, and screen/control cleanup after rejection, timeout or death.
+- Auto Attack pauses while the teleport transition covers the world.
+
+Verified an actual teleport-menu click and server-authorized Spawn travel, successful nearby asset preloading, both loaded sound cues, FOV restoration, reduced-motion/mute behavior, duplicate rejection, rejected-request recovery, timeout and death cleanup in Studio. The Auto Attack pause addition was compiled and inspected. Physical mobile devices and production network conditions remain untested. This entry documents Studio changes; source files are delivered separately. Not published live.
