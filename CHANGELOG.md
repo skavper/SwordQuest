@@ -302,3 +302,13 @@ Verified 42 isolated rule assertions, both upgrade paths through actual Studio c
 - Restored the four original spawn houses and compact plaza layout from the existing model backup, retaining the current terrain and walkable approaches.
 
 Verified all nine drop rolls, 181 inventory assertions and 36 actual combat hits in Studio. Boss display checks covered larger previews, hidden tooltips and discovery updates. Added ground clearance to the boss display; its entire lower edge stayed above terrain across 12 camera positions. All four house assets loaded successfully and their entrance routes passed. Saved to Roblox on 9 September 2026 at 21:48 UTC; not published live. Physical devices and production multiplayer remain untested. This entry documents Studio changes; game source is delivered separately.
+
+
+### Pet Multi-Delete and Fusion Effects — 9 September 2026
+
+- Added click/tap multi-selection and desktop drag-box selection for pet deletion, with exact copy counts, Select Visible and Cancel controls.
+- Protected locked and equipped pets, and added an exact-count confirmation with atomic, revision-checked deletion of the selected copies.
+- Added a new illustrated pet fusion icon and Golden/Rainbow transformations with converging pets, an explosion, fireworks, sounds and a compact fused-pet reward banner above the health bar.
+- Preserved reduced-motion and sound preferences, with cleanup when the animation finishes or is cancelled.
+
+Verified 26 data assertions, actual 14-pet drag selection and deletion, both fusion tiers and XP bonuses, loaded effect sounds, model previews, mute/reduced-motion behavior, and an 82-frame health-clearance/cleanup check in Studio. Saved to Roblox on 9 September 2026 at 21:48 UTC; not published live. Physical touch devices and production multiplayer remain untested. This entry documents Studio changes; game source is delivered separately.
