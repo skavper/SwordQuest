@@ -292,3 +292,13 @@ Verified all 15 configured images, preview alignment, fades, visibility, already
 - Applied tier bonuses to rewards, Equip Best, sorting and tooltips, with matching Golden/Rainbow artwork and follower styling.
 
 Verified 42 isolated rule assertions, both upgrade paths through actual Studio controls, inventory counts, copy switching, Equip Best and follower tiers. Confirmation uses the shared opening motion and loaded quiet sound. Installed and exported; final cloud save remains unconfirmed. Not published live. Physical devices, production multiplayer and live database rejoins remain untested. This entry documents a Studio change; game source is delivered separately.
+
+
+### Boss Ultimate Swords and Spawn Restoration — 9 September 2026
+
+- Added nine boss-exclusive Ultimate swords, each with an exact one-in-1,000 drop chance unaffected by luck bonuses.
+- Added grand area-themed models, glowing auras and distinct sword swings at the standard attack timing, plus dark matter inventory and collection styling.
+- Enlarged the sword previews on boss displays. Undiscovered swords show ???, their chance and a black silhouette; names and details unlock after discovery.
+- Restored the four original spawn houses and compact plaza layout from the existing model backup, retaining the current terrain and walkable approaches.
+
+Verified all nine drop rolls, 181 inventory assertions and 36 actual combat hits in Studio. Boss display checks covered larger previews, hidden tooltips and discovery updates. All four house assets loaded successfully and their entrance routes passed. Sources exported; cloud save remains unconfirmed and no live publication is claimed. Physical devices and production multiplayer remain untested. This entry documents Studio changes; game source is delivered separately.
