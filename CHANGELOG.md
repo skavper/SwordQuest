@@ -268,3 +268,9 @@ Inspected the arrow during actual Studio gameplay. Compilation and a 241-frame c
 - Replaced Emberwing Drake's backwards thumbnail with a forward-facing model portrait across egg cards, inventory, index and hover details. Undiscovered pets retain black silhouettes and no tooltip.
 
 Verified all nine model clearances, a stable repeat build, 523 existing content/purchase/save checks and five price-format checks. Fresh Studio play confirmed compact prices, seated egg animation, the discovered portrait/tooltip and the locked silhouette. Saved to Roblox on 9 September 2026 at 11:51 UTC; not published live. Production multiplayer, live database rejoins and physical device tests were not repeated. This entry documents a Studio change; game source is delivered separately.
+
+### Longer Super Combo Prompt — 9 September 2026
+
+Changed the x20, x50 and x100 Super Combo ability prompt and draining meter from 0.33 seconds to 1 second. The existing four-second ordinary combo chain is unchanged.
+
+Verified the shared client/server setting and 39 isolated contract checks, including acceptance at 0.8 seconds and expiry beyond the new deadline plus bounded transport grace. Installed in Studio and exported; the subsequent cloud save is unconfirmed because the save dialog could not be completed through automation. Not published live. This entry documents a Studio change; game source is delivered separately.
