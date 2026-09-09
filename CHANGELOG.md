@@ -322,3 +322,12 @@ Verified 26 data assertions, actual 14-pet drag selection and deletion, both fus
 - Retained search, rarity filtering, Equip Best, Auto Fuse, cosmetic navigation, sword effects and shared menu opening motion and sound.
 
 Verified the desktop layout, loaded icon, hover/click tooltip, stats and cosmetics presentation in Studio. Seventeen isolated inventory checks covered lock persistence, legacy saves, protected deletion/fusion, atomic batch rejection and unlock recovery. Actual tooltip locking reached the server and blocked fusion without consuming swords. Saved to Roblox on 9 September 2026 at 22:09 UTC; not published live. Physical touch devices and production database rejoins remain untested. This entry documents Studio changes; game source is delivered separately.
+
+### Zone Teleport Menu — 9 September 2026
+
+- Added a dark, outlined Teleport menu with three expandable zone banners and nine area destinations, using new screenshots of the actual map.
+- Added personal unlock indicators, boss/level requirements and disabled travel buttons for locked areas. Existing server progression rules validate every destination.
+- Added a return-to-spawn shortcut, navigation to the existing Shop, and the shared menu entrance and quiet sound.
+- Fitted the additional launcher row and teleport list to short phone screens while retaining desktop layout.
+
+Verified 710 progression/terrain checks, invalid and locked destination rejection, actual travel, boss-unlock updates, Shop navigation, rapid reopening and loaded artwork in Studio. Desktop and phone simulator layouts were inspected; physical phone/controller input, production multiplayer and database rejoins remain untested. Saved to Roblox on 9 September 2026 at 22:09 UTC. Not published live. This entry documents a Studio change; game source and photos are delivered separately.
