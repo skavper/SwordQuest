@@ -282,3 +282,13 @@ Verified the shared client/server setting and 39 isolated contract checks, inclu
 - Kept contours aligned through scaling and rotation, with composited fades and cleanup when images change or disappear.
 
 Verified all 15 configured images, preview alignment, fades, visibility, already-outlined exclusions and cleanup in Studio. A fresh playtest retained exactly the expected outlines after five inventory rebuilds, and small reward notices expired correctly with no runtime errors. Saved to Roblox on 9 September 2026 at 12:13 UTC; not published live. Physical-device performance remains untested. This entry documents a Studio change; game source is delivered separately.
+
+
+### Pet Stacking and Fusion — 9 September 2026
+
+- Grouped matching pets into inventory stacks by species and tier, with outlined quantities and access to individual copies for equipping, locking and deletion.
+- Added three-to-one fusion: three Normal pets create one Golden, and three Golden pets create one Rainbow. Golden gives twice the base XP bonus; Rainbow gives four times the base bonus.
+- Added a confirmation showing the upgrade and XP increase. Locked or equipped pets cannot be consumed, and invalid or repeated requests leave inventory unchanged.
+- Applied tier bonuses to rewards, Equip Best, sorting and tooltips, with matching Golden/Rainbow artwork and follower styling.
+
+Verified 42 isolated rule assertions, both upgrade paths through actual Studio controls, inventory counts, copy switching, Equip Best and follower tiers. Confirmation uses the shared opening motion and loaded quiet sound. Installed and exported; final cloud save remains unconfirmed. Not published live. Physical devices, production multiplayer and live database rejoins remain untested. This entry documents a Studio change; game source is delivered separately.
