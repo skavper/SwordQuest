@@ -342,3 +342,12 @@ Verified 710 progression/terrain checks, invalid and locked destination rejectio
 - Auto Attack pauses while the teleport transition covers the world.
 
 Verified an actual teleport-menu click and server-authorized Spawn travel, successful nearby asset preloading, both loaded sound cues, FOV restoration, reduced-motion/mute behavior, duplicate rejection, rejected-request recovery, timeout and death cleanup in Studio. The Auto Attack pause addition was compiled and inspected. Physical mobile devices and production network conditions remain untested. Saved to Roblox on 9 September 2026 at 22:45 UTC. This entry documents Studio changes; source files are delivered separately. Not published live.
+
+### Instant Boss Respawns — 9 September 2026
+
+- Added an Instant Respawn button beneath every boss loot display, with a repeatable purchase priced at 9 Robux for each of the nine bosses.
+- Completed purchases respawn a defeated boss in the current server. If the boss has already returned, the purchased respawn is saved for later use at that boss.
+- Added saved receipt protection, retry handling and server checks for proximity, area access and boss state. The normal 90-second timer remains available.
+- Kept the expanded display above terrain and moved it clear of the contextual tutorial hint on narrower windows.
+
+Verified all nine Roblox products at 9 Robux, 23 isolated persistence checks, 51 encounter/receipt checks, a completed native Studio test purchase and purchase cancellation. Checked ground clearance across 12 camera positions and the final display in a fresh error-free Studio session. Saved to Roblox on 9 September 2026 at 22:50 UTC; not published live. Real Robux charges, production multiplayer/database rejoins and physical phone/controller input remain untested. This entry documents Studio changes; game source is delivered separately.
