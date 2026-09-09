@@ -224,3 +224,12 @@ Verified recipe limits, all four crafts, equipment bonuses, actual coin/EXP awar
 - Preserved dark-label contrast on pale cards and corrected shadow layering while retaining the existing menu layout and opening motion.
 
 Verified all four transparent icons, populated and empty menus, locked/unlocked slots, selected materials, enabled/disabled Forge actions and a compact layout in Studio using temporary presentation fixtures. The final playtest console was clean, and the fixtures were removed before saving. Saved to Roblox on 9 September 2026 at 01:10 UTC; not published live. This update changes presentation only; premium game-pass configuration remains pending. Game source and artwork are delivered separately.
+
+### Eggs Across Every Progression Area — 9 September 2026
+
+- Extended the existing egg system to all nine progression areas, with one themed station and exactly five obtainable pets per egg: 45 species in total.
+- Reused 42 purchased pet models and retained the three existing original pets. Adapted imported egg assets to each area's theme while preserving the first pedestal, fixed coin plaque and proximity menu.
+- Added increasing coin prices and area-specific hatch pools with displayed chances matching the server. Preserved owned pets, existing IDs, inventory, discovery silhouettes, equip bonuses, smooth following and the shared x1/x3/x9 hatch animation.
+- Kept purchases and area eligibility server-authoritative, including existing level and quest restrictions. Every station supports the existing Auto Egg, Stop Auto and Skip controls.
+
+Verified 475 content, probability, save-compatibility and XP checks, plus 376 isolated Studio runtime assertions including all 27 area/batch combinations. Reviewed all 45 pet icons and model previews, all nine egg designs, actual hatching, inventory/index displays and new pet followers. Confirmed clear station approaches and removed test fixtures. Saved to Roblox on 9 September 2026 at 02:00 UTC; not published live. Production multiplayer, live database rejoins, physical device input and long-term economy balance remain untested. This entry documents a Studio change; game source and assets are delivered separately.
