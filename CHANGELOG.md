@@ -274,3 +274,11 @@ Verified all nine model clearances, a stable repeat build, 523 existing content/
 Changed the x20, x50 and x100 Super Combo ability prompt and draining meter from 0.33 seconds to 1 second. The existing four-second ordinary combo chain is unchanged.
 
 Verified the shared client/server setting and 39 isolated contract checks, including acceptance at 0.8 seconds and expiry beyond the new deadline plus bounded transport grace. Installed in Studio and exported; the subsequent cloud save is unconfirmed because the save dialog could not be completed through automation. Not published live. This entry documents a Studio change; game source is delivered separately.
+
+### Black Item Icon Outlines — 9 September 2026
+
+- Added black contours following the artwork on 15 previously unoutlined food, crystal and special-item icons, including Champion Burger, Brave Carrot and Royal Tonic.
+- Applied the shared treatment to inventory cards, enlarged previews, boost icons, loot and reward displays while retaining existing baked outlines.
+- Kept contours aligned through scaling and rotation, with composited fades and cleanup when images change or disappear.
+
+Verified all 15 configured images, preview alignment, fades, visibility, already-outlined exclusions and cleanup in Studio. A fresh playtest retained exactly the expected outlines after five inventory rebuilds, and small reward notices expired correctly with no runtime errors. Saved to Roblox on 9 September 2026 at 12:13 UTC; not published live. Physical-device performance remains untested. This entry documents a Studio change; game source is delivered separately.
