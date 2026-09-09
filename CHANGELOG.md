@@ -361,3 +361,13 @@ Verified all nine Roblox products at 9 Robux, 23 isolated persistence checks, 51
 - Made unavailable Equip/Fuse actions visibly disabled, reflected locked stacks in the tooltip, and moved the tutorial close hint below the inventory controls.
 
 Verified desktop rendering, search empty-state recovery, delete/cancel controls, lock-dependent action states, all ten tier rows and narrow two-column fitting in Studio. The final single-line caption check and runtime log passed; all three final scripts compiled. Saved to Roblox on 9 September 2026 at 22:57 UTC; not published live. Narrow fitting was simulated; physical phone testing remains pending. This documents Studio changes; game source is delivered separately.
+
+
+### Compact Menus, Guided Unlocks and New-Item Counts — 10 September 2026
+
+- Reduced the fully unlocked HUD from thirteen launchers to seven. Swords, Inventories and Skills sit above the left currency display; Pets, Rings, Sword Index and Titles are grouped inside Inventories alongside Misc and Materials.
+- Removed the Codes interface and Discord button.
+- Revealed additional menus at relevant tutorial steps and level milestones, with brief unlock highlights and updated guidance through the Inventories hub. Existing level-10 players retain access despite incomplete older tutorial steps.
+- Added red numeric badges for newly acquired swords, pets, rings, miscellaneous items and materials. Inventories totals the unread categories; opening a category clears its count. Loading existing saved items does not mark them as new. Counts are session-local.
+
+Verified all seventeen changed sources compile, the ten tutorial objectives retain reachable controls, and unread counting handles initial loads, increases, duplicate/stale snapshots and acknowledgement. Studio playtests checked the hub routes, removed launchers, left HUD clearance, empty Misc inventory, loaded shared opening sound, unlock highlights and visible badge reductions from seven to five to two as categories were viewed. Narrow text fitting is implemented; a full phone viewport test, physical touch/controller input and production rejoins remain unverified. Installed and exported; combined Roblox cloud save is pending. Not published live. This documents Studio changes; game source is delivered separately.
