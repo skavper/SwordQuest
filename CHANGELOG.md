@@ -233,3 +233,12 @@ Verified all four transparent icons, populated and empty menus, locked/unlocked 
 - Kept purchases and area eligibility server-authoritative, including existing level and quest restrictions. Every station supports the existing Auto Egg, Stop Auto and Skip controls.
 
 Verified 475 content, probability, save-compatibility and XP checks, plus 376 isolated Studio runtime assertions including all 27 area/batch combinations. Reviewed all 45 pet icons and model previews, all nine egg designs, actual hatching, inventory/index displays and new pet followers. Confirmed clear station approaches and removed test fixtures. Saved to Roblox on 9 September 2026 at 02:00 UTC; not published live. Production multiplayer, live database rejoins, physical device input and long-term economy balance remain untested. This entry documents a Studio change; game source and assets are delivered separately.
+
+### Egg Display and Normal Pet Pools — 9 September 2026
+
+- Fixed coin plaques turning blank when viewed from the road by extending their draw distance while retaining the static model-mounted display.
+- Cleared a slightly wider grass patch around each pedestal without changing terrain height.
+- Removed HUGE pets from progression egg pools. Astral now offers the normal-sized Evil Dragon as its fifth pet, with a 1% chance and +750% XP; existing owned pets and saved receipts remain valid.
+- Added registry validation preventing HUGE or exclusive pets from entering ordinary egg pools. All nine eggs retain five normal species each.
+
+Verified 523 content, probability, batch-charge and saved-pet compatibility checks, a real Astral x9 purchase, the replacement pet's saved inventory/equipment/follower behavior and the plaque rendering beyond its former distance cutoff. Saved to Roblox on 9 September 2026 at 10:25 UTC; not published live. Production multiplayer, live database rejoins and physical devices remain untested. This entry documents a Studio change; game source is delivered separately.
