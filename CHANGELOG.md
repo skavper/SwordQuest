@@ -207,3 +207,12 @@ Verified the walking route, sealed mountain boundary, normal timed boss spawn an
 - Preserved highest-Forge-Power-first material ordering, item details, consumption rules and the shared menu entrance.
 
 Verified all 55 catalog entries across the two categories, actual button switching, search, loading and empty states, selection reset, refresh behavior and material consumption remaining disabled in Studio. Layout checks passed at four desktop and smaller container sizes; physical phone input remains untested. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
+
+### FORGE and Rings — 9 September 2026
+
+- Added Coin, EXP, Damage and Luck rings with saved equipment bonuses and four original illustrated icons.
+- Added material-based forging with an exact result preview, total Forge Power, up to three material types and ten of each per craft. Materials are consumed together with the saved ring.
+- Added a waving blacksmith, a glowing walk-in circle and a FORGE hologram at the spawn blacksmith.
+- Added a purple equipment panel beside a searchable white ring inventory, stat filters, equip/unequip controls and confirmed deletion. Five standard slots unlock at levels 1, 25, 100, 250 and 500; three premium slots have ownership checks and configurable game passes.
+
+Verified recipe limits, all four crafts, equipment bonuses, actual coin/EXP awards, rejected remote requests, the walk-in menu and the NPC wave in Studio. Rule and persistence checks passed, including a lost save acknowledgement followed by retry without duplicating a ring or consuming extra materials. Saved to Roblox on 9 September 2026 at 00:42 UTC; not published live. Premium game-pass IDs remain unconfigured, so checkout is unavailable. All four ring icons rendered correctly in a fresh Studio playtest after Roblox processed the uploads. Physical phone/controller input, production multiplayer and live database rejoins remain untested. This entry documents a Studio change; game source and artwork are delivered separately.
