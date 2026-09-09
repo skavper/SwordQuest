@@ -351,3 +351,13 @@ Verified an actual teleport-menu click and server-authorized Spawn travel, succe
 - Kept the expanded display above terrain and moved it clear of the contextual tutorial hint on narrower windows.
 
 Verified all nine Roblox products at 9 Robux, 23 isolated persistence checks, 51 encounter/receipt checks, a completed native Studio test purchase and purchase cancellation. Checked ground clearance across 12 camera positions and the final display in a fresh error-free Studio session. Saved to Roblox on 9 September 2026 at 22:50 UTC; not published live. Real Robux charges, production multiplayer/database rejoins and physical phone/controller input remain untested. This entry documents Studio changes; game source is delivered separately.
+
+
+### Sword Inventory Layout Fixes — 9 September 2026
+
+- Enlarged rarity stars by 50% and separated stars, fusion labels, sword previews and card status text.
+- Corrected inconsistent action lettering, removed obsolete icon padding and fitted long captions on one line.
+- Fitted the fusion-tier guide inside the current inventory, restored its Back button label, and prevented sword tooltips from opening through secondary panels.
+- Made unavailable Equip/Fuse actions visibly disabled, reflected locked stacks in the tooltip, and moved the tutorial close hint below the inventory controls.
+
+Verified desktop rendering, search empty-state recovery, delete/cancel controls, lock-dependent action states, all ten tier rows and narrow two-column fitting in Studio. The final single-line caption check and runtime log passed; all three final scripts compiled. Saved to Roblox on 9 September 2026 at 22:57 UTC; not published live. Narrow fitting was simulated; physical phone testing remains pending. This documents Studio changes; game source is delivered separately.
