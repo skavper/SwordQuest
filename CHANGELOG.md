@@ -242,3 +242,13 @@ Verified 475 content, probability, save-compatibility and XP checks, plus 376 is
 - Added registry validation preventing HUGE or exclusive pets from entering ordinary egg pools. All nine eggs retain five normal species each.
 
 Verified 523 content, probability, batch-charge and saved-pet compatibility checks, a real Astral x9 purchase, the replacement pet's saved inventory/equipment/follower behavior and the plaque rendering beyond its former distance cutoff. Saved to Roblox on 9 September 2026 at 10:25 UTC; not published live. Production multiplayer, live database rejoins and physical devices remain untested. This entry documents a Studio change; game source is delivered separately.
+
+### Expanded Tutorial and Quest Guidance — 9 September 2026
+
+- Added lessons for dashing, visiting the blacksmith, forging a ring and equipping it in the free Level 1 slot, bringing the tutorial to ten objectives.
+- Added a floating 3D arrow, destination outline and distance label for world objectives, including nearby Meadow Slimes, the first egg and the Forge.
+- Added pulsing UI outlines and contextual instructions that follow menu navigation, material selection, crafting, ring selection and equipment.
+- Added recovery guidance for empty material inventories: collect an ingredient from slimes, then follow the arrow back to the Forge.
+- Preserved existing tutorial progress and rewards. Dash credit follows server-accepted movement; ring credit waits for committed inventory state.
+
+Verified actual dash, Forge arrival, crafting and equipping through the game controls in a fresh Studio session. Also checked duplicate reward protection, legacy save sanitization, pending-save rejection, material pickup retargeting, arrow direction and noncollision, and cleanup during cutscenes and after completion. The final client error log was clear. Saved to Roblox on 9 September 2026 at 10:40 UTC; not published live. Physical phone/controller input, production multiplayer and live database rejoins remain untested. This entry documents a Studio change; game source is delivered separately.
