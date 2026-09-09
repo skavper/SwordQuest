@@ -260,3 +260,11 @@ Verified actual dash, Forge arrival, crafting and equipping through the game con
 - Updated the arrow after camera movement so it stays steady alongside normal and dash camera effects.
 
 Inspected the arrow during actual Studio gameplay. Compilation and a 241-frame camera-motion check passed, including single-solid geometry, noncollision, upright transforms and bounded turning; the client error log was clear. Saved to Roblox on 9 September 2026 at 11:06 UTC; not published live. Physical-device and production performance remain untested. This entry documents a Studio change; game source and its reproducible model builder are delivered separately.
+
+### Egg Seating, Compact Prices and Pet Portraits — 9 September 2026
+
+- Corrected imported egg offsets so all nine egg models sit directly on their pedestal bases and remain seated while turning.
+- Shortened coin plaques to labels such as 1.5k and 24k, including the server refresh that previously restored full numbers. Purchase costs are unchanged.
+- Replaced Emberwing Drake's backwards thumbnail with a forward-facing model portrait across egg cards, inventory, index and hover details. Undiscovered pets retain black silhouettes and no tooltip.
+
+Verified all nine model clearances, a stable repeat build, 523 existing content/purchase/save checks and five price-format checks. Fresh Studio play confirmed compact prices, seated egg animation, the discovered portrait/tooltip and the locked silhouette. Saved to Roblox on 9 September 2026 at 11:51 UTC; not published live. Production multiplayer, live database rejoins and physical device tests were not repeated. This entry documents a Studio change; game source is delivered separately.
