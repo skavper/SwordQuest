@@ -370,4 +370,22 @@ Verified desktop rendering, search empty-state recovery, delete/cancel controls,
 - Revealed additional menus at relevant tutorial steps and level milestones, with brief unlock highlights and updated guidance through the Inventories hub. Existing level-10 players retain access despite incomplete older tutorial steps.
 - Added red numeric badges for newly acquired swords, pets, rings, miscellaneous items and materials. Inventories totals the unread categories; opening a category clears its count. Loading existing saved items does not mark them as new. Counts are session-local.
 
-Verified all seventeen changed sources compile, the ten tutorial objectives retain reachable controls, and unread counting handles initial loads, increases, duplicate/stale snapshots and acknowledgement. Studio playtests checked the hub routes, removed launchers, left HUD clearance, empty Misc inventory, loaded shared opening sound, unlock highlights and visible badge reductions from seven to five to two as categories were viewed. Narrow text fitting is implemented; a full phone viewport test, physical touch/controller input and production rejoins remain unverified. Installed and exported; combined Roblox cloud save is pending. Not published live. This documents Studio changes; game source is delivered separately.
+Verified all seventeen changed sources compile, the ten tutorial objectives retain reachable controls, and unread counting handles initial loads, increases, duplicate/stale snapshots and acknowledgement. Studio playtests checked the hub routes, removed launchers, left HUD clearance, empty Misc inventory, loaded shared opening sound, unlock highlights and visible badge reductions from seven to five to two as categories were viewed. Narrow text fitting is implemented; a full phone viewport test, physical touch/controller input and production rejoins remain unverified. Installed and exported. Saved to Roblox on 9 September 2026 at 23:19 UTC (10 September at 00:19 BST); not published live. This documents Studio changes; game source is delivered separately.
+
+
+### Boss Loot Combat Clearance — 10 September 2026
+
+- Replaced the automatic world-space loot board with a compact Boss Loot button and an on-demand screen panel, eliminating terrain clipping.
+- Hide the panel and button immediately when attacking or taking damage. After a short quiet period only the button returns; the full panel stays closed.
+- Keep larger sword previews beside the tutorial on wide screens, undiscovered silhouettes and chances, item details and the existing instant-respawn action. Added a Close control and preserved shared opening motion and sound.
+
+Verified actual button/tab interactions, undiscovered sword presentation, respawn availability, four camera-angle changes without panel movement, a real sword swing hiding the UI, and quiet recovery without automatic reopening in Studio. The final controller compiles. Saved to Roblox on 9 September 2026 at 23:19 UTC (10 September at 00:19 BST); not published live. Physical phone/controller layouts and production multiplayer remain untested. This documents a Studio change; game source is delivered separately.
+
+
+### Beginner Slime Grove — 10 September 2026
+
+- Reduced Meadow Slime HP/damage from 130/9 to 36/2, Duelist from 170/11 to 72/3, Warrior from 390/26 to 144/6, and Slime King from 3,000/44 to 720/8.
+- Put easy slimes near the entrance and moved duelists and warriors deeper into the grove. Reduced first-area detection, chase distances, attack speed and knockback.
+- Disabled random traits in the first area to keep beginner fights predictable. Preserved fixed spawn slots, enemy counts, rewards, levels, boss timers and later-area difficulty.
+
+Verified all 15 ordinary/warrior homes through two death-and-respawn cycles, actual damage against humanoids, and two real warrior attacks dealing 6 damage each. The boss spawned with its new stats; five changed sources compiled and the runtime console was clear. Installed in Studio and exported. Saved to Roblox on 9 September 2026 at 23:19 UTC (10 September at 00:19 BST); not published live. Production multiplayer and newcomer usability remain untested. This documents Studio changes; game source is delivered separately. Not published live.
