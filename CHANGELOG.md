@@ -252,3 +252,11 @@ Verified 523 content, probability, batch-charge and saved-pet compatibility chec
 - Preserved existing tutorial progress and rewards. Dash credit follows server-accepted movement; ring credit waits for committed inventory state.
 
 Verified actual dash, Forge arrival, crafting and equipping through the game controls in a fresh Studio session. Also checked duplicate reward protection, legacy save sanitization, pending-save rejection, material pickup retargeting, arrow direction and noncollision, and cleanup during cutscenes and after completion. The final client error log was clear. Saved to Roblox on 9 September 2026 at 10:44 UTC; not published live. Physical phone/controller input, production multiplayer and live database rejoins remain untested. This entry documents a Studio change; game source is delivered separately.
+
+### Tutorial Arrow Polish — 9 September 2026
+
+- Replaced the oversized intersecting arrow pieces with a smaller, seamless gold arrow with rounded edges and a thin dark outline.
+- Smoothed turns and movement beside the character, removed bobbing and reduced rapid switching between nearby slime targets.
+- Updated the arrow after camera movement so it stays steady alongside normal and dash camera effects.
+
+Inspected the arrow during actual Studio gameplay. Compilation and a 241-frame camera-motion check passed, including single-solid geometry, noncollision, upright transforms and bounded turning; the client error log was clear. Saved to Roblox on 9 September 2026 at 11:06 UTC; not published live. Physical-device and production performance remain untested. This entry documents a Studio change; game source and its reproducible model builder are delivered separately.
