@@ -526,3 +526,11 @@ Verified all nine aura equip requests, removal, invalid-request rejection, actua
 - Reduced terrain grass length from 0.7 to 0.2, giving grassy areas shorter ground cover and clearer views of enemies and small scenery.
 
 Verified the property in Edit, visually inspected Slime Grove in a fresh playtest, and confirmed it remained set afterward. Saved to Roblox on 10 September 2026 at 11:56 UTC; not published live. Terrain shape, collisions and gameplay are unchanged. This entry documents a Studio property change.
+
+
+### Sword Index Background Layering — 10 September 2026
+
+- Restored Sword Index previews, zone tabs, discovery count and drop controls by drawing the grey checkered background behind inventory content.
+- Preserved the shared inventory style, cached cards, search and undiscovered silhouettes.
+
+Reproduced the blank page and verified all three zone displays in Studio, including actual Desert and Ice Land selection. Clearing an empty search restored all 39 current-zone cards, and the Swords inventory remained above the shared background. Final source compiles and was exported separately. Saved to Roblox on 10 September 2026 at 12:12 UTC; not published live. Physical-device and acquisition/auto-delete gameplay checks were not repeated for this layering fix.
