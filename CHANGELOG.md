@@ -484,3 +484,11 @@ Verified all eight category selections in PC, Phone and Tablet modes (24 contain
 - Hide pet hover tooltips when a pet detail window opens, block other pet tooltip requests while it remains open, and restore hover information after closing it.
 
 Verified the rendered sword preview, matching hover geometry, shadow visibility and cleanup in Studio. Actual mouse interactions verified pet hover before selection, suppression over another pet while details were open, and recovery after closing; pet checks used a display-only inventory fixture. All three final sources compile and were exported separately. Saved to Roblox on 10 September 2026 at 10:34 UTC; not published live. Physical-device testing remains unverified. This documents Studio changes; full game source is delivered separately.
+
+### Store Reference Redesign — 10 September 2026
+
+- Rebuilt the Store with a white outlined panel, blue SHOP! heading, red close button, two illustrated feature banners, colorful coin-pack cards and a purple footer.
+- Preserved existing SwordQuest products, category filters, progression gates and purchase handling. Products without configured Roblox IDs remain marked Coming Soon.
+- Added compact phone layouts and kept artwork clipped inside the scrolling offers.
+- Verified desktop rendering, category clicks, close/reopen recovery, shared opening motion and loaded scroll audio. Simulated phone rendering and tablet layout bounds passed. Physical devices and completed purchases were not tested.
+- Applied and compiled in Studio; the source snapshot is exported separately. Cloud save is pending verification. Not published to the live experience.
