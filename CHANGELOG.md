@@ -593,3 +593,10 @@ Verified loaded sound playback and cleanup, grounded recovery from speed 20 to 1
 - Server ownership controls the bonus, with synchronized client animation, hit timing and combo boundaries.
 
 Four final Studio sources compile and match their exports. Verified fourteen server-confirmed normal swings at double speed, all four combo indices and scaled chain boundaries, a three-swing Super Combo at twice its base speed, ownership-spoof rejection, dual-cosmetic shoulder recovery and loaded artwork in desktop/Phone Store layouts. Super Combo validation used a temporary non-reward target; actual mob damage and paid checkout were not tested. The pass exists and its 499 Robux price is saved, but it remains off sale pending game publication. Creator Dashboard thumbnail upload remains pending browser file access. Final cloud save is being coordinated; not published live. Physical devices and populated multiplayer remain untested. This entry documents Studio work; source and artwork are delivered separately.
+
+### Mob and Boss Health Regeneration — 10 September 2026
+
+- Living mobs and all nine bosses now recover 5% of maximum health per second after ten seconds without damage.
+- Further damage restarts the delay. Healing stops at full health and does not revive defeated enemies; ordinary respawns begin with a fresh recovery timer.
+
+Verified 96 timed checks in Studio across an ordinary mob and all nine boss templates, including damage delay/reset, rejected hits, healing rate, full-health cap, death and ordinary respawn. The final source compiles and matches the exported snapshot. Temporary test cleanup exposed an existing AI missing-root error; the regeneration checks passed and Play was stopped to remove test state. Cloud save awaits the coordinated combined save; not published live. Populated multiplayer was not separately tested. This entry documents Studio changes; game source is exported separately.
