@@ -476,3 +476,11 @@ Verified the shared style on cloned live launchers at PC, tablet and phone sizes
 - Fixed Rings search and refresh restoring a hidden panel while leaving its dark overlay visible. Layout restoration no longer controls the root panel's visibility or animation scale.
 
 Verified all eight category selections in PC, Phone and Tablet modes (24 contained-icon checks), repeated Rings search visibility, and zero remaining inventory dimmers after closing. The final play console was clear. Cached Sword Index search did not rebuild previews. Physical-device performance and production multiplayer remain untested. Applied to Studio and exported; the final cloud save is pending. This documents Studio changes, not game source commits or a live publication.
+
+
+### Sword Preview Depth and Pet Detail Focus — 10 September 2026
+
+- Added subdued sword-shaped backshadows and directional shading to sword inventory previews. Shadows follow artwork hover scale, lift and tilt while preserving existing card labels and actions.
+- Hide pet hover tooltips when a pet detail window opens, block other pet tooltip requests while it remains open, and restore hover information after closing it.
+
+Verified the rendered sword preview, matching hover geometry, shadow visibility and cleanup in Studio. Actual mouse interactions verified pet hover before selection, suppression over another pet while details were open, and recovery after closing; pet checks used a display-only inventory fixture. All three final sources compile and were exported separately. Saved to Roblox on 10 September 2026 at 10:34 UTC; not published live. Physical-device testing remains unverified. This documents Studio changes; full game source is delivered separately.
