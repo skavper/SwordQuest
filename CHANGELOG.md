@@ -552,3 +552,11 @@ Verified in Studio: all seven equipped views, all 28 live swings, three re-equip
 - Updated the illustrated Store with eight clean cartoon graphics, owned states, responsive cards and exact luck odds before purchase. Pet luck odds match the hatch sampler, and luck availability respects player eligibility.
 
 All 26 changed Studio sources compile and were exported separately. Studio checks covered ownership spoofing, reward multipliers, eight-pet limits, hatch receipt replay, stamina and dash cooldowns, dual-blade hand placement and animation, VIP aura access, desktop/Phone layouts and luck details. Saved to Roblox on 10 September 2026 at 12:54 UTC; not published live. Passes exist with the requested prices saved but remain off sale until publication. In-game artwork is uploaded; Creator Dashboard pass-image uploads remain pending browser file access. Actual paid purchases, physical devices, populated multiplayer and live chat display were not tested. This entry documents Studio work; game source is not included in this changelog repository.
+
+
+### Curved Pet Follow Rows — 10 September 2026
+
+- Arranged normal pets in curved rows: eight equipped pets form a front row of three and a rear row of five, with extra spacing for wider pets.
+- Centered incomplete rows and smoothed formation changes when equipping or unequipping pets, including while standing still. Existing pet movement, fusion tiers and equipment limits are preserved.
+
+Verified one-to-eight-pet spacing for normal and wide formations, actual eight-pet rendering, stationary eight-to-four-to-eight rearrangement, walking and turning in Studio with client-only display fixtures. The final Edit source compiles and matches the exported snapshot. Cloud save is pending confirmation; not published live. Physical devices and populated multiplayer were not tested. This entry documents Studio work; game source is delivered separately.
