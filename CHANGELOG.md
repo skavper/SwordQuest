@@ -440,3 +440,13 @@ Verified the actual reward-roll module in Studio with 10,000 evenly spaced rolls
 - Kept the normal revival countdown, discovered sword previews, item details and existing server-owned purchase, reward and respawn rules. Cancelling a purchase does not reopen it until leaving and re-entering the ring.
 
 Verified actual boss-death signalling, attack hiding, all nine hologram models' ground clearance and non-blocking parts, six camera-angle clearance cases, the native 9 Robux prompt and cancel/re-entry behavior, instant-respawn hologram removal, and final fireworks playback/cleanup in Studio. Some presentation checks used isolated fixtures. A completed new checkout, physical-device input and production multiplayer remain unverified in this pass; the existing receipt implementation is unchanged. Final scripts compile and the play console was clear. Saved to Roblox on 10 September 2026 at 00:52 UTC; not published live. This documents Studio changes; game source and the reproducible model builder are delivered separately.
+
+
+### Shared Inventory Categories and Tooltips — 10 September 2026
+
+- Applied a shared white patterned inventory window with rounded dark outlines, an illustrated left category rail, compact artwork grids, search and a pink close button across Swords, Pets, Rings, Items, Materials, Sword Index, Titles and Cosmetics. Pet Index uses the same presentation.
+- Added contextual item, category and action tooltips with mouse, selection-focus and touch handling. Material details include ownership, Forge Power, affinity and source; undiscovered names remain hidden.
+- Preserved progressive menu unlocks, red session-local acquisition counts, existing equipment actions and the dedicated world Forge. Tutorial inventory guidance now points to the category rail.
+- Fixed click-through dismissal, collection decoration escaping the scroll area, overlapping pet search and selection controls, short-screen details and empty pet detail popups. Retained shared opening motion and the quiet sound.
+
+Verified all eight routes and contained phone/tablet window bounds in Studio, desktop tooltips and clipping, actual pet selection/cancel and Pet Index navigation, and normal/reduced-motion opening with rapid-reopen recovery. A presentation-only material fixture checked tooltip data, detail opening and non-consumable state. All sixteen final sources compile and match installed Edit sources; the final fresh play console was clear. Physical devices, production multiplayer, purchases and a full replay of every inventory gameplay action remain untested in this UI pass. Saved to Roblox on 10 September 2026 at 01:47 UTC; not published live. This documents Studio changes; game source snapshots are delivered separately.
