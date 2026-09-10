@@ -560,3 +560,11 @@ All 26 changed Studio sources compile and were exported separately. Studio check
 - Centered incomplete rows and smoothed formation changes when equipping or unequipping pets, including while standing still. Existing pet movement, fusion tiers and equipment limits are preserved.
 
 Verified one-to-eight-pet spacing for normal and wide formations, actual eight-pet rendering, stationary eight-to-four-to-eight rearrangement, walking and turning in Studio with client-only display fixtures. The final Edit source compiles and matches the exported snapshot. Cloud save is pending confirmation; not published live. Physical devices and populated multiplayer were not tested. This entry documents Studio work; game source is delivered separately.
+
+### Clean Inventory Cards and Corner Quantities — 10 September 2026
+
+- Made inventory item cards solid white, including selected Swords and Pets, so the grey checkered panel no longer shows through them.
+- Removed the three decorative rarity stripes behind item artwork while retaining sword shadows and selection indicators.
+- Centered sword stack quantities across each card's top-right corner and reserved scrolling-grid clearance for them.
+
+Verified opaque white surfaces across Swords, Pet Index, Cosmetics, Sword Index, Auras and Titles, plus sword selection/delete states in Studio. The final sword card was visually inspected; x50 quantities passed desktop and 340-pixel compact-grid corner and clipping checks. All six final sources compile and were exported separately. Saved to Roblox on 10 September 2026 at 19:43 UTC; not published live. Physical-device testing and every inventory gameplay action were not repeated for this presentation update. This entry documents Studio changes; game source is delivered separately.
