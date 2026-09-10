@@ -625,3 +625,15 @@ Enabled all nine configured gamepasses for sale. Verified the refreshed Creator 
 - Added a yellow coin-percentage row with the existing Coin icon directly below XP in hover tooltips and clicked pet details.
 
 Verified 281 pet formula/team checks and seven isolated CoinService award checks, including existing multiplier stacking and applying the pet bonus exactly once. Desktop hover/detail rendering, loaded coin artwork and compact phone detail bounds passed using presentation-only inventory fixtures. Eight final sources compile and are exported separately. Saved to Roblox on 10 September 2026 at 20:36 UTC, confirmed by the Studio cloud-save log. Not published live. Physical devices and populated multiplayer remain untested.
+
+### Hell, Cosmic and Toxic Areas — 10 September 2026
+
+- Added three connected areas with original mountain boundaries, themed scenery, large landmarks, open boss courts and area ambience.
+- Added nine ordinary enemy types and three bosses: Infernal Sovereign, Astral Colossus and Blight Emperor. Each area includes saved quest progression and a Teleport destination with an actual map photograph.
+- Added 39 original swords with distinct silhouettes, themed auras and custom four-attack poses at the existing default timing, plus twelve signature crafting materials.
+- Added three eggs and fifteen original pets with matching coin/XP bonuses and Golden/Rainbow fusion through the existing systems.
+- Extended boss revival support and the sword collection's zone tabs. Fixed downstream coin and forge limits so the new rewards retain their configured values.
+
+Verified 204 integration checks, all twelve signature drops and full coin payouts, prerequisite unlocks, actual hatch transactions and replay, boss lifecycle and simulated revival receipts, fixed spawn/respawn homes, regeneration, forge crafting/equip and pet fusion in Studio. All 39 final weapons passed equipped grip/aura checks and 156 attack checks with default timing. Reviewed world views, loaded artwork, Teleport travel and desktop/Phone/Tablet menu layouts. Thirty-three final source snapshots compile and match Studio.
+
+Saved to Roblox on 10 September 2026 at 22:03 UTC; a complete local place backup and original asset sources were retained separately. Not published live. Real paid checkout, physical mobile devices, production multiplayer load and long-term balance remain unverified. This entry documents Studio changes, not a game-source commit.
