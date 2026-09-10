@@ -423,3 +423,10 @@ Verified actual dash-to-slime guidance, phone-emulator rendering, 461 runtime ch
 - Shorten switching transitions and keep click-to-dismiss behavior stable without repeated idle animations.
 
 Verified direct mouse sweeps across four swords, switching after clicking a card, Stats activation, dismissal and recovery on another card. A stationary-cursor test recovered a hidden tooltip without a new mouse-enter event, then remained stable at normal scale. Hovering created no hidden Stats preview descendants; the play console was clear. Saved to Roblox on 10 September 2026 at 00:27 UTC; not published live. This documents Studio changes; game source is delivered separately.
+
+### Boss-Only Potion Drops — 10 September 2026
+
+- Removed Strength, XP and Coin Potions from ordinary enemy drops. Potions now drop only from bosses, with existing boss drop chances preserved.
+- Retained ordinary food and material chances and marked the three basic potions as boss loot in the existing display.
+
+Verified the actual reward-roll module in Studio with 10,000 evenly spaced rolls per pool: no ordinary potions and unchanged boss potion rates. Applied in Studio Edit mode and exported locally; a full kill/pickup playtest and cloud save are unconfirmed. Not published live. This entry documents a Studio change; game source is delivered separately.
