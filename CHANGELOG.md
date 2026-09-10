@@ -618,3 +618,10 @@ Verified desktop and Phone rendering in Studio, text fit across all twelve offer
 ### Gamepass Sales Enabled — 10 September 2026
 
 Enabled all nine configured gamepasses for sale. Verified the refreshed Creator Dashboard prices: Dual Wield and Double Attack Speed 499 Robux each, double Coins 299, double EXP 499, five extra pet slots 399, double Pet Luck 399, double Sword Luck 299, Infinite Stamina 99 and VIP 199. This supersedes earlier off-sale setup notes. Actual paid checkout was not performed; existing gameplay code and managed-pricing settings were unchanged.
+
+### Pet Coin Boosts — 10 September 2026
+
+- Equipped pets now boost earned mob and boss coins by the same percentage as XP, including Golden, Rainbow and HUGE scaling.
+- Added a yellow coin-percentage row with the existing Coin icon directly below XP in hover tooltips and clicked pet details.
+
+Verified 281 pet formula/team checks and seven isolated CoinService award checks, including existing multiplier stacking and applying the pet bonus exactly once. Desktop hover/detail rendering, loaded coin artwork and compact phone detail bounds passed using presentation-only inventory fixtures. Eight final sources compile and are exported separately. Saved to Roblox on 10 September 2026 at 20:36 UTC, confirmed by the Studio cloud-save log. Not published live. Physical devices and populated multiplayer remain untested.
