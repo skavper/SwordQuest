@@ -542,3 +542,13 @@ Reproduced the blank page and verified all three zone displays in Studio, includ
 - Preserved each cosmetic's existing attacks, effects and gameplay stats.
 
 Verified in Studio: all seven equipped views, all 28 live swings, three re-equip cycles per cosmetic and weighted walking. Final playtest error log was clear. Sources exported; cloud save unconfirmed and not published. Other avatar proportions, respawn and multiplayer were not separately tested in this pass.
+
+
+### Store Gamepasses — 10 September 2026
+
+- Added eight configured passes: Dual Wield with double damage, double coins, double EXP, five additional equipped pet slots, double pet luck, double sword luck, Infinite Stamina and VIP.
+- Dual Wield equips a visible second blade and coordinates both arms at the existing attack speed. Server ownership controls damage, rewards and pass benefits.
+- VIP includes a gold name/chat tag, exclusive Royal Radiance aura and 20% extra gameplay coins and EXP. Existing available auras remain accessible.
+- Updated the illustrated Store with eight clean cartoon graphics, owned states, responsive cards and exact luck odds before purchase. Pet luck odds match the hatch sampler, and luck availability respects player eligibility.
+
+All 26 changed Studio sources compile and were exported separately. Studio checks covered ownership spoofing, reward multipliers, eight-pet limits, hatch receipt replay, stamina and dash cooldowns, dual-blade hand placement and animation, VIP aura access, desktop/Phone layouts and luck details. Saved to Roblox on 10 September 2026 at 12:54 UTC; not published live. Passes exist with the requested prices saved but remain off sale until publication. In-game artwork is uploaded; Creator Dashboard pass-image uploads remain pending browser file access. Actual paid purchases, physical devices, populated multiplayer and live chat display were not tested. This entry documents Studio work; game source is not included in this changelog repository.
