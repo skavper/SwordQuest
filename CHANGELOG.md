@@ -576,3 +576,11 @@ Verified opaque white surfaces across Swords, Pet Index, Cosmetics, Sword Index,
 - Attacks recover smoothly to the shoulder rest. Existing dual attack timing, damage and ordinary-sword guard are preserved.
 
 Verified all seven equipped cosmetic views and attack-to-idle transitions in Studio, a live four-swing chain, both grip alignments and three unequip/re-equip cycles without duplicate offhand blades. All seven profiles passed 34,440 sampled-joint checks and default-timing comparisons. Two motion sources and an equipped screenshot were exported separately. The initial revision was included in the 19:43 UTC cloud save; the final canonical-pose selection is installed and tested but its subsequent cloud save is unconfirmed because an active Play session resumed. Not published live. Moving carry, other avatar proportions and populated multiplayer were not separately verified. This entry documents Studio work, not a game-source commit.
+
+### Dash Sound and Landing Momentum — 10 September 2026
+
+- Added a short spatial whoosh to each accepted dash, with preloading and sound cleanup.
+- Added a small landing speed boost that smoothly fades over half a second. Airborne dashes wait for touchdown; wall interruptions and stuns clear the boost, and repeated dashes do not stack it.
+- Preserved directional Q input, the Q badge, existing anime effects, stamina rules and the 0.33-second cooldown.
+
+Verified loaded sound playback and cleanup, grounded recovery from speed 20 to 16, airborne landing timing, wall interruption and stun cancellation in Studio. All three final sources compile and match exported snapshots; the play console was clear. Physical devices and multiplayer were not tested. Installed in Studio and exported separately; the cloud save remains unconfirmed because Studio save input was repeatedly interrupted by active input. Not published live. This documents Studio changes, not game-source commits.
