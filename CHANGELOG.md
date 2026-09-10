@@ -492,3 +492,12 @@ Verified the rendered sword preview, matching hover geometry, shadow visibility 
 - Added compact phone layouts and kept artwork clipped inside the scrolling offers.
 - Verified desktop rendering, category clicks, close/reopen recovery, shared opening motion and loaded scroll audio. Simulated phone rendering and tablet layout bounds passed. Physical devices and completed purchases were not tested.
 - Applied and compiled in Studio; the source snapshot is exported separately. Cloud save is pending verification. Not published to the live experience.
+
+
+### Animated Aura Asset Pack — 10 September 2026
+
+- Added nine original character aura styles with flowing energy, orbiting ribbons, sparks, lightning, butterflies, leaves and celestial details.
+- Added a Studio preview gallery with try/remove prompts, a server equip API and client-side animation with distance culling and reduced-motion support.
+- Added five original soft-edged effect textures. Aura selection is cosmetic and session-local; acquisition and permanent inventory ownership are not included.
+
+Verified all five final scripts compile, all five uploaded textures load, and 490 animation/lifecycle assertions pass. Native E-key try/remove prompts and automatic Studio gallery spawn were tested. A five-second desktop gallery sample rendered 301 frames with all nine auras visible (about 60 FPS), averaging 1.275 ms of aura updates per frame. This short local result is not a performance guarantee for other devices or multiplayer scenes. Saved to Roblox on 10 September 2026 at 10:59 UTC; not published live. This documents Studio changes; editable source and textures are delivered separately.
