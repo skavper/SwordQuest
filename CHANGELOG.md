@@ -415,3 +415,11 @@ Verified thirteen isolated animation checks, six live selection changes in Phone
 - Preserve tutorial progress, destination labels, menu guidance and hiding during menus, death or cutscenes.
 
 Verified actual dash-to-slime guidance, phone-emulator rendering, 461 runtime checks, 85 grounded egg-route samples and cutscene hide/restore behavior in Studio. The trail remains client-only and test fixtures were removed. Physical-device performance, production streaming and multiplayer remain untested. Saved with the combined Studio update on 10 September 2026 at 00:06 UTC; not published live. This documents Studio changes; game source and the native arrow template are delivered separately.
+
+### Sword Hover Switching Recovery — 10 September 2026
+
+- Resolve the sword under the mouse continuously so a missed mouse-enter event no longer requires leaving and re-entering a card.
+- Allow hovering another sword to replace a previously clicked tooltip while keeping its action buttons usable.
+- Shorten switching transitions and keep click-to-dismiss behavior stable without repeated idle animations.
+
+Verified direct mouse sweeps across four swords, switching after clicking a card, Stats activation, dismissal and recovery on another card. A stationary-cursor test recovered a hidden tooltip without a new mouse-enter event, then remained stable at normal scale. Hovering created no hidden Stats preview descendants; the play console was clear. Saved to Roblox on 10 September 2026 at 00:27 UTC; not published live. This documents Studio changes; game source is delivered separately.
