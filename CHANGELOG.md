@@ -466,3 +466,13 @@ Verified six animation phases, smooth size changes, hidden loop endpoints and li
 - Prevented shared font styling from removing numeric badge borders.
 
 Verified the shared style on cloned live launchers at PC, tablet and phone sizes in Studio: all nine count samples fit and remained circular. The final controller compiles and is applied to the Edit place; source snapshots were exported separately. Physical-device checks and the final Roblox save are not yet confirmed. Not published.
+
+
+### Inventory Performance and Visibility — 10 September 2026
+
+- Kept selected category icons slightly enlarged and tilted while fitting them within the sidebar.
+- Preloaded inventory artwork and the shared font and sound in the background. Sword Index now builds previews incrementally and reuses cards during search and ordinary inventory refreshes.
+- Removed repeated Sword Index layout polling, redundant Titles layout work, and pattern rearrangement during inventory opening animations.
+- Fixed Rings search and refresh restoring a hidden panel while leaving its dark overlay visible. Layout restoration no longer controls the root panel's visibility or animation scale.
+
+Verified all eight category selections in PC, Phone and Tablet modes (24 contained-icon checks), repeated Rings search visibility, and zero remaining inventory dimmers after closing. The final play console was clear. Cached Sword Index search did not rebuild previews. Physical-device performance and production multiplayer remain untested. Applied to Studio and exported; the final cloud save is pending. This documents Studio changes, not game source commits or a live publication.
