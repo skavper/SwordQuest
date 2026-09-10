@@ -568,3 +568,11 @@ Verified one-to-eight-pet spacing for normal and wide formations, actual eight-p
 - Centered sword stack quantities across each card's top-right corner and reserved scrolling-grid clearance for them.
 
 Verified opaque white surfaces across Swords, Pet Index, Cosmetics, Sword Index, Auras and Titles, plus sword selection/delete states in Studio. The final sword card was visually inspected; x50 quantities passed desktop and 340-pixel compact-grid corner and clipping checks. All six final sources compile and were exported separately. Saved to Roblox on 10 September 2026 at 19:43 UTC; not published live. Physical-device testing and every inventory gameplay action were not repeated for this presentation update. This entry documents Studio changes; game source is delivered separately.
+
+
+### Dual-Wield Cosmetic Shoulder Rest — 10 September 2026
+
+- Dual wield now keeps all seven exclusive cosmetics resting on the shoulders, using the established Sakura pose and a matching offhand carry.
+- Attacks recover smoothly to the shoulder rest. Existing dual attack timing, damage and ordinary-sword guard are preserved.
+
+Verified all seven equipped cosmetic views and attack-to-idle transitions in Studio, a live four-swing chain, both grip alignments and three unequip/re-equip cycles without duplicate offhand blades. All seven profiles passed 34,440 sampled-joint checks and default-timing comparisons. Two motion sources and an equipped screenshot were exported separately. The initial revision was included in the 19:43 UTC cloud save; the final canonical-pose selection is installed and tested but its subsequent cloud save is unconfirmed because an active Play session resumed. Not published live. Moving carry, other avatar proportions and populated multiplayer were not separately verified. This entry documents Studio work, not a game-source commit.
