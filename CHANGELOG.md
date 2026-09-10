@@ -584,3 +584,12 @@ Verified all seven equipped cosmetic views and attack-to-idle transitions in Stu
 - Preserved directional Q input, the Q badge, existing anime effects, stamina rules and the 0.33-second cooldown.
 
 Verified loaded sound playback and cleanup, grounded recovery from speed 20 to 16, airborne landing timing, wall interruption and stun cancellation in Studio. All three final sources compile and match exported snapshots; the play console was clear. Physical devices and multiplayer were not tested. Installed in Studio and exported separately; the cloud save remains unconfirmed because Studio save input was repeatedly interrupted by active input. Not published live. This documents Studio changes, not game-source commits.
+
+
+### Double Attack Speed Pass — 10 September 2026
+
+- Added a permanent 499 Robux Double Attack Speed pass with matching sword-and-lightning Store artwork.
+- Owners swing twice as fast with normal swords, cosmetics and Dual Wield. Super Combo swings also run at twice their usual speed; damage per hit and ability cooldowns remain unchanged.
+- Server ownership controls the bonus, with synchronized client animation, hit timing and combo boundaries.
+
+Four final Studio sources compile and match their exports. Verified fourteen server-confirmed normal swings at double speed, all four combo indices and scaled chain boundaries, a three-swing Super Combo at twice its base speed, ownership-spoof rejection, dual-cosmetic shoulder recovery and loaded artwork in desktop/Phone Store layouts. Super Combo validation used a temporary non-reward target; actual mob damage and paid checkout were not tested. The pass exists and its 499 Robux price is saved, but it remains off sale pending game publication. Creator Dashboard thumbnail upload remains pending browser file access. Final cloud save is being coordinated; not published live. Physical devices and populated multiplayer remain untested. This entry documents Studio work; source and artwork are delivered separately.
