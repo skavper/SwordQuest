@@ -389,3 +389,29 @@ Verified actual button/tab interactions, undiscovered sword presentation, respaw
 - Disabled random traits in the first area to keep beginner fights predictable. Preserved fixed spawn slots, enemy counts, rewards, levels, boss timers and later-area difficulty.
 
 Verified all 15 ordinary/warrior homes through two death-and-respawn cycles, actual damage against humanoids, and two real warrior attacks dealing 6 damage each. The boss spawned with its new stats; five changed sources compiled and the runtime console was clear. Installed in Studio and exported. Saved to Roblox on 9 September 2026 at 23:19 UTC (10 September at 00:19 BST); not published live. Production multiplayer and newcomer usability remain untested. This documents Studio changes; game source is delivered separately. Not published live.
+
+
+### Phone, Tablet and PC Layouts — 10 September 2026
+
+- Added automatic device layouts and a Layout selector with Auto, Phone, Tablet and PC choices for the current session.
+- Made the phone level/coin HUD, health bar, tutorial, item receipts, nameplates and combat controls substantially smaller, with essential launchers at the upper left and secondary launchers in Menu.
+- Reflowed inventory and menu panels for phone and tablet space, using compact headers, reachable footer actions, scrolling collections and separate card/detail arrangements.
+- Corrected clipped Run lettering, overlapping pet search/delete controls, mobile navigation overlap and sword artwork that retained the old card dimensions.
+
+Verified fresh phone, tablet and desktop Studio previews, including a small phone with a 705×280 safe UI area, actual Phone/PC selector clicks, restored desktop layout and contained sword-card lettering. Inspected Swords, Pets, miscellaneous inventory, Rings, the inventory hub and Teleport in phone previews. The final play console was clear and final exported sources compiled. Some secondary panels were inspected with presentation fixtures; physical touch devices and a complete gameplay pass through every menu state remain untested. Saved to Roblox on 10 September 2026 at 00:06 UTC, without publishing. This documents Studio changes; game source snapshots are delivered separately.
+
+### Sword Tooltip Motion and Preview Performance — 10 September 2026
+
+- Replay a short pop and glide when moving between swords, cancelling obsolete transitions during rapid selection and menu changes.
+- Avoid constructing hidden Stats models during hover, and reuse the same preview when reopening a sword's Stats.
+- Separate responsive card sizing from artwork hover animation, retaining reduced motion and the shared quiet opening sound.
+
+Verified thirteen isolated animation checks, six live selection changes in Phone/PC presentation, reduced motion and cancellation. Actual desktop Stats clicks created the preview on first open and added no descendants when reopening the same sword. Tablet native activation was inconclusive under emulation. Saved with the combined Studio update on 10 September 2026 at 00:06 UTC; not published live. Complete game source is delivered separately.
+
+### Flowing Red Tutorial Trail — 10 September 2026
+
+- Replaced the single gold arrow with a continuous trail of rounded red ground arrows, soft contact shadows and fading ends.
+- Follow walking routes toward the current objective, smooth destination changes and keep arrows stationary when reduced motion is enabled.
+- Preserve tutorial progress, destination labels, menu guidance and hiding during menus, death or cutscenes.
+
+Verified actual dash-to-slime guidance, phone-emulator rendering, 461 runtime checks, 85 grounded egg-route samples and cutscene hide/restore behavior in Studio. The trail remains client-only and test fixtures were removed. Physical-device performance, production streaming and multiplayer remain untested. Saved with the combined Studio update on 10 September 2026 at 00:06 UTC; not published live. This documents Studio changes; game source and the native arrow template are delivered separately.
