@@ -450,3 +450,10 @@ Verified actual boss-death signalling, attack hiding, all nine hologram models' 
 - Fixed click-through dismissal, collection decoration escaping the scroll area, overlapping pet search and selection controls, short-screen details and empty pet detail popups. Retained shared opening motion and the quiet sound.
 
 Verified all eight routes and contained phone/tablet window bounds in Studio, desktop tooltips and clipping, actual pet selection/cancel and Pet Index navigation, and normal/reduced-motion opening with rapid-reopen recovery. A presentation-only material fixture checked tooltip data, detail opening and non-consumable state. All sixteen final sources compile and match installed Edit sources; the final fresh play console was clear. Physical devices, production multiplayer, purchases and a full replay of every inventory gameplay action remain untested in this UI pass. Saved to Roblox on 10 September 2026 at 01:47 UTC; not published live. This documents Studio changes; game source snapshots are delivered separately.
+
+
+### Rising Revival Ring Animation — 10 September 2026
+
+The glowing boss-revival scan ring now slowly rises in a six-second loop, expands through the middle and contracts toward the top. Soft fading hides the reset to the base. Reduced-motion mode keeps the ring steady.
+
+Verified six animation phases, smooth size changes, hidden loop endpoints and live centered movement in Studio. Final source compiled and was saved to Roblox on 10 September 2026 at 10:13 UTC; not published live. This documents a Studio change; source is delivered separately.
