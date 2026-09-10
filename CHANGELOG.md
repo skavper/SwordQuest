@@ -519,4 +519,10 @@ All eight final sources compile. All nine aura definitions passed movement, fram
 - Separated aura artwork from names and descriptions so hover animation cannot overlap the text.
 - Changed shared inventory bodies and category rails to light-grey and grey checks while retaining existing card styling, tooltips and opening motion.
 
-Verified all nine aura equip requests, removal, invalid-request rejection, actual mouse selection/equip, search and empty-state recovery, nine desktop card separation checks, the loaded checker image on shared inventory panels, gallery removal and normal spawning. All seven integration sources compile; the final Play console was clear. Aura equipment remains session-local. Physical devices, controller navigation and production multiplayer remain untested. Installed in Studio and exported separately; the combined cloud save is awaiting verification. Not published live. This entry documents Studio changes, not a game-source commit.
+Verified all nine aura equip requests, removal, invalid-request rejection, actual mouse selection/equip, search and empty-state recovery, nine desktop card separation checks, the loaded checker image on shared inventory panels, gallery removal and normal spawning. All seven integration sources compile; the final Play console was clear. Aura equipment remains session-local. Physical devices, controller navigation and production multiplayer remain untested. Installed in Studio and exported separately; the combined Save to Roblox was confirmed on 10 September 2026 at 11:56 UTC. Not published live. This entry documents Studio changes, not a game-source commit.
+
+### Shorter Area Grass — 10 September 2026
+
+- Reduced terrain grass length from 0.7 to 0.2, giving grassy areas shorter ground cover and clearer views of enemies and small scenery.
+
+Verified the property in Edit, visually inspected Slime Grove in a fresh playtest, and confirmed it remained set afterward. Saved to Roblox on 10 September 2026 at 11:56 UTC; not published live. Terrain shape, collisions and gameplay are unchanged. This entry documents a Studio property change.
