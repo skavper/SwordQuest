@@ -457,3 +457,12 @@ Verified all eight routes and contained phone/tablet window bounds in Studio, de
 The glowing boss-revival scan ring now slowly rises in a six-second loop, expands through the middle and contracts toward the top. Soft fading hides the reset to the base. Reduced-motion mode keeps the ring steady.
 
 Verified six animation phases, smooth size changes, hidden loop endpoints and live centered movement in Studio. Final source compiled and was saved to Roblox on 10 September 2026 at 10:13 UTC; not published live. This documents a Studio change; source is delivered separately.
+
+
+### Consistent Notification Badges — 10 September 2026
+
+- Unified Swords, Inventories, Skills and Gifts launcher notification circles with matching red fill, dark borders, alignment and count typography.
+- Kept badge sizing compact across device layouts and fitted larger counts, including 99+, inside the circle.
+- Prevented shared font styling from removing numeric badge borders.
+
+Verified the shared style on cloned live launchers at PC, tablet and phone sizes in Studio: all nine count samples fit and remained circular. The final controller compiles and is applied to the Edit place; source snapshots were exported separately. Physical-device checks and the final Roblox save are not yet confirmed. Not published.
