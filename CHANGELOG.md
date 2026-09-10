@@ -607,3 +607,10 @@ Verified 96 timed checks in Studio across an ordinary mob and all nine boss temp
 - Accounted for both padded edges and the scrollbar, retaining corner quantities and reducing desktop card width by only two pixels.
 
 Verified the rendered seven-column grid in Studio with presentation copies, including x50 quantities remaining 11 pixels clear of the scrollbar. Runtime layout checks at five widths from 240 to 1236 pixels retained their intended column counts. Both sources compile and were exported separately. Saved to Roblox on 10 September 2026 at 20:11 UTC; not published live. Physical-device testing was not repeated for this spacing correction.
+
+### Compact Store Offer Cards — 10 September 2026
+
+- Replaced large gamepass banners with compact illustrated cards matching the coin packs. All twelve offers use a three-column desktop grid with responsive phone reflow.
+- Kept full gamepass descriptions accessible through small Details buttons and retained exact pet and sword luck odds, category filters and purchase states.
+
+Verified desktop and Phone rendering in Studio, text fit across all twelve offers, actual Details and luck-odds interactions, and Coins/Passes filter reflow. The final source compiles and was exported separately. Installed in the Edit place; cloud save is unconfirmed due to concurrent Studio and active app use. This task did not publish the revision. Physical devices and paid purchases were not retested. This entry documents a Studio change, not a game-source commit.
