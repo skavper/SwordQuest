@@ -501,3 +501,12 @@ Verified the rendered sword preview, matching hover geometry, shadow visibility 
 - Added five original soft-edged effect textures. Aura selection is cosmetic and session-local; acquisition and permanent inventory ownership are not included.
 
 Verified all five final scripts compile, all five uploaded textures load, and 490 animation/lifecycle assertions pass. Native E-key try/remove prompts and automatic Studio gallery spawn were tested. A five-second desktop gallery sample rendered 301 frames with all nine auras visible (about 60 FPS), averaging 1.275 ms of aura updates per frame. This short local result is not a performance guarantee for other devices or multiplayer scenes. Saved to Roblox on 10 September 2026 at 10:59 UTC; not published live. This documents Studio changes; editable source and textures are delivered separately.
+
+
+### Aura Motion and Shape Revision — 10 September 2026
+
+- Replaced the aura pack's blocklike decorative pieces with detailed butterfly, pointed crystal and curved leaf meshes. Prismatic Wings now has 22 flapping butterflies, Glacial Crown has 17 orbiting crystals, and Verdant Spirit has 40 travelling leaves.
+- Added larger crossing crescents, taller flowing flame crests, and distinct star, comet, lightning and void-satellite motion. Soft textured surfaces replace the previous hard effect panels.
+- Moved the Studio preview gallery away from progression boundaries and made its preview models persistent during Studio streaming.
+
+All eight final sources compile. All nine aura definitions passed movement, frame-step independence, quality hiding, reduced-motion and cleanup checks; their animated geometry contains no wedge parts or unmeshed blocks. Four mesh templates and their textures loaded successfully, and server equip/client removal passed. An eight-second desktop sample rendered 481 frames with nine auras active (60.00 FPS), with 2.074 ms mean and 2.409 ms 95th-percentile aura update time. Physical devices and populated multiplayer remain untested. Installed in Studio and exported separately; this revision's cloud save is unconfirmed because active user input interrupted Studio saving. Not published live. This entry documents Studio work, not a game-source commit.
