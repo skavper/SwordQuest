@@ -429,4 +429,14 @@ Verified direct mouse sweeps across four swords, switching after clicking a card
 - Removed Strength, XP and Coin Potions from ordinary enemy drops. Potions now drop only from bosses, with existing boss drop chances preserved.
 - Retained ordinary food and material chances and marked the three basic potions as boss loot in the existing display.
 
-Verified the actual reward-roll module in Studio with 10,000 evenly spaced rolls per pool: no ordinary potions and unchanged boss potion rates. Applied in Studio Edit mode and exported locally; a full kill/pickup playtest and cloud save are unconfirmed. Not published live. This entry documents a Studio change; game source is delivered separately.
+Verified the actual reward-roll module in Studio with 10,000 evenly spaced rolls per pool: no ordinary potions and unchanged boss potion rates. Applied in Studio Edit mode and exported locally. Saved to Roblox with the coordinated update on 10 September 2026 at 00:52 UTC; a full kill/pickup playtest remains unverified. Not published live. This entry documents a Studio change; game source is delivered separately.
+
+
+### Boss Arena Loot, Victory Fireworks and Revival Holograms — 10 September 2026
+
+- Moved boss loot back above each boss spawn point, replacing the previous screen-button presentation. The board clears during attacks, damage, victory effects and walk-in revival, and avoids overlapping the tutorial or terrain at steep viewing angles.
+- Added seven themed firework comets, bold outlined star bursts, a gold shockwave, victory lettering and a short celebration sound. Phone and reduced-motion modes use fewer fireworks.
+- Added an animated hologram of each area's actual boss model while it is waiting to revive. Walking into its glowing ring opens that boss's existing 9 Robux respawn purchase, or uses an already saved respawn.
+- Kept the normal revival countdown, discovered sword previews, item details and existing server-owned purchase, reward and respawn rules. Cancelling a purchase does not reopen it until leaving and re-entering the ring.
+
+Verified actual boss-death signalling, attack hiding, all nine hologram models' ground clearance and non-blocking parts, six camera-angle clearance cases, the native 9 Robux prompt and cancel/re-entry behavior, instant-respawn hologram removal, and final fireworks playback/cleanup in Studio. Some presentation checks used isolated fixtures. A completed new checkout, physical-device input and production multiplayer remain unverified in this pass; the existing receipt implementation is unchanged. Final scripts compile and the play console was clear. Saved to Roblox on 10 September 2026 at 00:52 UTC; not published live. This documents Studio changes; game source and the reproducible model builder are delivered separately.
