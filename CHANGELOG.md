@@ -600,3 +600,10 @@ Four final Studio sources compile and match their exports. Verified fourteen ser
 - Further damage restarts the delay. Healing stops at full health and does not revive defeated enemies; ordinary respawns begin with a fresh recovery timer.
 
 Verified 96 timed checks in Studio across an ordinary mob and all nine boss templates, including damage delay/reset, rejected hits, healing rate, full-health cap, death and ordinary respawn. The final source compiles and matches the exported snapshot. Temporary test cleanup exposed an existing AI missing-root error; the regeneration checks passed and Play was stopped to remove test state. Cloud save awaits the coordinated combined save; not published live. Populated multiplayer was not separately tested. This entry documents Studio changes; game source is exported separately.
+
+### Full Sword Inventory Rows — 10 September 2026
+
+- Fixed sword grid spacing so the full seven-card desktop row fits instead of wrapping the final card into the next row.
+- Accounted for both padded edges and the scrollbar, retaining corner quantities and reducing desktop card width by only two pixels.
+
+Verified the rendered seven-column grid in Studio with presentation copies, including x50 quantities remaining 11 pixels clear of the scrollbar. Runtime layout checks at five widths from 240 to 1236 pixels retained their intended column counts. Both sources compile and were exported separately. Saved to Roblox on 10 September 2026 at 20:11 UTC; not published live. Physical-device testing was not repeated for this spacing correction.
