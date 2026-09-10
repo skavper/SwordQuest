@@ -534,3 +534,11 @@ Verified the property in Edit, visually inspected Slime Grove in a fresh playtes
 - Preserved the shared inventory style, cached cards, search and undiscovered silhouettes.
 
 Reproduced the blank page and verified all three zone displays in Studio, including actual Desert and Ice Land selection. Clearing an empty search restored all 39 current-zone cards, and the Swords inventory remained above the shared background. Final source compiles and was exported separately. Saved to Roblox on 10 September 2026 at 12:12 UTC; not published live. Physical-device and acquisition/auto-delete gameplay checks were not repeated for this layering fix.
+
+
+### Exclusive Cosmetic Shoulder Rest — 10 September 2026
+
+- All seven exclusive cosmetics now rest on the player's right shoulder like the Sakura Scythe, with a smooth return after attacks.
+- Preserved each cosmetic's existing attacks, effects and gameplay stats.
+
+Verified in Studio: all seven equipped views, all 28 live swings, three re-equip cycles per cosmetic and weighted walking. Final playtest error log was clear. Sources exported; cloud save unconfirmed and not published. Other avatar proportions, respawn and multiplayer were not separately tested in this pass.
