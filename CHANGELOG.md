@@ -510,3 +510,13 @@ Verified all five final scripts compile, all five uploaded textures load, and 49
 - Moved the Studio preview gallery away from progression boundaries and made its preview models persistent during Studio streaming.
 
 All eight final sources compile. All nine aura definitions passed movement, frame-step independence, quality hiding, reduced-motion and cleanup checks; their animated geometry contains no wedge parts or unmeshed blocks. Four mesh templates and their textures loaded successfully, and server equip/client removal passed. An eight-second desktop sample rendered 481 frames with nine auras active (60.00 FPS), with 2.074 ms mean and 2.409 ms 95th-percentile aura update time. Physical devices and populated multiplayer remain untested. Installed in Studio and exported separately; this revision's cloud save is unconfirmed because active user input interrupted Studio saving. Not published live. This entry documents Studio work, not a game-source commit.
+
+
+### Aura Inventory and Grey Checkered Collections — 10 September 2026
+
+- Added Auras to the shared inventory category rail, with all nine styles available for now, animated card artwork, search, selection, Equip and Unequip controls.
+- Removed the world preview gallery and its automatic Studio spawn, restoring normal player spawning.
+- Separated aura artwork from names and descriptions so hover animation cannot overlap the text.
+- Changed shared inventory bodies and category rails to light-grey and grey checks while retaining existing card styling, tooltips and opening motion.
+
+Verified all nine aura equip requests, removal, invalid-request rejection, actual mouse selection/equip, search and empty-state recovery, nine desktop card separation checks, the loaded checker image on shared inventory panels, gallery removal and normal spawning. All seven integration sources compile; the final Play console was clear. Aura equipment remains session-local. Physical devices, controller navigation and production multiplayer remain untested. Installed in Studio and exported separately; the combined cloud save is awaiting verification. Not published live. This entry documents Studio changes, not a game-source commit.
