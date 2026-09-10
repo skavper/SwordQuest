@@ -599,7 +599,7 @@ Four final Studio sources compile and match their exports. Verified fourteen ser
 - Living mobs and all nine bosses now recover 5% of maximum health per second after ten seconds without damage.
 - Further damage restarts the delay. Healing stops at full health and does not revive defeated enemies; ordinary respawns begin with a fresh recovery timer.
 
-Verified 96 timed checks in Studio across an ordinary mob and all nine boss templates, including damage delay/reset, rejected hits, healing rate, full-health cap, death and ordinary respawn. The final source compiles and matches the exported snapshot. Temporary test cleanup exposed an existing AI missing-root error; the regeneration checks passed and Play was stopped to remove test state. Cloud save awaits the coordinated combined save; not published live. Populated multiplayer was not separately tested. This entry documents Studio changes; game source is exported separately.
+Verified 96 timed checks in Studio across an ordinary mob and all nine boss templates, including damage delay/reset, rejected hits, healing rate, full-health cap, death and ordinary respawn. The final source compiles and matches the exported snapshot. Temporary test cleanup exposed an existing AI missing-root error; the regeneration checks passed and Play was stopped to remove test state. Saved to Roblox on 10 September 2026 at 20:11 UTC in the coordinated combined save; not published live. Populated multiplayer was not separately tested. This entry documents Studio changes; game source is exported separately.
 
 ### Full Sword Inventory Rows — 10 September 2026
 
