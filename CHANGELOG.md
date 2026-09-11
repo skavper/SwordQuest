@@ -683,7 +683,7 @@ Verified desktop, narrow portrait, tablet-width and short landscape compositions
 - Added a narrow-screen two-row footer and retained the shared launcher pulse, hover response and reduced-motion support.
 - Fixed the legacy sword-button styling pass hiding the new rainbow face and artwork.
 
-Verified the loaded artwork and rainbow styling in a fresh Studio playtest, and clicked the actual button to confirm it opens Cosmetics. All five edited modules compiled and are exported locally. Installed in Studio; a new full-place/cloud save for this addition is not confirmed. Not published live. This entry documents Studio changes; game source is exported separately.
+Verified the loaded artwork and rainbow styling in a fresh Studio playtest, and clicked the actual button to confirm it opens Cosmetics. All five edited modules compiled and are exported locally. Saved to Roblox with the combined place changes on 11 September 2026 at 11:39 UTC. Not published live. This entry documents Studio changes; game source is exported separately.
 
 
 ### Skills Number Formatting and Point Selection — 11 September 2026
