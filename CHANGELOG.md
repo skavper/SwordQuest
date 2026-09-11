@@ -702,4 +702,14 @@ Verified number formatting, batch validation, mouse controls, exact entry, chang
 - Scaled the preceding areas and boss rewards separately; the final boss now awards 2 million base EXP. The first three areas retain their existing rewards.
 - Preserved level requirements and existing pet, ring, potion and purchased bonuses. These bonuses still apply on top of base rewards.
 
-Verified all 72 enemy definitions, all 18 runtime zone/boss configurations and the actual XP-award function with isolated bonus providers in Studio. Synchronized 72 templates, 72 index previews and 18 boss revival models. Three final sources are exported locally; no production player data was changed. Final cloud save is unconfirmed and this change was not published live. Extended progression pacing and production multiplayer were not tested. This entry documents Studio work, not game source committed to this repository.
+Verified all 72 enemy definitions, all 18 runtime zone/boss configurations and the actual XP-award function with isolated bonus providers in Studio. Synchronized 72 templates, 72 index previews and 18 boss revival models. Three final sources are exported locally; no production player data was changed. Saved to Roblox in the combined update on 11 September 2026 at 11:39 UTC; not published live. Extended progression pacing and production multiplayer were not tested. This entry documents Studio work, not game source committed to this repository.
+
+
+### Cosmetic Auras, Kill Effects and Shoulder Rest — 11 September 2026
+
+- Added stronger model-shaped shadows and directional lighting behind sword and cosmetic previews, with animated glimmers and themed 3D aura details.
+- Added seven distinct cosmetic kill effects: solar crown shards, Sakura petals, a falling star, volcanic flames, forked lightning, jade moon crescents and Void Reaper’s collapsing black hole with orbiting matter.
+- Restored the shop cosmetics’ shoulder-rest poses, including Void Reaper, and aligned Golden Pickaxe with default attack timing. Both equipped blades receive the new aura during dual wield.
+- Bound kill effects to the server-confirmed finishing-hit cosmetic, with distance limits, bounded concurrent effects and reduced-motion variants.
+
+Verified all seven equipment builds, normal/reduced kill-effect lifetimes, locked/owned preview replacement, all single/dual attack schedules, Void Reaper swing recovery, repeated equips and death/respawn cleanup in Studio. A lethal-hit test retained Void Reaper’s effect after an immediate cosmetic switch. Nine final sources compile and match local exports. Saved to Roblox in the combined update on 11 September 2026 at 11:39 UTC; not published live. Physical mobile devices and large multiplayer loads were not tested. This entry documents Studio work; game sources and screenshots are delivered separately.
