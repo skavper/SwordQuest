@@ -728,3 +728,11 @@ Verified all seven equipment builds, normal/reduced kill-effect lifetimes, locke
 - Enlarged the remaining eight category icons and redistributed their rows to fit the rail, accounting for padding and gaps while preserving selected tilt, tooltips, unread badges and progression locks.
 
 Verified eight categories, the fitted bottom icon, selected artwork and retained Cosmetics button in a fresh Studio playtest. The updated shared module compiles and is exported locally. Saved to Roblox with the combined place changes on 11 September 2026 at 12:38 UTC. Not published live.
+
+### Expansion Material Artwork — 11 September 2026
+
+- Replaced all 36 Hell, Cosmic and Toxic material icons with vivid, thick-outline artwork, broad cel shading and clear silhouettes matched against the original material pack at inventory size.
+- Added matching silhouettes for ground-drop outlines and undiscovered previews. Inventory, forge and boss loot use the shared material catalog.
+- Preserved all material identities, Forge Power, affinities, rarity and drop metadata.
+
+Verified all 72 new image/silhouette assets loaded in a fresh Studio playtest, inspected the actual inventory alongside original materials, and checked representative drops from all three zones through the normal controller. All 72 materials retained their gameplay metadata. Three installed source snapshots compile. Saved to Roblox on 11 September 2026 at 12:52 UTC; not published live. This entry documents Studio changes; artwork and source are delivered separately.
