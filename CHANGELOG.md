@@ -684,3 +684,13 @@ Verified desktop, narrow portrait, tablet-width and short landscape compositions
 - Fixed the legacy sword-button styling pass hiding the new rainbow face and artwork.
 
 Verified the loaded artwork and rainbow styling in a fresh Studio playtest, and clicked the actual button to confirm it opens Cosmetics. All five edited modules compiled and are exported locally. Installed in Studio; a new full-place/cloud save for this addition is not confirmed. Not published live. This entry documents Studio changes; game source is exported separately.
+
+
+### Skills Number Formatting and Point Selection — 11 September 2026
+
+- Shortened large skill values, ranks and remaining-point totals with compact notation such as 10.1k.
+- Added a bottom amount picker when hovering an upgrade arrow, with dragging, mouse-wheel adjustment, exact entry, plus/minus controls and MAX. Selected points are applied in one server-validated upgrade.
+- Added skill-colored picker transitions, animated slider feedback, arrow tilt, number bounce and floating point-gain feedback, with reduced-motion and UI-audio settings preserved.
+- Added compact portrait and landscape picker layouts and touch selection before upgrading.
+
+Verified number formatting, batch validation, mouse controls, exact entry, changing/empty balances, small-panel geometry and animation cleanup in Studio. Physical touch/gamepad input and production rejoin behavior remain unverified. Final sources compile and are exported locally. A new Roblox cloud save is unconfirmed; this change has not been published live. This entry documents Studio work, not game source committed to this repository.
