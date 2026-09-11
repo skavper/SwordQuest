@@ -736,3 +736,11 @@ Verified eight categories, the fitted bottom icon, selected artwork and retained
 - Preserved all material identities, Forge Power, affinities, rarity and drop metadata.
 
 Verified all 72 new image/silhouette assets loaded in a fresh Studio playtest, inspected the actual inventory alongside original materials, and checked representative drops from all three zones through the normal controller. All 72 materials retained their gameplay metadata. Three installed source snapshots compile. Saved to Roblox on 11 September 2026 at 12:52 UTC; not published live. This entry documents Studio changes; artwork and source are delivered separately.
+
+### Pack-Based Expansion Pets — 11 September 2026
+
+- Rebuilt all 45 expansion pets using the purchased pack's meshes as bases, retaining shaped ears, wings, horns and body profiles with themed accents and colors.
+- Replaced soft converted textures with sharper painted faces and matching outlined portraits. Standardized the front three-quarter view and cropped portraits to fill inventory cards consistently.
+- Preserved existing pet identities, bonuses, egg pools, fusion behavior and the original purchased pet library.
+
+Verified 135 Normal, Golden and Rainbow builds with moving poses, 90 actual image/model asset instances with no loading failures, source/variant model previews, inventory cards and representative followers in Studio. Saved player collections were not edited. Saved to Roblox at 13:30:58 UTC on 11 September 2026 and backed up locally; not published live. This entry documents Studio work; model sources and artwork are delivered separately.
