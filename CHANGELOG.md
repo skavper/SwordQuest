@@ -661,3 +661,10 @@ Saved to Roblox on 11 September 2026 at 00:27 UTC without publishing live. A com
 Verification: 115 progression checks passed, including locked travel, egg access and internal quest credit. All nine new bosses and an existing boss passed real attack-warning timing, visibility and cleanup checks. All 45 pet portraits loaded in the actual inventory; 135 model checks covered normal, golden and rainbow pets. All 43 source snapshots compile and match the deserialized local place backup.
 
 Saved to Roblox on 11 September 2026 at 08:54 UTC without publishing live. The complete place backup, revised modeling files, portraits, verification evidence and updated area-building skill are delivered separately. This draft documents Studio work; game source is not part of this PR.
+
+## Mountain Border Seams — 11 September 2026
+
+- Closed the visible gaps between gates and mountain flanks at all nine new area entrances. The existing rounded mountain profiles and themed caps now overlap the gate edges while preserving the central road and gate lettering.
+- Closed a small upper seam at the Desert gate and updated the area-building recipe to retain fitted borders on future builds.
+
+Verified 744 edge samples across the five zone gates and six new internal-area gates, with no uncovered samples. All 1,449 road-clearance checks passed, and angled entrance views were inspected in Studio. Saved to Roblox at 09:08 UTC on 11 September 2026 without publishing live. This is a documentation-only draft; assets and the place backup are delivered separately.
