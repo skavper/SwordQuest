@@ -693,7 +693,7 @@ Verified the loaded artwork and rainbow styling in a fresh Studio playtest, and 
 - Added skill-colored picker transitions, animated slider feedback, arrow tilt, number bounce and floating point-gain feedback, with reduced-motion and UI-audio settings preserved.
 - Added compact portrait and landscape picker layouts and touch selection before upgrading.
 
-Verified number formatting, batch validation, mouse controls, exact entry, changing/empty balances, small-panel geometry and animation cleanup in Studio. Physical touch/gamepad input and production rejoin behavior remain unverified. Final sources compile and are exported locally. A new Roblox cloud save is unconfirmed; this change has not been published live. This entry documents Studio work, not game source committed to this repository.
+Verified number formatting, batch validation, mouse controls, exact entry, changing/empty balances, small-panel geometry and animation cleanup in Studio. Physical touch/gamepad input and production rejoin behavior remain unverified. Final sources compile and are exported locally. Saved to Roblox in the coordinated save on 11 September 2026 at 11:39 UTC; this change has not been published live. This entry documents Studio work, not game source committed to this repository.
 
 
 ### Area EXP Reward Rebalance — 11 September 2026
