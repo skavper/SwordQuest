@@ -713,3 +713,11 @@ Verified all 72 enemy definitions, all 18 runtime zone/boss configurations and t
 - Bound kill effects to the server-confirmed finishing-hit cosmetic, with distance limits, bounded concurrent effects and reduced-motion variants.
 
 Verified all seven equipment builds, normal/reduced kill-effect lifetimes, locked/owned preview replacement, all single/dual attack schedules, Void Reaper swing recovery, repeated equips and death/respawn cleanup in Studio. A lethal-hit test retained Void Reaper’s effect after an immediate cosmetic switch. Nine final sources compile and match local exports. Saved to Roblox in the combined update on 11 September 2026 at 11:39 UTC; not published live. Physical mobile devices and large multiplayer loads were not tested. This entry documents Studio work; game sources and screenshots are delivered separately.
+
+### Weapon Enchanting — 11 September 2026
+
+- Added weapon enchanting at the Mage's purple spawn house, with an arcane counter, crystal ornaments and a weapon-enchanting interaction.
+- Weapon rarity stars unlock one, two or three simultaneous, distinct enchants. Sharpness, Lifesteal, Executioner, Giant Slayer, Critical and Second Wind each have three tiers and working server-authoritative combat effects.
+- Spend 1–100 of an existing crystal type per roll. Exact tier odds update with the offering; rerolling replaces the enchant set on one weapon copy. Enchanted variants remain separate from plain stacks and are protected from fusion.
+- Added colorful illustrated navigation, an animated spellbook ritual, a complete Enchant Log with pet-style tooltips, the last 30 rolls, and enchant details on weapon cards, hover panels and Stats lore.
+- Verified in Studio: 800 star/count combinations, real three-enchant UI rolls, combined damage and healing, and recovery from failed crystal and sword saves without duplicate charges or results. All 14 final sources compile and are exported. A phone-width composition was inspected; physical devices and live cross-server reconnects remain untested. Installed in Studio; a new Roblox cloud save is unconfirmed and the change is not published live. This entry documents Studio work; game source and artwork are delivered separately.
