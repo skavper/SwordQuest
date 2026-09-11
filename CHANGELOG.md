@@ -694,3 +694,12 @@ Verified the loaded artwork and rainbow styling in a fresh Studio playtest, and 
 - Added compact portrait and landscape picker layouts and touch selection before upgrading.
 
 Verified number formatting, batch validation, mouse controls, exact entry, changing/empty balances, small-panel geometry and animation cleanup in Studio. Physical touch/gamepad input and production rejoin behavior remain unverified. Final sources compile and are exported locally. A new Roblox cloud save is unconfirmed; this change has not been published live. This entry documents Studio work, not game source committed to this repository.
+
+
+### Area EXP Reward Rebalance — 11 September 2026
+
+- Replaced the flat 5 million late-game EXP rewards with distinct rewards that increase through the areas. Blight Heart regular enemies now award 450,000 / 500,000 / 550,000 base EXP, roughly 90% less than before.
+- Scaled the preceding areas and boss rewards separately; the final boss now awards 2 million base EXP. The first three areas retain their existing rewards.
+- Preserved level requirements and existing pet, ring, potion and purchased bonuses. These bonuses still apply on top of base rewards.
+
+Verified all 72 enemy definitions, all 18 runtime zone/boss configurations and the actual XP-award function with isolated bonus providers in Studio. Synchronized 72 templates, 72 index previews and 18 boss revival models. Three final sources are exported locally; no production player data was changed. Final cloud save is unconfirmed and this change was not published live. Extended progression pacing and production multiplayer were not tested. This entry documents Studio work, not game source committed to this repository.
