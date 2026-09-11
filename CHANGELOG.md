@@ -727,4 +727,4 @@ Verified all seven equipment builds, normal/reduced kill-effect lifetimes, locke
 - Removed the redundant Cosmetics icon from the bottom of the inventory category rail; Cosmetics remains accessible through its rainbow party-hat button inside Swords.
 - Enlarged the remaining eight category icons and redistributed their rows to fit the rail, accounting for padding and gaps while preserving selected tilt, tooltips, unread badges and progression locks.
 
-Verified eight categories, the fitted bottom icon, selected artwork and retained Cosmetics button in a fresh Studio playtest. The updated shared module compiles and is exported locally. Installed in Studio; a new Roblox cloud save is unconfirmed because another playtest began during saving. Not published live.
+Verified eight categories, the fitted bottom icon, selected artwork and retained Cosmetics button in a fresh Studio playtest. The updated shared module compiles and is exported locally. Saved to Roblox with the combined place changes on 11 September 2026 at 12:38 UTC. Not published live.
