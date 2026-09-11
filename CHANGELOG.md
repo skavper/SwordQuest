@@ -668,3 +668,11 @@ Saved to Roblox on 11 September 2026 at 08:54 UTC without publishing live. The c
 - Closed a small upper seam at the Desert gate and updated the area-building recipe to retain fitted borders on future builds.
 
 Verified 744 edge samples across the five zone gates and six new internal-area gates, with no uncovered samples. All 1,449 road-clearance checks passed, and angled entrance views were inspected in Studio. Saved to Roblox at 09:08 UTC on 11 September 2026 without publishing live. This is a documentation-only draft; assets and the place backup are delivered separately.
+
+### Daily Shop Storefront — 11 September 2026
+
+- Replaced the Daily Shop's inventory presentation with a dedicated dark storefront, colorful offer cards, large angled and directionally lit 3D weapon displays, a refresh countdown and prominent purchase buttons.
+- Added an animated rainbow Daily Shop button with a gentle pulse and hover response; reduced motion keeps it still.
+- Added responsive one-, two- and three-column arrangements, including a compact horizontal card composition for short screens. The Cosmetics collection keeps its existing inventory layout.
+
+Verified desktop, narrow portrait, tablet-width and short landscape compositions in Studio, collection/shop switching, item details, the Owned action and the native 149 Robux confirmation (canceled without purchasing). Pulse behavior and its reduced-motion state passed; the existing quiet opening sound loaded. All three final sources compile and match their local exports. Saved to the local Studio place on 11 September 2026 at 09:27 UTC. Roblox's cloud-save action reported no changes to save, so a new cloud version is unconfirmed. Not published live. Physical devices and completed paid checkout were not tested. This entry documents Studio changes; game source is exported separately.
