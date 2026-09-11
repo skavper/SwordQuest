@@ -676,3 +676,11 @@ Verified 744 edge samples across the five zone gates and six new internal-area g
 - Added responsive one-, two- and three-column arrangements, including a compact horizontal card composition for short screens. The Cosmetics collection keeps its existing inventory layout.
 
 Verified desktop, narrow portrait, tablet-width and short landscape compositions in Studio, collection/shop switching, item details, the Owned action and the native 149 Robux confirmation (canceled without purchasing). Pulse behavior and its reduced-motion state passed; the existing quiet opening sound loaded. All three final sources compile and match their local exports. Saved to the local Studio place on 11 September 2026 at 09:27 UTC. Roblox's cloud-save action reported no changes to save, so a new cloud version is unconfirmed. Not published live. Physical devices and completed paid checkout were not tested. This entry documents Studio changes; game source is exported separately.
+
+### Cosmetics Inventory Button — 11 September 2026
+
+- Added a rainbow Cosmetics button with an illustrated party hat to the Swords inventory footer, opening the cosmetic collection directly.
+- Added a narrow-screen two-row footer and retained the shared launcher pulse, hover response and reduced-motion support.
+- Fixed the legacy sword-button styling pass hiding the new rainbow face and artwork.
+
+Verified the loaded artwork and rainbow styling in a fresh Studio playtest, and clicked the actual button to confirm it opens Cosmetics. All five edited modules compiled and are exported locally. Installed in Studio; a new full-place/cloud save for this addition is not confirmed. Not published live. This entry documents Studio changes; game source is exported separately.
