@@ -637,3 +637,16 @@ Verified 281 pet formula/team checks and seven isolated CoinService award checks
 Verified 204 integration checks, all twelve signature drops and full coin payouts, prerequisite unlocks, actual hatch transactions and replay, boss lifecycle and simulated revival receipts, fixed spawn/respawn homes, regeneration, forge crafting/equip and pet fusion in Studio. All 39 final weapons passed equipped grip/aura checks and 156 attack checks with default timing. Reviewed world views, loaded artwork, Teleport travel and desktop/Phone/Tablet menu layouts. Thirty-three final source snapshots compile and match Studio.
 
 Saved to Roblox on 10 September 2026 at 22:06 UTC; a complete local place backup and original asset sources were retained separately. Not published live. Real paid checkout, physical mobile devices, production multiplayer load and long-term balance remain unverified. This entry documents Studio changes, not a game-source commit.
+
+### Hell, Cosmic and Toxic Zone Expansion — 11 September 2026
+
+Expanded Hell, Cosmic and Toxic to three playable areas each, for nine areas in total. This supersedes the earlier three-area expansion scope.
+
+- Added Ashfall Frontier, Brimstone Foundry and Infernal Throne; Starfall Expanse, Lunar Sanctum and Astral Citadel; Sporewood Marsh, Virulent Works and Blight Heart.
+- Integrated 27 ordinary enemy types, nine individually modeled bosses, 117 swords, 36 materials, nine eggs and 45 original pets, with quest unlocks, collections, forging, hatching, fusion and teleport travel.
+- Rebuilt the scenery with shaped terrain, layered mountain boundaries, themed landmarks and clear boss courts. Revised pet proportions and painted faces to follow the established art style, with matching inventory artwork and actual map photographs in Teleport.
+- Preserved existing saved content IDs and migrated valid earlier area unlocks through the inserted prerequisites. Kept default sword timing, named grip surfaces, themed auras, full coin rewards and server-owned access checks.
+
+Verification: 612 catalog/model/art/progression checks, 90 grounded spawn markers and 823 road samples passed in Studio. All 117 weapons passed equipment checks and four attacks each. All nine eggs passed hatch, charge and replay checks; all 36 enemy types awarded their expected materials and full coin payouts. Nine boss revival flows passed simulated receipt replay and single-boss checks. Forge transactions and both pet fusion tiers passed, with a Rainbow pet from each egg equipped. Actual teleport images loaded, and Phone/Tablet modes were reviewed in Studio. Physical devices, production multiplayer, long-term balance and paid checkout remain unverified.
+
+Saved to Roblox on 11 September 2026 at 00:27 UTC without publishing live. A complete local place backup was deserialized successfully and all 39 exported source snapshots matched it. Original modeling files, artwork, verification results and the reusable area-building skill are delivered separately. This remains a documentation-only draft.
