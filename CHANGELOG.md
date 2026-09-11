@@ -650,3 +650,14 @@ Expanded Hell, Cosmic and Toxic to three playable areas each, for nine areas in 
 Verification: 612 catalog/model/art/progression checks, 90 grounded spawn markers and 823 road samples passed in Studio. All 117 weapons passed equipment checks and four attacks each. All nine eggs passed hatch, charge and replay checks; all 36 enemy types awarded their expected materials and full coin payouts. Nine boss revival flows passed simulated receipt replay and single-boss checks. Forge transactions and both pet fusion tiers passed, with a Rainbow pet from each egg equipped. Actual teleport images loaded, and Phone/Tablet modes were reviewed in Studio. Physical devices, production multiplayer, long-term balance and paid checkout remain unverified.
 
 Saved to Roblox on 11 September 2026 at 00:27 UTC without publishing live. A complete local place backup was deserialized successfully and all 39 exported source snapshots matched it. Original modeling files, artwork, verification results and the reusable area-building skill are delivered separately. This remains a documentation-only draft.
+
+## Zone Gates, Pet Art and Boss Warnings — 11 September 2026
+
+- Added level requirements between the new zones: Hell at 200, Cosmic at 250 and Toxic at 300. Their second and third areas retain boss-quest unlocks, and Teleport and egg access use the same zone requirements.
+- Revised all 45 new pet meshes with more compact proportions and matching painted faces. Replaced their inventory previews with consistently framed, black-outline portraits based on the established pet artwork.
+- Fixed all nine new bosses' attack-warning circles appearing beneath raised arena floors. Warning circles now remain visible through the attack windup and clear at impact.
+- Cleared the frozen throne from the main road, restored the displaced Desert barrier to its entrance and checked the placement of all five zone barriers.
+
+Verification: 115 progression checks passed, including locked travel, egg access and internal quest credit. All nine new bosses and an existing boss passed real attack-warning timing, visibility and cleanup checks. All 45 pet portraits loaded in the actual inventory; 135 model checks covered normal, golden and rainbow pets. All 43 source snapshots compile and match the deserialized local place backup.
+
+Saved to Roblox on 11 September 2026 at 08:54 UTC without publishing live. The complete place backup, revised modeling files, portraits, verification evidence and updated area-building skill are delivered separately. This draft documents Studio work; game source is not part of this PR.
