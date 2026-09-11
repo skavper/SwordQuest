@@ -721,3 +721,11 @@ Verified all seven equipment builds, normal/reduced kill-effect lifetimes, locke
 - Spend 1–100 of an existing crystal type per roll. Exact tier odds update with the offering; rerolling replaces the enchant set on one weapon copy. Enchanted variants remain separate from plain stacks and are protected from fusion.
 - Added colorful illustrated navigation, an animated spellbook ritual, a complete Enchant Log with pet-style tooltips, the last 30 rolls, and enchant details on weapon cards, hover panels and Stats lore.
 - Verified in Studio: 800 star/count combinations, real three-enchant UI rolls, combined damage and healing, and recovery from failed crystal and sword saves without duplicate charges or results. All 14 final sources compile and are exported. A phone-width composition was inspected; physical devices and live cross-server reconnects remain untested. Installed in Studio; a new Roblox cloud save is unconfirmed and the change is not published live. This entry documents Studio work; game source and artwork are delivered separately.
+
+
+### Inventory Category Rail — 11 September 2026
+
+- Removed the redundant Cosmetics icon from the bottom of the inventory category rail; Cosmetics remains accessible through its rainbow party-hat button inside Swords.
+- Enlarged the remaining eight category icons and redistributed their rows to fit the rail, accounting for padding and gaps while preserving selected tilt, tooltips, unread badges and progression locks.
+
+Verified eight categories, the fitted bottom icon, selected artwork and retained Cosmetics button in a fresh Studio playtest. The updated shared module compiles and is exported locally. Installed in Studio; a new Roblox cloud save is unconfirmed because another playtest began during saving. Not published live.
