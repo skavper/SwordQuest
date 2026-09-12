@@ -934,3 +934,10 @@ Verified 828 fresh server-runtime checks across all 90 pets, strongest-sword sel
 - Preserved forgiving beginner damage and fixed per-enemy values, so health upgrades remain useful. XP, gates, boss health, rewards and attack warnings are unchanged.
 
 Verified all 72 enemy damage values and real damage applications, plus complete attack-to-hit checks for a beginner mob, an early boss and the final boss. All 18 spawned bosses matched the corrected catalog. Full fights and production multiplayer balance remain untested. Saved to Roblox at 18:11:02 UTC on 12 September 2026; not published live. This entry documents Studio changes; game source is delivered separately.
+
+### Pet Card Damage Display — 12 September 2026
+
+- Pet inventory cards now show the same blue-and-gold sword damage icon used by Swords, beside a larger bold outlined number. Removed the card's text-only “+… Damage” wording and matched the sword tooltip's compact number formatting.
+- Preserved actual pet damage, coin bonuses, portraits, stack counts and inventory behavior.
+
+Both changed sources compile and are exported locally. Verified the rendered desktop cards, loaded icon and empty state with temporary display-only data; 90 cards passed text-fit checks in Phone layout mode. Physical small viewports and mobile hardware remain untested. Saved to Roblox at 18:50:04 UTC on 12 September 2026; not published live. This entry documents the Studio change; game sources are delivered separately.
