@@ -850,3 +850,11 @@ All 11 sources compile and match the installed Studio sources. Live sword/catego
 - Added original balloon-themed geometry, rainbow balloon effects and finishing-hit celebration effects, with custom default-timed attacks and existing cosmetic shoulder carry. Cosmetics remain appearance-only.
 
 Verified 80 isolated calendar/receipt checks and 40 runtime progression checks, uncertain-save recovery without duplicate grants, crafting consumption, actual daily/playtime claims and rejected forged referral counts. Device layouts, equipped balloon hand placement, animation phases and default timing parity were checked in Studio. All 21 current source exports compile; temporary tests were removed. Live like-count collection and personalized notification sending still require service connections; the UI does not claim these are active. Real friend-pair servers, production referrals/persistence and physical touch/gamepad devices remain untested. Installed in Studio, backed up locally and saved to Roblox at 14:02:25 UTC on 12 September 2026. Not published live. This entry documents Studio changes; complete sources are delivered separately.
+
+### Egg Coin Prices — 12 September 2026
+
+- Increased coin egg prices across all 18 areas, from 500 coins for the Basic Egg to 50 million for the Viridian Egg in Blight Heart. The final three eggs cost 30 million, 40 million and 50 million.
+- Scaled prices against current boss rewards and pet coin boosts while keeping the first tutorial hatch affordable. A billion coins now buys 20 final-area eggs. Final-area batches cost 150 million for three or 450 million for nine.
+- Updated all 18 world price plaques; hatching and affordability checks use the shared prices.
+
+Verified 272 server assertions covering all prices, batch payments, insufficient balances, duplicate-request replay, billion-coin deductions, tutorial affordability and live plaques. Both changed sources compile and contain only price edits. Applied in Studio Edit and exported locally; cloud save remains unconfirmed and this change is not published live. This entry documents Studio changes; game sources are delivered separately.
