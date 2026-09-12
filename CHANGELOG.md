@@ -773,3 +773,14 @@ Verified 12 probability tables and 4,800 seeded roll sets, two real consecutive 
 - Preserved rewards when inventory space runs out and added purchase receipt replay protection and recovery from delayed saves.
 
 Verified area drops, guaranteed rewards, independent progress, full inventories and simulated purchase receipt recovery in Studio. Desktop, phone and tablet panel checks and 76 actual weapon hits passed. The final pedestal position, loaded currency icon and current 15 Robux price were visually verified. All 17 final sources compile and are exported locally. Applied in Studio Edit; the latest Roblox cloud save is unconfirmed and these revisions are not published live. Physical devices, production persistence and completed real paid checkout remain untested. This entry documents Studio changes; game source is delivered separately.
+
+
+### Aura Crates, Tiers and Abilities — 12 September 2026
+
+- Made the Auras inventory more compact, with animated previews, rarity/tier labels, duplicate counts, search and a floating crate with a shake-and-reveal opening.
+- Added one free first roll per saved profile, followed by 250-coin rolls. All nine outcomes and exact chances are shown before opening; eligible coin rolls follow Roblox account policy. Royal Radiance remains a separate VIP visual aura.
+- Added saved aura ownership and three-copy fusion from Normal to Golden to Rainbow, with 1.5× and 2× ability power at the upgraded tiers.
+- Added nine usable themed abilities, including healing, chain lightning, frost/runic bursts, flame eruptions, solar judgment, butterfly strikes and void pulses. G, controller LB and a touch button activate the equipped ability with server-validated ownership, range, sight, progression gates and a shared cooldown.
+- Kept coin spending and the rolled reward in one progression save. Retrying a delayed or uncertain request recovers the same result without a second charge.
+
+Verified 10,000 deterministic rolls against the displayed chances, 32 mutation/backend checks, isolated save/reload recovery, and a live failed-save retry with one charge and one reward. Actual mouse interactions covered opening, fusion, equipping and healing. All nine ability implementations passed temporary registered-target checks with normal attacks disabled; immediate recasts were rejected. Desktop and four simulated device layouts, loaded artwork, filtering, shared opening motion/sound and rapid reopening passed. All ten final runtime sources compile and match their exports; the final fresh Play console was clear. Saved to Roblox on 12 September 2026 at 10:25:06 UTC; not published live. Physical devices, production rejoin persistence and populated multiplayer performance remain untested. This documents Studio changes; game source is delivered separately.
