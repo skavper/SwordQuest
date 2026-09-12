@@ -874,3 +874,11 @@ Verified three live model previews with synchronized shadows, fixed UI bounds an
 - Preserved reward requests, countdowns, tab switching and the shared pop entrance with quiet scroll sound.
 
 Verified PC, Phone and Tablet layout modes in Studio with no measured text overflow, working Daily-tab and close interactions, and distinct available/unavailable claim states. Opening animation settled correctly and its sound loaded. Physical mobile hardware was not tested. Installed in Studio Edit and exported locally; saved to Roblox at 16:16:53 UTC on 12 September 2026. Not published live. This entry documents Studio changes; game source is delivered separately.
+
+### Rings Equipment Layout — 12 September 2026
+
+- Replaced the horizontal equipment strip with a purple left equipment area: five standard ring slots around circular engraving and three premium slots below.
+- Expanded the searchable ring collection on the right, with compact filters, white artwork cards and equipment actions revealed on selection. Preserved shared inventory dimensions, category navigation and existing unlock requirements.
+- Added a totals tooltip to the Ring Slots heading and kept resized ring artwork in place during hover.
+
+Verified the actual Rings UI in Studio with temporary client-only inventory data at desktop, iPhone landscape and iPad sizes. Selection, the Equip callback, search, empty states and Forge/Rings switching passed. Three sources compile and match local exports. Real purchases, saved inventory mutations and physical mobile hardware were not exercised. Saved to Roblox at 16:31:02 UTC on 12 September 2026; not published live. This entry documents Studio changes; game source is delivered separately.
