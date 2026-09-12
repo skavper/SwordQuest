@@ -920,3 +920,10 @@ Verified live hover/press/release, card reveals, tab/close actions, rapid close/
 - Kept the Rewards launcher label and all actual reward grants unchanged.
 
 Verified card layouts in PC, Phone and Tablet modes, shadow cropping and layering, launcher hover and reopening Rewards. All three sources compile and are exported locally. Applied in Studio; this revision's cloud save is not yet confirmed and it has not been published live. This entry documents Studio changes; game sources are delivered separately.
+
+### Pet Sword Reference — 12 September 2026
+
+- Changed pet damage to scale from the strongest unfused obtainable sword in its area, including its Secret sword. Five Normal pet ranks now use 8%, 12%, 18%, 25% and 35% of that reference.
+- The strongest Normal pet gives about 35%; Golden and Rainbow retain 2x and 4x scaling, approximately 70% and 140%. Existing coin bonuses, owned pets and XP requirements remain unchanged.
+
+Verified 828 fresh server-runtime checks across all 90 pets, strongest-sword selection, fusion tiers, coin scaling and absent pet XP. The final module compiles and matches the export; temporary checks were removed. With the stronger reference, existing-budget simulations estimate standard zone medians of 61–85 minutes; boosted completion varies and full-zone playtests remain unverified. This supersedes the ordinary-Rare-sword reference in the earlier rework. Saved to Roblox at 17:15:08 UTC on 12 September 2026; not published live. This entry documents Studio work; game source is delivered separately.
