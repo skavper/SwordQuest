@@ -821,3 +821,13 @@ Verified all 72 enemy profiles, 72 named boss combos and 12,759 shared animation
 - Access is checked against the player's level on the server. Existing selections migrate to the cosmetic system; previous crate ownership cannot bypass milestone requirements.
 
 Verified 68 milestone, migration and request-validation checks, live level updates and equipping, rejection of removed actions, unchanged coins and absent ability controls. Final desktop UI was visually checked, responsive layout assertions passed at Phone and Tablet panel sizes, and all six changed sources compiled. Installed in Studio and exported separately; cloud save is unconfirmed and nothing was published. This supersedes the earlier Aura Crates, Tiers and Abilities entry and documents Studio changes, not a game-source commit.
+
+### Friend Referral Rewards — 12 September 2026
+
+- Added a Friends & Community menu reached from Friends in Gifts, with Roblox's native invite flow, eligibility feedback and saved reward counts.
+- A genuinely new referred player who completes the tutorial and plays for 10 minutes earns a saved 15-minute Double Coins potion. The inviter can claim the same potion, including rewards earned while offline.
+- Added permanent first-join attribution, duplicate protection, retry recovery and full-bag handling. Potions use the existing Items inventory and coin-boost system. No unsolicited menu prompts were added.
+
+Verified 48 isolated eligibility, retry and transaction checks plus nine actual profile-backend migration/rejoin checks. Studio checks covered reward collection, duplicate rejection, a 900-second double-coin boost, loaded artwork, PC/Phone/Tablet menu compositions and repeated pop openings with the loaded quiet sound. All nine final sources compile and are exported separately. Saved to Roblox at 12:19:28 UTC on 12 September 2026; not published live. Real referred joins, production cross-server persistence and physical touch/gamepad devices remain untested. This entry documents Studio changes; game source is delivered separately.
+
+The same confirmed save also includes Aura Level Milestones and Boss Combos and Mob Personalities, superseding their earlier cloud-save-unconfirmed notes. No live publication was performed.
