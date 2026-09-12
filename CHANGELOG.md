@@ -831,3 +831,11 @@ Verified 68 milestone, migration and request-validation checks, live level updat
 Verified 48 isolated eligibility, retry and transaction checks plus nine actual profile-backend migration/rejoin checks. Studio checks covered reward collection, duplicate rejection, a 900-second double-coin boost, loaded artwork, PC/Phone/Tablet menu compositions and repeated pop openings with the loaded quiet sound. All nine final sources compile and are exported separately. Saved to Roblox at 12:19:28 UTC on 12 September 2026; not published live. Real referred joins, production cross-server persistence and physical touch/gamepad devices remain untested. This entry documents Studio changes; game source is delivered separately.
 
 The same confirmed save also includes Aura Level Milestones and Boss Combos and Mob Personalities, superseding their earlier cloud-save-unconfirmed notes. No live publication was performed.
+
+### Shared Tooltip Pop System — 12 September 2026
+
+- Added shared tooltip configuration, default control descriptions and a simple title/body binding API for future UI.
+- Unified inventory hints, swords, pets, enchanting, reward receipts, active boosts, boss loot and equipped-sword names around a quick growing pop and shrinking exit.
+- Added a tiny hover bubble-pop sound, item-switch replay, cancellation-safe reopening, responsive scale support and reduced-motion/UI-mute handling. Existing richer contents and actions remain.
+
+All 11 sources compile and match the installed Studio sources. Live sword/category hints were visually inspected; pet popup and shared runtime checks covered scale, overshoot, exit, rapid reopening, responsive fitting, reduced motion and mute. The pop audio loaded successfully and the final test console was empty. Physical touch/gamepad devices, full mobile viewport testing and every specialized interaction remain untested. Installed in Studio and exported locally; cloud save is unconfirmed because Studio returned to an active playtest before saving. Not published live. This entry documents Studio work; game source is delivered separately.
