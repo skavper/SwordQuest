@@ -798,3 +798,9 @@ Verified the guaranteed boundary, early chance drops, independent area progress 
 All inventory categories now use the same outer panel dimensions and placement for the current device and viewport. Removed the smaller Aura window limit and standardized the safe screen area used by inventory layouts. Existing category contents and opening motion remain.
 
 Verified matching desktop bounds for all inventory panels and successful switching through all nine inventory destinations on simulated phone and tablet layouts. Both changed sources compile and are exported locally. Applied in Studio Edit; cloud save is not yet confirmed and the change has not been published live.
+
+### Roblox Game Pass Store Icons — 12 September 2026
+
+Uploaded and saved the existing in-game Store artwork to all nine actual Roblox game passes: double EXP, Infinite Stamina, double Coins, double Pet Luck, double Sword Luck, double Attack Speed, Dual Wield, five extra pet slots and VIP. Prices, descriptions and gameplay were unchanged.
+
+Verified the matching pass IDs against the current Store configuration and confirmed each Creator Dashboard save. Roblox is processing the images through moderation; the refreshed public Store still shows placeholders. This supersedes the earlier pending browser-upload notes. This update changes Roblox pass artwork directly and does not require a game-source commit or place publication.
