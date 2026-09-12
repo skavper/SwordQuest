@@ -784,3 +784,11 @@ Verified area drops, guaranteed rewards, independent progress, full inventories 
 - Kept coin spending and the rolled reward in one progression save. Retrying a delayed or uncertain request recovers the same result without a second charge.
 
 Verified 10,000 deterministic rolls against the displayed chances, 32 mutation/backend checks, isolated save/reload recovery, and a live failed-save retry with one charge and one reward. Actual mouse interactions covered opening, fusion, equipping and healing. All nine ability implementations passed temporary registered-target checks with normal attacks disabled; immediate recasts were rejected. Desktop and four simulated device layouts, loaded artwork, filtering, shared opening motion/sound and rapid reopening passed. All ten final runtime sources compile and match their exports; the final fresh Play console was clear. Saved to Roblox on 12 September 2026 at 10:25:06 UTC; not published live. Physical devices, production rejoin persistence and populated multiplayer performance remain untested. This documents Studio changes; game source is delivered separately.
+
+### 10,000-Kill Secret Pity and Flowing Rainbow — 12 September 2026
+
+- Changed every area's Secret weapon chance to 1 in 10,000 (0.01%), with a guaranteed reward by the 10,000th credited kill. Chance drops still happen before pity and reset only that area's counter; existing progress and waiting rewards are retained.
+- Updated the pity panel and weapon descriptions to the new values.
+- Added smoothly traveling rainbow colors with a wave ripple and gentle sway. Reduced motion keeps the gradient still.
+
+Verified the guaranteed boundary, early chance drops, independent area progress and saved-state preservation across all 18 areas in Studio. PC, tablet and phone text-fit checks and moving/still gradient checks passed. Three changed sources compile and are exported locally. Applied in Studio Edit; the latest cloud save remains unconfirmed and no live publication was performed. This supersedes the earlier 5,000-kill balance.
