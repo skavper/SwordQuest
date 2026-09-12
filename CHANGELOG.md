@@ -1,0 +1,943 @@
+# Changelog
+
+## Unreleased
+
+The initial entries below were verified in Roblox Studio and saved to Roblox on 8 September 2026. Later updates state their own verification status. Publication status is recorded in the dated updates below; earlier verification notes describe their status at the time. This repository documents development changes; it does not contain the complete game source.
+
+### Added
+
+- Exclusive sword cosmetics with rarity tiers, owner counts and hidden silhouettes for undiscovered items.
+- A detailed Golden Pickaxe cosmetic with a golden glow.
+- A cherry-blossom Sakura Scythe cosmetic with an aura.
+- Shared menu pop-opening animations and a quiet scroll sound.
+- Inventory boost timers, hover details and quantity selection for usable items.
+
+### Changed
+
+- Redesigned the Swords inventory to match Cosmetics with a compact four-column collection, bold text and clearer sword details.
+- Refined the Sakura Scythe's shoulder-rest pose, upward blade orientation and custom attacks at default sword speed.
+- Displayed dropped miscellaneous items as illustrated billboards with pickup effects.
+- Reserved crystals as materials for future enchant crafting.
+- Added automatic collection of uncollected miscellaneous drops after five seconds.
+
+### Fixed
+
+- Prevented notifications from stacking over one another and covering the level and coin display.
+- Standardized capitalization across inventory labels, item stats and related UI.
+
+### Weighted Sword Carry — 8 September 2026
+
+- Added a braced sword walking animation with delayed stride sway, upper-body counterbalance, and a smooth settle when stopping.
+- Preserved custom cosmetic carry poses and hand placement, with smooth transitions into attacks and back to walking. Damage, reach, and attack timing are unchanged.
+
+Verified equipped walking, directional movement, stopping, moving attacks, and repeated equipping in Studio. Sprint blending was checked numerically; a real sprint playtest remains pending. Saved to Roblox with the combined update on 8 September 2026 at 14:54 UTC; no live release is claimed.
+
+### Astral Arsenal Cosmetics — 8 September 2026
+
+- Added five grand fantasy weapon appearances with themed auras and distinct custom attacks at default sword timing: Starfall Greatsword, Inferno Cleaver, Stormbreaker Maul, Moonveil Glaive, and Voidreaper.
+- Added a daily shop featuring three cosmetics, a reset countdown, ownership checks, and permanent Robux unlocks priced at 149 / 199 / 249 / 299 / 399 respectively.
+- Removed all cosmetic coin and EXP boosts, including the former Golden Pickaxe and Sakura Scythe bonuses. Underlying sword damage and reach remain unchanged.
+- Preserved undiscovered collection silhouettes, exclusive rarity styling, and saved owner counts. Reduced-motion preferences suppress extra Arsenal aura particles and ribbons.
+
+Verified the shop and collection UI, all twenty custom swings, hand seating, unchanged damage, aura cleanup, real Roblox product prices, receipt replay protection, and delayed-save recovery in Studio. Saved to Roblox on 8 September 2026 at 14:54 UTC. Live Robux checkout and worldwide owner totals remain unverified; this is not a live release.
+
+### Sword Inventory and Fusion Presentation — 8 September 2026
+
+- Enlarged sword cards into a clean three-column layout with raised slate surfaces, soft shadows, and a darker inventory window.
+- Separated bold rarity-colored headings from small bracketed fusion tiers, and moved stack counts outside the top-right corner. Names, damage, and ownership counts retain their actual values.
+- Added a subtle animated rainbow background to the Cosmetics button.
+- Standardized game UI on bold outlined Fredoka lettering and removed competing text outlines.
+- Replaced fused-sword orbit rings with animated backglow matching each fusion tier, with flame particles on equipped swords and motion-aware preview effects.
+
+Verified card layout, selection, scrolling, stack badges, actual damage, Cosmetics navigation, shared typography, moving preview glow, and equipped flame emitters in Studio. The final cloud save is pending; no live release is claimed.
+
+### Playtime Gifts — 8 September 2026
+
+- Added 12 session gifts with independent playtime milestones, a HUD countdown and claimable-count badge, individual claims, and Claim All.
+- Added modest random coins, XP and existing consumables through the normal progression profile. Server validation prevents early claims, repeated payouts and rerolling through retries.
+- Gift eligibility resets on leaving while earned rewards remain in saved progression. Respawns preserve timers; collecting every gift does not restart the session.
+- Added a responsive Gifts menu with larger white-outlined presents and chests, small shadows, a gift header icon, shared outlined lettering and pop-opening motion. Only countdowns and claim states appear; rewards are revealed after claiming.
+- Presents pop, lift and tilt on hover, squash on press and settle on exit while their countdowns stay still.
+
+Verified session rules, overlapping requests, delayed-save recovery, reward round trips, level-up behavior and the UI in Studio. Production database rejoin behavior remains unverified. The final cloud save is unconfirmed; this is not a live release. Game source is not included in this documentation update.
+
+### Item Reward Icons and Stack Counts — 8 September 2026
+
+- Replaced large item-drop text panels with rounded icon boxes and a NEW ITEM heading above the health bar. Item names, rarity, quantity and descriptions appear only in a dark hover tooltip.
+- Added smooth pop entrances, smooth vertical artwork motion without wobble inside stable boxes, sideways list movement and horizontal overflow scrolling. Repeated items combine without extending their five-second lifetime, followed by a quick fade.
+- Enlarged sword inventory quantities to plain outlined text outside the top-right corner, removing their background boxes.
+
+Verified tooltip visibility and readability, moving artwork, repeated-item counts, nine-item overflow and five-second cleanup even when repeated pickups arrive in Studio. Source snapshots were exported locally. The final cloud save is unconfirmed; no live release is claimed.
+
+### Area Quest Walls — 8 September 2026
+
+- Added six quest walls between areas inside Grasslands, Desert and Ice Land, while retaining the existing biome level requirements.
+- Each wall requires defeating the preceding area's leader, beginning with Slime King for Ironfang Camp. Unlocks are personal and saved with player progression.
+- Added grey walls at 30% opacity so the next area remains visible, bold outlined Fredoka lettering, animated progress bars and a fading unlock effect.
+- Added server crossing checks and full-reset integration.
+
+Verified all six leader kills, unlocked crossings, blocked bypass attempts, profile save/reload, progress surviving a delayed save, and animated fill/fade in Studio. Saved to Roblox on 8 September 2026. Production multiplayer and database rejoin testing remain unverified; this is not a live release.
+
+### Emerald Hollow Forest Asset Kit — 8 September 2026
+
+- Created 24 original forest scenery assets in the same chunky low-poly visual family as the desert kit: five tree types, foliage, logs, mossy rocks, ruins, wooden props, a well and a cottage.
+- Prepared editable Blender source, individual FBX and glTF exports, a visual catalog and a reusable modeling guide. The unique meshes total 14,132 triangles and share one small palette texture.
+
+Verified all 48 individual export round trips in Blender, including geometry, dimensions, UVs, textures and ground-center pivots, and inspected the rendered assets. Imported the kit into Studio, replaced 86 Grasslands trees and placed 203 forest Models across the first three areas. Revised their spacing to clear other scenery and routes. Saved to Roblox with the scenery update on 8 September 2026 at 19:36 UTC. Asset binaries are delivered separately; this documentation-only PR does not claim a live release.
+
+### Biome Scenery and Mountain Detail — 8 September 2026
+
+- Added 22 original low-poly scenery assets totaling 5,992 unique triangles, including slime springs and nests, orc camp props, thorn ruins, desert supplies, forge details and frozen relics.
+- Added 624 ground prop placements across nine areas and 378 mountain-detail Models, including rock-face treatments, hanging foliage, shelves and cap accents.
+- Integrated the 149-Model desert scenery set and revised forest and desert placement to prevent separate ground models from intersecting. Removed 455 old bush and snowy-shrub pieces and disabled their old generator helper.
+- Supplied editable Blender source, FBX/glTF exports and a native Roblox library containing 46 forest and biome-detail templates.
+
+Final Studio checks found no overlapping bounding boxes among the 976 kit ground Models, no central-road intrusions and no changes to protected spawn, gate, path, cave or mountain part geometry and collisions. All nine area routes and the cave approach passed pathfinding checks. New asset-instance loading passed without failures during a Studio play session. Mobile hardware performance and public-server behavior remain untested. Saved to the existing game on Roblox on 8 September 2026 at 19:36 UTC; not published live. Model binaries and complete game source are delivered separately.
+
+
+### Text Outline Visibility — 8 September 2026
+
+- Fixed offset ghost lettering behind icon-button captions, including egg-opening controls, by hiding outlines with their source text.
+- Text outlines now fade and reappear with the lettering while retaining the shared cartoon font and colors.
+
+Verified hidden-text outlines and fade/reappear behavior in a fresh Studio playtest, plus actual egg controls in wide and narrow test containers. Applied in Studio, exported locally and saved to Roblox with the combined update on 8 September 2026 at 20:31 UTC. No live release is claimed.
+
+
+### Area Bosses — 8 September 2026
+
+- Added a timed boss to every area across all three zones, retaining Slime King and promoting the eight themed area leaders into boss encounters with enlarged family rigs.
+- Increased difficulty sharply across the nine bosses: health rises from 3,000 to 3,000,000, with steadily increasing base damage and rewards. Existing family attacks, leader quest credit and sword loot remain integrated.
+- Set initial spawns and post-defeat respawns to 1 minute 30 seconds, with one living boss per area.
+- Extended the boss loot display to every area with the correct identity, level, preview, loot pool and countdown. Fixed distant-area streaming and kept the panel clear of the tutorial and combat controls.
+
+Verified all nine initial spawns, actual attacks, credited kills and full 90-second respawns in Studio, including unchanged stats, fixed homes and no duplicates. Persistent Studio edits and source exports are complete; saved to Roblox with the combined update on 8 September 2026 at 20:31 UTC. Mobile hardware, multiplayer behavior and extended balance testing remain unverified. This documentation update does not contain complete game source or claim a live release.
+
+### Grounded Scenery and Mountain Seams — 8 September 2026
+
+- Grounded 88 scenery objects across the map, including pyramid bases, riverbank props and unsupported mountain-top decorations. Added a mount beneath the temple's sun emblem.
+- Closed unintended mountain openings with 17 overlapping low-poly rock groups, including the spawn backdrop, cave-side boundary and ice-area ridges. Mountain rebuilds retain the seam repairs.
+- Preserved spacing between separate scenery models and kept the spawn, roads, cave, quest gates and encounter markers unchanged.
+
+Verified ground contact for 2,149 scenery objects, attachment for 378 mountain decorations and no bounding-box overlaps among 976 kit ground models. All nine area routes, the spawn route and cave approach passed pathfinding. Boundary checks found no outer or rear openings at the sampled player heights; three apparent seams beyond the enclosure were unreachable. Saved to Roblox on 8 September 2026 at 20:31 UTC; not published live. Complete game source is delivered separately.
+
+
+### Boss Artwork and Dedicated Arenas — 8 September 2026
+
+- Rebuilt all nine bosses in Blender with detailed low-poly silhouettes, themed armor and palette textures matching the map artwork. Preserved their combat rigs, weapons and jelly animation.
+- Added a dedicated themed boss spot inside every existing area, with a rear landmark, flanking decorations and a ground-fitted entrance. Moved nearby scenery clear of the fighting spaces.
+- Retained boss stats, rewards, timers and area progression.
+
+Verified all nine bosses attacking, animating, grounding and displaying their complete artwork in a clean Studio playtest. All nine natural spawns also loaded the upgraded models. Published the combined SwordQuest update to Roblox on 8 September 2026 at 20:56 UTC, including these boss areas and the text-outline fix. New servers receive the update; existing servers were not forcibly restarted. Ordinary mob artwork was not rebuilt in this pass. Public multiplayer and mobile hardware testing remain unverified. This PR contains change notes only; game source and Blender assets are delivered separately.
+
+### Sword Card Readability — 8 September 2026
+
+- Made sword names substantially smaller and kept them on a centered single line with fitting for long names.
+- Enlarged DMG in a bright gold row and added thousands separators to large damage values.
+- Tidied spacing between names, damage and existence counts, retaining the raised slate cards and existing inventory actions.
+
+Verified the rendered inventory, long-name and large-number samples, and smaller card layouts in Studio. Saved to Roblox on 8 September 2026 at 21:11 UTC; not published live. Full phone usability is outside this typography change. This entry documents a Studio change; game source is delivered separately.
+
+### Larger Boss Courts — 8 September 2026
+
+- Moved all nine boss courts to the middle of their existing areas along the right-hand mountain edge, retaining Slime King's mountain grotto.
+- Doubled the thrones, rear landmarks, flanking props and entrance pieces, and expanded the grotto floor to accommodate them.
+- Cleared grass and obstructing vegetation from the fighting spaces, blended the cleared ground into each biome and relocated nearby scenery, including large landmarks.
+
+Verified all nine walking routes, exact prop scaling, grass-free arena interiors and grounded, non-overlapping relocated scenery in Studio. All nine bosses spawned naturally at their new homes. Saved to Roblox on 8 September 2026 at 21:24 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
+
+### Unified Gift Reward Notifications — 8 September 2026
+
+- Removed the central gift reward popup. Gift coins, XP and miscellaneous items now appear through the same icon notification row as ordinary item drops, with item details and quantities in its tooltips.
+- Kept reward notifications visible above the open Gifts menu. Claim failures appear inline and do not create reward icons.
+
+Verified the Claim All handler, all reward types and quantities, loaded artwork, five-second cleanup and repeated-claim rejection in Studio. Normal gift timers were restored after testing. Installed and exported locally; this change's Roblox cloud save and live publication are unconfirmed.
+
+### Mob Crafting Materials — 8 September 2026
+
+- Added 36 distinctive signature materials, one guaranteed drop for every active mob type, using the existing cartoon icon pack. Materials accompany existing sword and consumable loot.
+- Added Forge Power and crafting affinities for future rings. Inventory materials sort by highest Forge Power first and show their power, affinity and source mob; search supports these details.
+- Protected materials from consumption and included each boss's guaranteed material in its loot preview. Blacksmith and ring crafting gameplay remain planned for a later update.
+
+Verified all 36 mappings, rendered icons, pickup collection and descending inventory order in Studio. Credited ordinary-mob and boss kills awarded the correct material; consumption rejection, profile round trips and compact inventory details passed. Saved to Roblox on 8 September 2026 at 21:59 UTC; not published live. Production database rejoin and multiplayer behavior remain unverified. This entry documents a Studio change; game source is delivered separately.
+
+### Unique Spawn Houses — 8 September 2026
+
+- Replaced the old spawn cottages with four original low-poly buildings: a large medieval blacksmith, a two-story inn, an alchemist house and a provision shop.
+- Placed the houses directly against the spawn circle at four diagonal positions, with blended foundations and no connecting roads. Moved the boards and benches into the side gaps.
+- Added an open smithing yard with a large anvil, hammer, furnace and lava cauldron, including fire, embers, warm lighting and chimney smoke.
+
+Verified all four models and their textures in Studio, foundation contact, all four entrance routes and an actual player walk into the forge yard. Saved to Roblox on 8 September 2026 at 22:23 UTC; not published live. These are scenery assets; shop and crafting gameplay are not part of this update. Complete game source and Blender assets are delivered separately.
+
+### Desktop Controls and Menu Recovery — 8 September 2026
+
+- Restored desktop spacing and action sizes in Pets, miscellaneous inventory and community menus after phone layout changes.
+- Kept phone layout selection separate from mouse-and-keyboard computers and stopped phone controls from disabling native sword activation.
+- Prevented the Roblox player list from covering menu close buttons, restoring it after menus close.
+
+Verified desktop layouts at 1536×548 and 1536×726, menu opening and closing, and six server-confirmed mouse swings including a three-hit combo after closing menus. Saved to Roblox on 8 September 2026 at 22:37 UTC; not published live. Complete phone-device testing remains pending. This entry documents a Studio change; game source is delivered separately.
+
+### Super Combo Abilities — 9 September 2026
+
+- Added Flash Triple at x20, Cyclone Barrage at x50, and Heavenbreaker at x100 successful combo hits, with rapid sword strikes, colored slash effects and afterimages.
+- Added an E keycap prompt and draining 0.33-second reaction meter, with touch activation and controller support. Successful activation is limited to one use per earned opportunity.
+- Kept damage, reach, visibility and eligibility checks on the server. Bonus strikes preserve the earned combo count; ordinary attacks resume afterward.
+
+Verified all three abilities' actual damage, E-key activation, blocked-wall rejection, normal attacks afterward, prompt timing, loaded opening sound and effect cleanup in Studio. An isolated 39-assertion suite passed milestone, expiry, replay, cross-player and character-reset checks. Physical mobile/gamepad devices, production network latency and extended balance remain untested. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
+
+### Slime Arena Forest Backdrop — 9 September 2026
+
+- Filled the rear of Slime King's open court with five layered mountain groups, 65 varied trees in irregular clusters, and 18 forest details.
+- Mixed tree species, ages, sizes and terrace heights to replace the evenly spaced rows with a denser, asymmetric woodland backdrop.
+- Kept the court and its approach clear and retained the existing encounter and mountain boundary.
+
+Inspected the rendered scenery and verified an open arena route, grounded placements and no overlapping bounding boxes among the added trees and details. The complete addition contains 118 BaseParts and reuses existing forest meshes. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. Mobile hardware performance remains untested. This entry documents a Studio change; game source and assets are delivered separately.
+
+### Open Slime King Arena — 9 September 2026
+
+- Replaced Slime King's cave with an open court matching the other boss arenas, centered along Slime Grove beside the right mountains.
+- Added blended, grass-free fighting ground, sealed the former cave opening and moved nearby scenery and Slime homes clear of the court.
+- Centered the boss display at the new arena and updated its area label.
+
+Verified the walking route, sealed mountain boundary, normal timed boss spawn and client display in Studio. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
+
+### Inventory Categories — 9 September 2026
+
+- Added separate Misc and Materials buttons to Inventory. Food and boost potions appear under Misc; mob ingredients and crafting crystals appear under Materials.
+- Search filters the selected category. Switching clears the previous item selection and scroll position, while inventory refreshes preserve the chosen category.
+- Preserved highest-Forge-Power-first material ordering, item details, consumption rules and the shared menu entrance.
+
+Verified all 55 catalog entries across the two categories, actual button switching, search, loading and empty states, selection reset, refresh behavior and material consumption remaining disabled in Studio. Layout checks passed at four desktop and smaller container sizes; physical phone input remains untested. Saved to Roblox on 8 September 2026 at 23:14 UTC; not published live. This entry documents a Studio change; game source is delivered separately.
+
+### FORGE and Rings — 9 September 2026
+
+- Added Coin, EXP, Damage and Luck rings with saved equipment bonuses and four original illustrated icons.
+- Added material-based forging with an exact result preview, total Forge Power, up to three material types and ten of each per craft. Materials are consumed together with the saved ring.
+- Added a waving blacksmith, a glowing walk-in circle and a FORGE hologram at the spawn blacksmith.
+- Added a purple equipment panel beside a searchable white ring inventory, stat filters, equip/unequip controls and confirmed deletion. Five standard slots unlock at levels 1, 25, 100, 250 and 500; three premium slots have ownership checks and configurable game passes.
+
+Verified recipe limits, all four crafts, equipment bonuses, actual coin/EXP awards, rejected remote requests, the walk-in menu and the NPC wave in Studio. Rule and persistence checks passed, including a lost save acknowledgement followed by retry without duplicating a ring or consuming extra materials. Saved to Roblox on 9 September 2026 at 00:42 UTC; not published live. Premium game-pass IDs remain unconfigured, so checkout is unavailable. All four ring icons rendered correctly in a fresh Studio playtest after Roblox processed the uploads. Physical phone/controller input, production multiplayer and live database rejoins remain untested. This entry documents a Studio change; game source and artwork are delivered separately.
+
+### Rings and FORGE Visual Polish — 9 September 2026
+
+- Replaced all four ring images with genuinely transparent artwork, removing the square backgrounds from the HUD launcher, menu header and crafting previews.
+- Added deeper shadows, rounded inner highlights and stronger selected outlines to slots, cards and buttons. Increased purple and orange saturation, brightened action colors and added dark stat strips and a clearer details panel.
+- Preserved dark-label contrast on pale cards and corrected shadow layering while retaining the existing menu layout and opening motion.
+
+Verified all four transparent icons, populated and empty menus, locked/unlocked slots, selected materials, enabled/disabled Forge actions and a compact layout in Studio using temporary presentation fixtures. The final playtest console was clean, and the fixtures were removed before saving. Saved to Roblox on 9 September 2026 at 01:10 UTC; not published live. This update changes presentation only; premium game-pass configuration remains pending. Game source and artwork are delivered separately.
+
+### Eggs Across Every Progression Area — 9 September 2026
+
+- Extended the existing egg system to all nine progression areas, with one themed station and exactly five obtainable pets per egg: 45 species in total.
+- Reused 42 purchased pet models and retained the three existing original pets. Adapted imported egg assets to each area's theme while preserving the first pedestal, fixed coin plaque and proximity menu.
+- Added increasing coin prices and area-specific hatch pools with displayed chances matching the server. Preserved owned pets, existing IDs, inventory, discovery silhouettes, equip bonuses, smooth following and the shared x1/x3/x9 hatch animation.
+- Kept purchases and area eligibility server-authoritative, including existing level and quest restrictions. Every station supports the existing Auto Egg, Stop Auto and Skip controls.
+
+Verified 475 content, probability, save-compatibility and XP checks, plus 376 isolated Studio runtime assertions including all 27 area/batch combinations. Reviewed all 45 pet icons and model previews, all nine egg designs, actual hatching, inventory/index displays and new pet followers. Confirmed clear station approaches and removed test fixtures. Saved to Roblox on 9 September 2026 at 02:00 UTC; not published live. Production multiplayer, live database rejoins, physical device input and long-term economy balance remain untested. This entry documents a Studio change; game source and assets are delivered separately.
+
+### Egg Display and Normal Pet Pools — 9 September 2026
+
+- Fixed coin plaques turning blank when viewed from the road by extending their draw distance while retaining the static model-mounted display.
+- Cleared a slightly wider grass patch around each pedestal without changing terrain height.
+- Removed HUGE pets from progression egg pools. Astral now offers the normal-sized Evil Dragon as its fifth pet, with a 1% chance and +750% XP; existing owned pets and saved receipts remain valid.
+- Added registry validation preventing HUGE or exclusive pets from entering ordinary egg pools. All nine eggs retain five normal species each.
+
+Verified 523 content, probability, batch-charge and saved-pet compatibility checks, a real Astral x9 purchase, the replacement pet's saved inventory/equipment/follower behavior and the plaque rendering beyond its former distance cutoff. Saved to Roblox on 9 September 2026 at 10:25 UTC; not published live. Production multiplayer, live database rejoins and physical devices remain untested. This entry documents a Studio change; game source is delivered separately.
+
+### Expanded Tutorial and Quest Guidance — 9 September 2026
+
+- Added lessons for dashing, visiting the blacksmith, forging a ring and equipping it in the free Level 1 slot, bringing the tutorial to ten objectives.
+- Added a floating 3D arrow that stays beside the character, destination outline and distance label for world objectives, including nearby Meadow Slimes, the first egg and the Forge.
+- Added pulsing UI outlines and contextual instructions that follow menu navigation, material selection, crafting, ring selection and equipment.
+- Added recovery guidance for empty material inventories: collect an ingredient from slimes, then follow the arrow back to the Forge.
+- Preserved existing tutorial progress and rewards. Dash credit follows server-accepted movement; ring credit waits for committed inventory state.
+
+Verified actual dash, Forge arrival, crafting and equipping through the game controls in a fresh Studio session. Also checked duplicate reward protection, legacy save sanitization, pending-save rejection, material pickup retargeting, arrow direction and noncollision, and cleanup during cutscenes and after completion. The final client error log was clear. Saved to Roblox on 9 September 2026 at 10:44 UTC; not published live. Physical phone/controller input, production multiplayer and live database rejoins remain untested. This entry documents a Studio change; game source is delivered separately.
+
+### Tutorial Arrow Polish — 9 September 2026
+
+- Replaced the oversized intersecting arrow pieces with a smaller, seamless gold arrow with rounded edges and a thin dark outline.
+- Smoothed turns and movement beside the character, removed bobbing and reduced rapid switching between nearby slime targets.
+- Updated the arrow after camera movement so it stays steady alongside normal and dash camera effects.
+
+Inspected the arrow during actual Studio gameplay. Compilation and a 241-frame camera-motion check passed, including single-solid geometry, noncollision, upright transforms and bounded turning; the client error log was clear. Saved to Roblox on 9 September 2026 at 11:06 UTC; not published live. Physical-device and production performance remain untested. This entry documents a Studio change; game source and its reproducible model builder are delivered separately.
+
+### Egg Seating, Compact Prices and Pet Portraits — 9 September 2026
+
+- Corrected imported egg offsets so all nine egg models sit directly on their pedestal bases and remain seated while turning.
+- Shortened coin plaques to labels such as 1.5k and 24k, including the server refresh that previously restored full numbers. Purchase costs are unchanged.
+- Replaced Emberwing Drake's backwards thumbnail with a forward-facing model portrait across egg cards, inventory, index and hover details. Undiscovered pets retain black silhouettes and no tooltip.
+
+Verified all nine model clearances, a stable repeat build, 523 existing content/purchase/save checks and five price-format checks. Fresh Studio play confirmed compact prices, seated egg animation, the discovered portrait/tooltip and the locked silhouette. Saved to Roblox on 9 September 2026 at 11:51 UTC; not published live. Production multiplayer, live database rejoins and physical device tests were not repeated. This entry documents a Studio change; game source is delivered separately.
+
+### Longer Super Combo Prompt — 9 September 2026
+
+Changed the x20, x50 and x100 Super Combo ability prompt and draining meter from 0.33 seconds to 1 second. The existing four-second ordinary combo chain is unchanged.
+
+Verified the shared client/server setting and 39 isolated contract checks, including acceptance at 0.8 seconds and expiry beyond the new deadline plus bounded transport grace. Installed in Studio and exported; the subsequent cloud save is unconfirmed because the save dialog could not be completed through automation. Not published live. This entry documents a Studio change; game source is delivered separately.
+
+### Black Item Icon Outlines — 9 September 2026
+
+- Added black contours following the artwork on 15 previously unoutlined food, crystal and special-item icons, including Champion Burger, Brave Carrot and Royal Tonic.
+- Applied the shared treatment to inventory cards, enlarged previews, boost icons, loot and reward displays while retaining existing baked outlines.
+- Kept contours aligned through scaling and rotation, with composited fades and cleanup when images change or disappear.
+
+Verified all 15 configured images, preview alignment, fades, visibility, already-outlined exclusions and cleanup in Studio. A fresh playtest retained exactly the expected outlines after five inventory rebuilds, and small reward notices expired correctly with no runtime errors. Saved to Roblox on 9 September 2026 at 12:13 UTC; not published live. Physical-device performance remains untested. This entry documents a Studio change; game source is delivered separately.
+
+
+### Pet Stacking and Fusion — 9 September 2026
+
+- Grouped matching pets into inventory stacks by species and tier, with outlined quantities and access to individual copies for equipping, locking and deletion.
+- Added three-to-one fusion: three Normal pets create one Golden, and three Golden pets create one Rainbow. Golden gives twice the base XP bonus; Rainbow gives four times the base bonus.
+- Added a confirmation showing the upgrade and XP increase. Locked or equipped pets cannot be consumed, and invalid or repeated requests leave inventory unchanged.
+- Applied tier bonuses to rewards, Equip Best, sorting and tooltips, with matching Golden/Rainbow artwork and follower styling.
+
+Verified 42 isolated rule assertions, both upgrade paths through actual Studio controls, inventory counts, copy switching, Equip Best and follower tiers. Confirmation uses the shared opening motion and loaded quiet sound. Installed and exported; final cloud save remains unconfirmed. Not published live. Physical devices, production multiplayer and live database rejoins remain untested. This entry documents a Studio change; game source is delivered separately.
+
+
+### Boss Ultimate Swords and Spawn Restoration — 9 September 2026
+
+- Added nine boss-exclusive Ultimate swords, each with an exact one-in-1,000 drop chance unaffected by luck bonuses.
+- Added grand area-themed models, glowing auras and distinct sword swings at the standard attack timing, plus dark matter inventory and collection styling.
+- Enlarged the sword previews on boss displays. Undiscovered swords show ???, their chance and a black silhouette; names and details unlock after discovery.
+- Restored the four original spawn houses and compact plaza layout from the existing model backup, retaining the current terrain and walkable approaches.
+
+Verified all nine drop rolls, 181 inventory assertions and 36 actual combat hits in Studio. Boss display checks covered larger previews, hidden tooltips and discovery updates. Added ground clearance to the boss display; its entire lower edge stayed above terrain across 12 camera positions. All four house assets loaded successfully and their entrance routes passed. Saved to Roblox on 9 September 2026 at 21:48 UTC; not published live. Physical devices and production multiplayer remain untested. This entry documents Studio changes; game source is delivered separately.
+
+
+### Pet Multi-Delete and Fusion Effects — 9 September 2026
+
+- Added click/tap multi-selection and desktop drag-box selection for pet deletion, with exact copy counts, Select Visible and Cancel controls.
+- Protected locked and equipped pets, and added an exact-count confirmation with atomic, revision-checked deletion of the selected copies.
+- Added a new illustrated pet fusion icon and Golden/Rainbow transformations with converging pets, an explosion, fireworks, sounds and a compact fused-pet reward banner above the health bar.
+- Preserved reduced-motion and sound preferences, with cleanup when the animation finishes or is cancelled.
+
+Verified 26 data assertions, actual 14-pet drag selection and deletion, both fusion tiers and XP bonuses, loaded effect sounds, model previews, mute/reduced-motion behavior, and an 82-frame health-clearance/cleanup check in Studio. Saved to Roblox on 9 September 2026 at 21:48 UTC; not published live. Physical touch devices and production multiplayer remain untested. This entry documents Studio changes; game source is delivered separately.
+
+
+### Reference Sword Inventory and Damage Icon — 9 September 2026
+
+- Rebuilt the Swords inventory with four columns of wide rounded cards, diagonal weapon previews, rarity stars, fusion labels and rarity-to-fusion gradient outlines.
+- Added a narrow sword tooltip with damage, Equip, Stats, Fuse and Lock controls, bold Fredoka One lettering, and a simple cartoon sword damage icon.
+- Added saved stack locks that prevent manual deletion, batch deletion and manual or automatic fusion until unlocked.
+- Retained search, rarity filtering, Equip Best, Auto Fuse, cosmetic navigation, sword effects and shared menu opening motion and sound.
+
+Verified the desktop layout, loaded icon, hover/click tooltip, stats and cosmetics presentation in Studio. Seventeen isolated inventory checks covered lock persistence, legacy saves, protected deletion/fusion, atomic batch rejection and unlock recovery. Actual tooltip locking reached the server and blocked fusion without consuming swords. Saved to Roblox on 9 September 2026 at 22:09 UTC; not published live. Physical touch devices and production database rejoins remain untested. This entry documents Studio changes; game source is delivered separately.
+
+### Zone Teleport Menu — 9 September 2026
+
+- Added a dark, outlined Teleport menu with three expandable zone banners and nine area destinations, using new screenshots of the actual map.
+- Added personal unlock indicators, boss/level requirements and disabled travel buttons for locked areas. Existing server progression rules validate every destination.
+- Added a return-to-spawn shortcut, navigation to the existing Shop, and the shared menu entrance and quiet sound.
+- Fitted the additional launcher row and teleport list to short phone screens while retaining desktop layout.
+- Fixed expanded area lists staying open: pressing Close or clicking the same zone header again now collapses the dropdown.
+
+Verified 710 progression/terrain checks, invalid and locked destination rejection, actual travel, boss-unlock updates, Shop navigation, rapid reopening and loaded artwork in Studio. Desktop and phone simulator layouts were inspected; physical phone/controller input, production multiplayer and database rejoins remain untested. Dropdown opening and closing through both controls were verified with in-game clicks. Saved to Roblox on 9 September 2026 at 22:23 UTC. Not published live. This entry documents a Studio change; game source and photos are delivered separately.
+
+### Teleport Curtain Animation — 9 September 2026
+
+- Added a smooth purple curtain with playful folds, a bouncing destination card and a quick arrival reveal.
+- The curtain waits for destination streaming and nearby visual assets before travel and checks loading again after arrival.
+- Added departure and arrival sounds, a fast screen fade and a FOV bounce that composes with sprint and dash.
+- Added reduced-motion and UI-audio mute support, duplicate-request protection, and screen/control cleanup after rejection, timeout or death.
+- Auto Attack pauses while the teleport transition covers the world.
+
+Verified an actual teleport-menu click and server-authorized Spawn travel, successful nearby asset preloading, both loaded sound cues, FOV restoration, reduced-motion/mute behavior, duplicate rejection, rejected-request recovery, timeout and death cleanup in Studio. The Auto Attack pause addition was compiled and inspected. Physical mobile devices and production network conditions remain untested. Saved to Roblox on 9 September 2026 at 22:45 UTC. This entry documents Studio changes; source files are delivered separately. Not published live.
+
+### Instant Boss Respawns — 9 September 2026
+
+- Added an Instant Respawn button beneath every boss loot display, with a repeatable purchase priced at 9 Robux for each of the nine bosses.
+- Completed purchases respawn a defeated boss in the current server. If the boss has already returned, the purchased respawn is saved for later use at that boss.
+- Added saved receipt protection, retry handling and server checks for proximity, area access and boss state. The normal 90-second timer remains available.
+- Kept the expanded display above terrain and moved it clear of the contextual tutorial hint on narrower windows.
+
+Verified all nine Roblox products at 9 Robux, 23 isolated persistence checks, 51 encounter/receipt checks, a completed native Studio test purchase and purchase cancellation. Checked ground clearance across 12 camera positions and the final display in a fresh error-free Studio session. Saved to Roblox on 9 September 2026 at 22:50 UTC; not published live. Real Robux charges, production multiplayer/database rejoins and physical phone/controller input remain untested. This entry documents Studio changes; game source is delivered separately.
+
+
+### Sword Inventory Layout Fixes — 9 September 2026
+
+- Enlarged rarity stars by 50% and separated stars, fusion labels, sword previews and card status text.
+- Corrected inconsistent action lettering, removed obsolete icon padding and fitted long captions on one line.
+- Fitted the fusion-tier guide inside the current inventory, restored its Back button label, and prevented sword tooltips from opening through secondary panels.
+- Made unavailable Equip/Fuse actions visibly disabled, reflected locked stacks in the tooltip, and moved the tutorial close hint below the inventory controls.
+
+Verified desktop rendering, search empty-state recovery, delete/cancel controls, lock-dependent action states, all ten tier rows and narrow two-column fitting in Studio. The final single-line caption check and runtime log passed; all three final scripts compiled. Saved to Roblox on 9 September 2026 at 22:57 UTC; not published live. Narrow fitting was simulated; physical phone testing remains pending. This documents Studio changes; game source is delivered separately.
+
+
+### Compact Menus, Guided Unlocks and New-Item Counts — 10 September 2026
+
+- Reduced the fully unlocked HUD from thirteen launchers to seven. Swords, Inventories and Skills sit above the left currency display; Pets, Rings, Sword Index and Titles are grouped inside Inventories alongside Misc and Materials.
+- Removed the Codes interface and Discord button.
+- Revealed additional menus at relevant tutorial steps and level milestones, with brief unlock highlights and updated guidance through the Inventories hub. Existing level-10 players retain access despite incomplete older tutorial steps.
+- Added red numeric badges for newly acquired swords, pets, rings, miscellaneous items and materials. Inventories totals the unread categories; opening a category clears its count. Loading existing saved items does not mark them as new. Counts are session-local.
+
+Verified all seventeen changed sources compile, the ten tutorial objectives retain reachable controls, and unread counting handles initial loads, increases, duplicate/stale snapshots and acknowledgement. Studio playtests checked the hub routes, removed launchers, left HUD clearance, empty Misc inventory, loaded shared opening sound, unlock highlights and visible badge reductions from seven to five to two as categories were viewed. Narrow text fitting is implemented; a full phone viewport test, physical touch/controller input and production rejoins remain unverified. Installed and exported. Saved to Roblox on 9 September 2026 at 23:19 UTC (10 September at 00:19 BST); not published live. This documents Studio changes; game source is delivered separately.
+
+
+### Boss Loot Combat Clearance — 10 September 2026
+
+- Replaced the automatic world-space loot board with a compact Boss Loot button and an on-demand screen panel, eliminating terrain clipping.
+- Hide the panel and button immediately when attacking or taking damage. After a short quiet period only the button returns; the full panel stays closed.
+- Keep larger sword previews beside the tutorial on wide screens, undiscovered silhouettes and chances, item details and the existing instant-respawn action. Added a Close control and preserved shared opening motion and sound.
+
+Verified actual button/tab interactions, undiscovered sword presentation, respawn availability, four camera-angle changes without panel movement, a real sword swing hiding the UI, and quiet recovery without automatic reopening in Studio. The final controller compiles. Saved to Roblox on 9 September 2026 at 23:19 UTC (10 September at 00:19 BST); not published live. Physical phone/controller layouts and production multiplayer remain untested. This documents a Studio change; game source is delivered separately.
+
+
+### Beginner Slime Grove — 10 September 2026
+
+- Reduced Meadow Slime HP/damage from 130/9 to 36/2, Duelist from 170/11 to 72/3, Warrior from 390/26 to 144/6, and Slime King from 3,000/44 to 720/8.
+- Put easy slimes near the entrance and moved duelists and warriors deeper into the grove. Reduced first-area detection, chase distances, attack speed and knockback.
+- Disabled random traits in the first area to keep beginner fights predictable. Preserved fixed spawn slots, enemy counts, rewards, levels, boss timers and later-area difficulty.
+
+Verified all 15 ordinary/warrior homes through two death-and-respawn cycles, actual damage against humanoids, and two real warrior attacks dealing 6 damage each. The boss spawned with its new stats; five changed sources compiled and the runtime console was clear. Installed in Studio and exported. Saved to Roblox on 9 September 2026 at 23:19 UTC (10 September at 00:19 BST); not published live. Production multiplayer and newcomer usability remain untested. This documents Studio changes; game source is delivered separately. Not published live.
+
+
+### Phone, Tablet and PC Layouts — 10 September 2026
+
+- Added automatic device layouts and a Layout selector with Auto, Phone, Tablet and PC choices for the current session.
+- Made the phone level/coin HUD, health bar, tutorial, item receipts, nameplates and combat controls substantially smaller, with essential launchers at the upper left and secondary launchers in Menu.
+- Reflowed inventory and menu panels for phone and tablet space, using compact headers, reachable footer actions, scrolling collections and separate card/detail arrangements.
+- Corrected clipped Run lettering, overlapping pet search/delete controls, mobile navigation overlap and sword artwork that retained the old card dimensions.
+
+Verified fresh phone, tablet and desktop Studio previews, including a small phone with a 705×280 safe UI area, actual Phone/PC selector clicks, restored desktop layout and contained sword-card lettering. Inspected Swords, Pets, miscellaneous inventory, Rings, the inventory hub and Teleport in phone previews. The final play console was clear and final exported sources compiled. Some secondary panels were inspected with presentation fixtures; physical touch devices and a complete gameplay pass through every menu state remain untested. Saved to Roblox on 10 September 2026 at 00:06 UTC, without publishing. This documents Studio changes; game source snapshots are delivered separately.
+
+### Sword Tooltip Motion and Preview Performance — 10 September 2026
+
+- Replay a short pop and glide when moving between swords, cancelling obsolete transitions during rapid selection and menu changes.
+- Avoid constructing hidden Stats models during hover, and reuse the same preview when reopening a sword's Stats.
+- Separate responsive card sizing from artwork hover animation, retaining reduced motion and the shared quiet opening sound.
+
+Verified thirteen isolated animation checks, six live selection changes in Phone/PC presentation, reduced motion and cancellation. Actual desktop Stats clicks created the preview on first open and added no descendants when reopening the same sword. Tablet native activation was inconclusive under emulation. Saved with the combined Studio update on 10 September 2026 at 00:06 UTC; not published live. Complete game source is delivered separately.
+
+### Flowing Red Tutorial Trail — 10 September 2026
+
+- Replaced the single gold arrow with a continuous trail of rounded red ground arrows, soft contact shadows and fading ends.
+- Follow walking routes toward the current objective, smooth destination changes and keep arrows stationary when reduced motion is enabled.
+- Preserve tutorial progress, destination labels, menu guidance and hiding during menus, death or cutscenes.
+
+Verified actual dash-to-slime guidance, phone-emulator rendering, 461 runtime checks, 85 grounded egg-route samples and cutscene hide/restore behavior in Studio. The trail remains client-only and test fixtures were removed. Physical-device performance, production streaming and multiplayer remain untested. Saved with the combined Studio update on 10 September 2026 at 00:06 UTC; not published live. This documents Studio changes; game source and the native arrow template are delivered separately.
+
+### Sword Hover Switching Recovery — 10 September 2026
+
+- Resolve the sword under the mouse continuously so a missed mouse-enter event no longer requires leaving and re-entering a card.
+- Allow hovering another sword to replace a previously clicked tooltip while keeping its action buttons usable.
+- Shorten switching transitions and keep click-to-dismiss behavior stable without repeated idle animations.
+
+Verified direct mouse sweeps across four swords, switching after clicking a card, Stats activation, dismissal and recovery on another card. A stationary-cursor test recovered a hidden tooltip without a new mouse-enter event, then remained stable at normal scale. Hovering created no hidden Stats preview descendants; the play console was clear. Saved to Roblox on 10 September 2026 at 00:27 UTC; not published live. This documents Studio changes; game source is delivered separately.
+
+### Boss-Only Potion Drops — 10 September 2026
+
+- Removed Strength, XP and Coin Potions from ordinary enemy drops. Potions now drop only from bosses, with existing boss drop chances preserved.
+- Retained ordinary food and material chances and marked the three basic potions as boss loot in the existing display.
+
+Verified the actual reward-roll module in Studio with 10,000 evenly spaced rolls per pool: no ordinary potions and unchanged boss potion rates. Applied in Studio Edit mode and exported locally. Saved to Roblox with the coordinated update on 10 September 2026 at 00:52 UTC; a full kill/pickup playtest remains unverified. Not published live. This entry documents a Studio change; game source is delivered separately.
+
+
+### Boss Arena Loot, Victory Fireworks and Revival Holograms — 10 September 2026
+
+- Moved boss loot back above each boss spawn point, replacing the previous screen-button presentation. The board clears during attacks, damage, victory effects and walk-in revival, and avoids overlapping the tutorial or terrain at steep viewing angles.
+- Added seven themed firework comets, bold outlined star bursts, a gold shockwave, victory lettering and a short celebration sound. Phone and reduced-motion modes use fewer fireworks.
+- Added an animated hologram of each area's actual boss model while it is waiting to revive. Walking into its glowing ring opens that boss's existing 9 Robux respawn purchase, or uses an already saved respawn.
+- Kept the normal revival countdown, discovered sword previews, item details and existing server-owned purchase, reward and respawn rules. Cancelling a purchase does not reopen it until leaving and re-entering the ring.
+
+Verified actual boss-death signalling, attack hiding, all nine hologram models' ground clearance and non-blocking parts, six camera-angle clearance cases, the native 9 Robux prompt and cancel/re-entry behavior, instant-respawn hologram removal, and final fireworks playback/cleanup in Studio. Some presentation checks used isolated fixtures. A completed new checkout, physical-device input and production multiplayer remain unverified in this pass; the existing receipt implementation is unchanged. Final scripts compile and the play console was clear. Saved to Roblox on 10 September 2026 at 00:52 UTC; not published live. This documents Studio changes; game source and the reproducible model builder are delivered separately.
+
+
+### Shared Inventory Categories and Tooltips — 10 September 2026
+
+- Applied a shared white patterned inventory window with rounded dark outlines, an illustrated left category rail, compact artwork grids, search and a pink close button across Swords, Pets, Rings, Items, Materials, Sword Index, Titles and Cosmetics. Pet Index uses the same presentation.
+- Added contextual item, category and action tooltips with mouse, selection-focus and touch handling. Material details include ownership, Forge Power, affinity and source; undiscovered names remain hidden.
+- Preserved progressive menu unlocks, red session-local acquisition counts, existing equipment actions and the dedicated world Forge. Tutorial inventory guidance now points to the category rail.
+- Fixed click-through dismissal, collection decoration escaping the scroll area, overlapping pet search and selection controls, short-screen details and empty pet detail popups. Retained shared opening motion and the quiet sound.
+
+Verified all eight routes and contained phone/tablet window bounds in Studio, desktop tooltips and clipping, actual pet selection/cancel and Pet Index navigation, and normal/reduced-motion opening with rapid-reopen recovery. A presentation-only material fixture checked tooltip data, detail opening and non-consumable state. All sixteen final sources compile and match installed Edit sources; the final fresh play console was clear. Physical devices, production multiplayer, purchases and a full replay of every inventory gameplay action remain untested in this UI pass. Saved to Roblox on 10 September 2026 at 01:47 UTC; not published live. This documents Studio changes; game source snapshots are delivered separately.
+
+
+### Rising Revival Ring Animation — 10 September 2026
+
+The glowing boss-revival scan ring now slowly rises in a six-second loop, expands through the middle and contracts toward the top. Soft fading hides the reset to the base. Reduced-motion mode keeps the ring steady.
+
+Verified six animation phases, smooth size changes, hidden loop endpoints and live centered movement in Studio. Final source compiled and was saved to Roblox on 10 September 2026 at 10:13 UTC; not published live. This documents a Studio change; source is delivered separately.
+
+
+### Consistent Notification Badges — 10 September 2026
+
+- Unified Swords, Inventories, Skills and Gifts launcher notification circles with matching red fill, dark borders, alignment and count typography.
+- Kept badge sizing compact across device layouts and fitted larger counts, including 99+, inside the circle.
+- Prevented shared font styling from removing numeric badge borders.
+
+Verified the shared style on cloned live launchers at PC, tablet and phone sizes in Studio: all nine count samples fit and remained circular. The final controller compiles and is applied to the Edit place; source snapshots were exported separately. Physical-device checks and the final Roblox save are not yet confirmed. Not published.
+
+
+### Inventory Performance and Visibility — 10 September 2026
+
+- Kept selected category icons slightly enlarged and tilted while fitting them within the sidebar.
+- Preloaded inventory artwork and the shared font and sound in the background. Sword Index now builds previews incrementally and reuses cards during search and ordinary inventory refreshes.
+- Removed repeated Sword Index layout polling, redundant Titles layout work, and pattern rearrangement during inventory opening animations.
+- Fixed Rings search and refresh restoring a hidden panel while leaving its dark overlay visible. Layout restoration no longer controls the root panel's visibility or animation scale.
+
+Verified all eight category selections in PC, Phone and Tablet modes (24 contained-icon checks), repeated Rings search visibility, and zero remaining inventory dimmers after closing. The final play console was clear. Cached Sword Index search did not rebuild previews. Physical-device performance and production multiplayer remain untested. Applied to Studio and exported; the final cloud save is pending. This documents Studio changes, not game source commits or a live publication.
+
+
+### Sword Preview Depth and Pet Detail Focus — 10 September 2026
+
+- Added subdued sword-shaped backshadows and directional shading to sword inventory previews. Shadows follow artwork hover scale, lift and tilt while preserving existing card labels and actions.
+- Hide pet hover tooltips when a pet detail window opens, block other pet tooltip requests while it remains open, and restore hover information after closing it.
+
+Verified the rendered sword preview, matching hover geometry, shadow visibility and cleanup in Studio. Actual mouse interactions verified pet hover before selection, suppression over another pet while details were open, and recovery after closing; pet checks used a display-only inventory fixture. All three final sources compile and were exported separately. Saved to Roblox on 10 September 2026 at 10:34 UTC; not published live. Physical-device testing remains unverified. This documents Studio changes; full game source is delivered separately.
+
+### Store Reference Redesign — 10 September 2026
+
+- Rebuilt the Store with a white outlined panel, blue SHOP! heading, red close button, two illustrated feature banners, colorful coin-pack cards and a purple footer.
+- Preserved existing SwordQuest products, category filters, progression gates and purchase handling. Products without configured Roblox IDs remain marked Coming Soon.
+- Added compact phone layouts and kept artwork clipped inside the scrolling offers.
+- Verified desktop rendering, category clicks, close/reopen recovery, shared opening motion and loaded scroll audio. Simulated phone rendering and tablet layout bounds passed. Physical devices and completed purchases were not tested.
+- Applied and compiled in Studio; the source snapshot is exported separately. Cloud save is pending verification. Not published to the live experience.
+
+
+### Animated Aura Asset Pack — 10 September 2026
+
+- Added nine original character aura styles with flowing energy, orbiting ribbons, sparks, lightning, butterflies, leaves and celestial details.
+- Added a Studio preview gallery with try/remove prompts, a server equip API and client-side animation with distance culling and reduced-motion support.
+- Added five original soft-edged effect textures. Aura selection is cosmetic and session-local; acquisition and permanent inventory ownership are not included.
+
+Verified all five final scripts compile, all five uploaded textures load, and 490 animation/lifecycle assertions pass. Native E-key try/remove prompts and automatic Studio gallery spawn were tested. A five-second desktop gallery sample rendered 301 frames with all nine auras visible (about 60 FPS), averaging 1.275 ms of aura updates per frame. This short local result is not a performance guarantee for other devices or multiplayer scenes. Saved to Roblox on 10 September 2026 at 10:59 UTC; not published live. This documents Studio changes; editable source and textures are delivered separately.
+
+
+### Aura Motion and Shape Revision — 10 September 2026
+
+- Replaced the aura pack's blocklike decorative pieces with detailed butterfly, pointed crystal and curved leaf meshes. Prismatic Wings now has 22 flapping butterflies, Glacial Crown has 17 orbiting crystals, and Verdant Spirit has 40 travelling leaves.
+- Added larger crossing crescents, taller flowing flame crests, and distinct star, comet, lightning and void-satellite motion. Soft textured surfaces replace the previous hard effect panels.
+- Moved the Studio preview gallery away from progression boundaries and made its preview models persistent during Studio streaming.
+
+All eight final sources compile. All nine aura definitions passed movement, frame-step independence, quality hiding, reduced-motion and cleanup checks; their animated geometry contains no wedge parts or unmeshed blocks. Four mesh templates and their textures loaded successfully, and server equip/client removal passed. An eight-second desktop sample rendered 481 frames with nine auras active (60.00 FPS), with 2.074 ms mean and 2.409 ms 95th-percentile aura update time. Physical devices and populated multiplayer remain untested. Installed in Studio and exported separately; this revision's cloud save is unconfirmed because active user input interrupted Studio saving. Not published live. This entry documents Studio work, not a game-source commit.
+
+
+### Aura Inventory and Grey Checkered Collections — 10 September 2026
+
+- Added Auras to the shared inventory category rail, with all nine styles available for now, animated card artwork, search, selection, Equip and Unequip controls.
+- Removed the world preview gallery and its automatic Studio spawn, restoring normal player spawning.
+- Separated aura artwork from names and descriptions so hover animation cannot overlap the text.
+- Changed shared inventory bodies and category rails to light-grey and grey checks while retaining existing card styling, tooltips and opening motion.
+
+Verified all nine aura equip requests, removal, invalid-request rejection, actual mouse selection/equip, search and empty-state recovery, nine desktop card separation checks, the loaded checker image on shared inventory panels, gallery removal and normal spawning. All seven integration sources compile; the final Play console was clear. Aura equipment remains session-local. Physical devices, controller navigation and production multiplayer remain untested. Installed in Studio and exported separately; the combined Save to Roblox was confirmed on 10 September 2026 at 11:56 UTC. Not published live. This entry documents Studio changes, not a game-source commit.
+
+### Shorter Area Grass — 10 September 2026
+
+- Reduced terrain grass length from 0.7 to 0.2, giving grassy areas shorter ground cover and clearer views of enemies and small scenery.
+
+Verified the property in Edit, visually inspected Slime Grove in a fresh playtest, and confirmed it remained set afterward. Saved to Roblox on 10 September 2026 at 11:56 UTC; not published live. Terrain shape, collisions and gameplay are unchanged. This entry documents a Studio property change.
+
+
+### Sword Index Background Layering — 10 September 2026
+
+- Restored Sword Index previews, zone tabs, discovery count and drop controls by drawing the grey checkered background behind inventory content.
+- Preserved the shared inventory style, cached cards, search and undiscovered silhouettes.
+
+Reproduced the blank page and verified all three zone displays in Studio, including actual Desert and Ice Land selection. Clearing an empty search restored all 39 current-zone cards, and the Swords inventory remained above the shared background. Final source compiles and was exported separately. Saved to Roblox on 10 September 2026 at 12:12 UTC; not published live. Physical-device and acquisition/auto-delete gameplay checks were not repeated for this layering fix.
+
+
+### Exclusive Cosmetic Shoulder Rest — 10 September 2026
+
+- All seven exclusive cosmetics now rest on the player's right shoulder like the Sakura Scythe, with a smooth return after attacks.
+- Preserved each cosmetic's existing attacks, effects and gameplay stats.
+
+Verified in Studio: all seven equipped views, all 28 live swings, three re-equip cycles per cosmetic and weighted walking. Final playtest error log was clear. Sources exported; cloud save unconfirmed and not published. Other avatar proportions, respawn and multiplayer were not separately tested in this pass.
+
+
+### Store Gamepasses — 10 September 2026
+
+- Added eight configured passes: Dual Wield with double damage, double coins, double EXP, five additional equipped pet slots, double pet luck, double sword luck, Infinite Stamina and VIP.
+- Dual Wield equips a visible second blade and coordinates both arms at the existing attack speed. Server ownership controls damage, rewards and pass benefits.
+- VIP includes a gold name/chat tag, exclusive Royal Radiance aura and 20% extra gameplay coins and EXP. Existing available auras remain accessible.
+- Updated the illustrated Store with eight clean cartoon graphics, owned states, responsive cards and exact luck odds before purchase. Pet luck odds match the hatch sampler, and luck availability respects player eligibility.
+
+All 26 changed Studio sources compile and were exported separately. Studio checks covered ownership spoofing, reward multipliers, eight-pet limits, hatch receipt replay, stamina and dash cooldowns, dual-blade hand placement and animation, VIP aura access, desktop/Phone layouts and luck details. Saved to Roblox on 10 September 2026 at 12:54 UTC; not published live. Passes exist with the requested prices saved but remain off sale until publication. In-game artwork is uploaded; Creator Dashboard pass-image uploads remain pending browser file access. Actual paid purchases, physical devices, populated multiplayer and live chat display were not tested. This entry documents Studio work; game source is not included in this changelog repository.
+
+
+### Curved Pet Follow Rows — 10 September 2026
+
+- Arranged normal pets in curved rows: eight equipped pets form a front row of three and a rear row of five, with extra spacing for wider pets.
+- Centered incomplete rows and smoothed formation changes when equipping or unequipping pets, including while standing still. Existing pet movement, fusion tiers and equipment limits are preserved.
+
+Verified one-to-eight-pet spacing for normal and wide formations, actual eight-pet rendering, stationary eight-to-four-to-eight rearrangement, walking and turning in Studio with client-only display fixtures. The final Edit source compiles and matches the exported snapshot. Cloud save is pending confirmation; not published live. Physical devices and populated multiplayer were not tested. This entry documents Studio work; game source is delivered separately.
+
+### Clean Inventory Cards and Corner Quantities — 10 September 2026
+
+- Made inventory item cards solid white, including selected Swords and Pets, so the grey checkered panel no longer shows through them.
+- Removed the three decorative rarity stripes behind item artwork while retaining sword shadows and selection indicators.
+- Centered sword stack quantities across each card's top-right corner and reserved scrolling-grid clearance for them.
+
+Verified opaque white surfaces across Swords, Pet Index, Cosmetics, Sword Index, Auras and Titles, plus sword selection/delete states in Studio. The final sword card was visually inspected; x50 quantities passed desktop and 340-pixel compact-grid corner and clipping checks. All six final sources compile and were exported separately. Saved to Roblox on 10 September 2026 at 19:43 UTC; not published live. Physical-device testing and every inventory gameplay action were not repeated for this presentation update. This entry documents Studio changes; game source is delivered separately.
+
+
+### Dual-Wield Cosmetic Shoulder Rest — 10 September 2026
+
+- Dual wield now keeps all seven exclusive cosmetics resting on the shoulders, using the established Sakura pose and a matching offhand carry.
+- Attacks recover smoothly to the shoulder rest. Existing dual attack timing, damage and ordinary-sword guard are preserved.
+
+Verified all seven equipped cosmetic views and attack-to-idle transitions in Studio, a live four-swing chain, both grip alignments and three unequip/re-equip cycles without duplicate offhand blades. All seven profiles passed 34,440 sampled-joint checks and default-timing comparisons. Two motion sources and an equipped screenshot were exported separately. The final canonical-pose selection was saved to Roblox in the combined save on 10 September 2026 at 20:11 UTC. Not published live. Moving carry, other avatar proportions and populated multiplayer were not separately verified. This entry documents Studio work, not a game-source commit.
+
+### Dash Sound and Landing Momentum — 10 September 2026
+
+- Added a short spatial whoosh to each accepted dash, with preloading and sound cleanup.
+- Added a small landing speed boost that smoothly fades over half a second. Airborne dashes wait for touchdown; wall interruptions and stuns clear the boost, and repeated dashes do not stack it.
+- Preserved directional Q input, the Q badge, existing anime effects, stamina rules and the 0.33-second cooldown.
+
+Verified loaded sound playback and cleanup, grounded recovery from speed 20 to 16, airborne landing timing, wall interruption and stun cancellation in Studio. All three final sources compile and match exported snapshots; the play console was clear. Physical devices and multiplayer were not tested. Installed in Studio and exported separately; the cloud save remains unconfirmed because Studio save input was repeatedly interrupted by active input. Not published live. This documents Studio changes, not game-source commits.
+
+
+### Double Attack Speed Pass — 10 September 2026
+
+- Added a permanent 499 Robux Double Attack Speed pass with matching sword-and-lightning Store artwork.
+- Owners swing twice as fast with normal swords, cosmetics and Dual Wield. Super Combo swings also run at twice their usual speed; damage per hit and ability cooldowns remain unchanged.
+- Server ownership controls the bonus, with synchronized client animation, hit timing and combo boundaries.
+
+Four final Studio sources compile and match their exports. Verified fourteen server-confirmed normal swings at double speed, all four combo indices and scaled chain boundaries, a three-swing Super Combo at twice its base speed, ownership-spoof rejection, dual-cosmetic shoulder recovery and loaded artwork in desktop/Phone Store layouts. Super Combo validation used a temporary non-reward target; actual mob damage and paid checkout were not tested. The pass exists and its 499 Robux price is saved, but it remains off sale pending game publication. Creator Dashboard thumbnail upload remains pending browser file access. Saved to Roblox in the combined save on 10 September 2026 at 20:11 UTC; not published live. Physical devices and populated multiplayer remain untested. This entry documents Studio work; source and artwork are delivered separately.
+
+### Mob and Boss Health Regeneration — 10 September 2026
+
+- Living mobs and all nine bosses now recover 5% of maximum health per second after ten seconds without damage.
+- Further damage restarts the delay. Healing stops at full health and does not revive defeated enemies; ordinary respawns begin with a fresh recovery timer.
+
+Verified 96 timed checks in Studio across an ordinary mob and all nine boss templates, including damage delay/reset, rejected hits, healing rate, full-health cap, death and ordinary respawn. The final source compiles and matches the exported snapshot. Temporary test cleanup exposed an existing AI missing-root error; the regeneration checks passed and Play was stopped to remove test state. Saved to Roblox on 10 September 2026 at 20:11 UTC in the coordinated combined save; not published live. Populated multiplayer was not separately tested. This entry documents Studio changes; game source is exported separately.
+
+### Full Sword Inventory Rows — 10 September 2026
+
+- Fixed sword grid spacing so the full seven-card desktop row fits instead of wrapping the final card into the next row.
+- Accounted for both padded edges and the scrollbar, retaining corner quantities and reducing desktop card width by only two pixels.
+
+Verified the rendered seven-column grid in Studio with presentation copies, including x50 quantities remaining 11 pixels clear of the scrollbar. Runtime layout checks at five widths from 240 to 1236 pixels retained their intended column counts. Both sources compile and were exported separately. Saved to Roblox on 10 September 2026 at 20:11 UTC; not published live. Physical-device testing was not repeated for this spacing correction.
+
+### Compact Store Offer Cards — 10 September 2026
+
+- Replaced large gamepass banners with compact illustrated cards matching the coin packs. All twelve offers use a three-column desktop grid with responsive phone reflow.
+- Kept full gamepass descriptions accessible through small Details buttons and retained exact pet and sword luck odds, category filters and purchase states.
+
+Verified desktop and Phone rendering in Studio, text fit across all twelve offers, actual Details and luck-odds interactions, and Coins/Passes filter reflow. The final source compiles and was exported separately. Installed in the Edit place; cloud save is unconfirmed due to concurrent Studio and active app use. This task did not publish the revision. Physical devices and paid purchases were not retested. This entry documents a Studio change, not a game-source commit.
+
+### Gamepass Sales Enabled — 10 September 2026
+
+Enabled all nine configured gamepasses for sale. Verified the refreshed Creator Dashboard prices: Dual Wield and Double Attack Speed 499 Robux each, double Coins 299, double EXP 499, five extra pet slots 399, double Pet Luck 399, double Sword Luck 299, Infinite Stamina 99 and VIP 199. This supersedes earlier off-sale setup notes. Actual paid checkout was not performed; existing gameplay code and managed-pricing settings were unchanged.
+
+### Pet Coin Boosts — 10 September 2026
+
+- Equipped pets now boost earned mob and boss coins by the same percentage as XP, including Golden, Rainbow and HUGE scaling.
+- Added a yellow coin-percentage row with the existing Coin icon directly below XP in hover tooltips and clicked pet details.
+
+Verified 281 pet formula/team checks and seven isolated CoinService award checks, including existing multiplier stacking and applying the pet bonus exactly once. Desktop hover/detail rendering, loaded coin artwork and compact phone detail bounds passed using presentation-only inventory fixtures. Eight final sources compile and are exported separately. Saved to Roblox on 10 September 2026 at 20:36 UTC, confirmed by the Studio cloud-save log. Not published live. Physical devices and populated multiplayer remain untested.
+
+### Hell, Cosmic and Toxic Areas — 10 September 2026
+
+- Added three connected areas with original mountain boundaries, themed scenery, large landmarks, open boss courts and area ambience.
+- Added nine ordinary enemy types and three bosses: Infernal Sovereign, Astral Colossus and Blight Emperor. Each area includes saved quest progression and a Teleport destination with an actual map photograph.
+- Added 39 original swords with distinct silhouettes, themed auras and custom four-attack poses at the existing default timing, plus twelve signature crafting materials.
+- Added three eggs and fifteen original pets with matching coin/XP bonuses and Golden/Rainbow fusion through the existing systems.
+- Extended boss revival support and the sword collection's zone tabs. Fixed downstream coin and forge limits so the new rewards retain their configured values.
+
+Verified 204 integration checks, all twelve signature drops and full coin payouts, prerequisite unlocks, actual hatch transactions and replay, boss lifecycle and simulated revival receipts, fixed spawn/respawn homes, regeneration, forge crafting/equip and pet fusion in Studio. All 39 final weapons passed equipped grip/aura checks and 156 attack checks with default timing. Reviewed world views, loaded artwork, Teleport travel and desktop/Phone/Tablet menu layouts. Thirty-three final source snapshots compile and match Studio.
+
+Saved to Roblox on 10 September 2026 at 22:06 UTC; a complete local place backup and original asset sources were retained separately. Not published live. Real paid checkout, physical mobile devices, production multiplayer load and long-term balance remain unverified. This entry documents Studio changes, not a game-source commit.
+
+### Hell, Cosmic and Toxic Zone Expansion — 11 September 2026
+
+Expanded Hell, Cosmic and Toxic to three playable areas each, for nine areas in total. This supersedes the earlier three-area expansion scope.
+
+- Added Ashfall Frontier, Brimstone Foundry and Infernal Throne; Starfall Expanse, Lunar Sanctum and Astral Citadel; Sporewood Marsh, Virulent Works and Blight Heart.
+- Integrated 27 ordinary enemy types, nine individually modeled bosses, 117 swords, 36 materials, nine eggs and 45 original pets, with quest unlocks, collections, forging, hatching, fusion and teleport travel.
+- Rebuilt the scenery with shaped terrain, layered mountain boundaries, themed landmarks and clear boss courts. Revised pet proportions and painted faces to follow the established art style, with matching inventory artwork and actual map photographs in Teleport.
+- Preserved existing saved content IDs and migrated valid earlier area unlocks through the inserted prerequisites. Kept default sword timing, named grip surfaces, themed auras, full coin rewards and server-owned access checks.
+
+Verification: 612 catalog/model/art/progression checks, 90 grounded spawn markers and 823 road samples passed in Studio. All 117 weapons passed equipment checks and four attacks each. All nine eggs passed hatch, charge and replay checks; all 36 enemy types awarded their expected materials and full coin payouts. Nine boss revival flows passed simulated receipt replay and single-boss checks. Forge transactions and both pet fusion tiers passed, with a Rainbow pet from each egg equipped. Actual teleport images loaded, and Phone/Tablet modes were reviewed in Studio. Physical devices, production multiplayer, long-term balance and paid checkout remain unverified.
+
+Saved to Roblox on 11 September 2026 at 00:27 UTC without publishing live. A complete local place backup was deserialized successfully and all 39 exported source snapshots matched it. Original modeling files, artwork, verification results and the reusable area-building skill are delivered separately. This remains a documentation-only draft.
+
+## Zone Gates, Pet Art and Boss Warnings — 11 September 2026
+
+- Added level requirements between the new zones: Hell at 200, Cosmic at 250 and Toxic at 300. Their second and third areas retain boss-quest unlocks, and Teleport and egg access use the same zone requirements.
+- Revised all 45 new pet meshes with more compact proportions and matching painted faces. Replaced their inventory previews with consistently framed, black-outline portraits based on the established pet artwork.
+- Fixed all nine new bosses' attack-warning circles appearing beneath raised arena floors. Warning circles now remain visible through the attack windup and clear at impact.
+- Cleared the frozen throne from the main road, restored the displaced Desert barrier to its entrance and checked the placement of all five zone barriers.
+
+Verification: 115 progression checks passed, including locked travel, egg access and internal quest credit. All nine new bosses and an existing boss passed real attack-warning timing, visibility and cleanup checks. All 45 pet portraits loaded in the actual inventory; 135 model checks covered normal, golden and rainbow pets. All 43 source snapshots compile and match the deserialized local place backup.
+
+Saved to Roblox on 11 September 2026 at 08:54 UTC without publishing live. The complete place backup, revised modeling files, portraits, verification evidence and updated area-building skill are delivered separately. This draft documents Studio work; game source is not part of this PR.
+
+## Mountain Border Seams — 11 September 2026
+
+- Closed the visible gaps between gates and mountain flanks at all nine new area entrances. The existing rounded mountain profiles and themed caps now overlap the gate edges while preserving the central road and gate lettering.
+- Closed a small upper seam at the Desert gate and updated the area-building recipe to retain fitted borders on future builds.
+
+Verified 744 edge samples across the five zone gates and six new internal-area gates, with no uncovered samples. All 1,449 road-clearance checks passed, and angled entrance views were inspected in Studio. Saved to Roblox at 09:08 UTC on 11 September 2026 without publishing live. This is a documentation-only draft; assets and the place backup are delivered separately.
+
+### Daily Shop Storefront — 11 September 2026
+
+- Replaced the Daily Shop's inventory presentation with a dedicated dark storefront, colorful offer cards, large angled and directionally lit 3D weapon displays, a refresh countdown and prominent purchase buttons.
+- Added an animated rainbow Daily Shop button with a gentle pulse and hover response; reduced motion keeps it still.
+- Added responsive one-, two- and three-column arrangements, including a compact horizontal card composition for short screens. The Cosmetics collection keeps its existing inventory layout.
+
+Verified desktop, narrow portrait, tablet-width and short landscape compositions in Studio, collection/shop switching, item details, the Owned action and the native 149 Robux confirmation (canceled without purchasing). Pulse behavior and its reduced-motion state passed; the existing quiet opening sound loaded. All three final sources compile and match their local exports. Saved to the local Studio place on 11 September 2026 at 09:27 UTC. Roblox's cloud-save action reported no changes to save, so a new cloud version is unconfirmed. Not published live. Physical devices and completed paid checkout were not tested. This entry documents Studio changes; game source is exported separately.
+
+### Cosmetics Inventory Button — 11 September 2026
+
+- Added a rainbow Cosmetics button with an illustrated party hat to the Swords inventory footer, opening the cosmetic collection directly.
+- Added a narrow-screen two-row footer and retained the shared launcher pulse, hover response and reduced-motion support.
+- Fixed the legacy sword-button styling pass hiding the new rainbow face and artwork.
+
+Verified the loaded artwork and rainbow styling in a fresh Studio playtest, and clicked the actual button to confirm it opens Cosmetics. All five edited modules compiled and are exported locally. Saved to Roblox with the combined place changes on 11 September 2026 at 11:39 UTC. Not published live. This entry documents Studio changes; game source is exported separately.
+
+
+### Skills Number Formatting and Point Selection — 11 September 2026
+
+- Shortened large skill values, ranks and remaining-point totals with compact notation such as 10.1k.
+- Added a bottom amount picker when hovering an upgrade arrow, with dragging, mouse-wheel adjustment, exact entry, plus/minus controls and MAX. Selected points are applied in one server-validated upgrade.
+- Added skill-colored picker transitions, animated slider feedback, arrow tilt, number bounce and floating point-gain feedback, with reduced-motion and UI-audio settings preserved.
+- Added compact portrait and landscape picker layouts and touch selection before upgrading.
+
+Verified number formatting, batch validation, mouse controls, exact entry, changing/empty balances, small-panel geometry and animation cleanup in Studio. Physical touch/gamepad input and production rejoin behavior remain unverified. Final sources compile and are exported locally. Saved to Roblox in the coordinated save on 11 September 2026 at 11:39 UTC; this change has not been published live. This entry documents Studio work, not game source committed to this repository.
+
+
+### Area EXP Reward Rebalance — 11 September 2026
+
+- Replaced the flat 5 million late-game EXP rewards with distinct rewards that increase through the areas. Blight Heart regular enemies now award 450,000 / 500,000 / 550,000 base EXP, roughly 90% less than before.
+- Scaled the preceding areas and boss rewards separately; the final boss now awards 2 million base EXP. The first three areas retain their existing rewards.
+- Preserved level requirements and existing pet, ring, potion and purchased bonuses. These bonuses still apply on top of base rewards.
+
+Verified all 72 enemy definitions, all 18 runtime zone/boss configurations and the actual XP-award function with isolated bonus providers in Studio. Synchronized 72 templates, 72 index previews and 18 boss revival models. Three final sources are exported locally; no production player data was changed. Saved to Roblox in the combined update on 11 September 2026 at 11:39 UTC; not published live. Extended progression pacing and production multiplayer were not tested. This entry documents Studio work, not game source committed to this repository.
+
+
+### Cosmetic Auras, Kill Effects and Shoulder Rest — 11 September 2026
+
+- Added stronger model-shaped shadows and directional lighting behind sword and cosmetic previews, with animated glimmers and themed 3D aura details.
+- Added seven distinct cosmetic kill effects: solar crown shards, Sakura petals, a falling star, volcanic flames, forked lightning, jade moon crescents and Void Reaper’s collapsing black hole with orbiting matter.
+- Restored the shop cosmetics’ shoulder-rest poses, including Void Reaper, and aligned Golden Pickaxe with default attack timing. Both equipped blades receive the new aura during dual wield.
+- Bound kill effects to the server-confirmed finishing-hit cosmetic, with distance limits, bounded concurrent effects and reduced-motion variants.
+
+Verified all seven equipment builds, normal/reduced kill-effect lifetimes, locked/owned preview replacement, all single/dual attack schedules, Void Reaper swing recovery, repeated equips and death/respawn cleanup in Studio. A lethal-hit test retained Void Reaper’s effect after an immediate cosmetic switch. Nine final sources compile and match local exports. Saved to Roblox in the combined update on 11 September 2026 at 11:39 UTC; not published live. Physical mobile devices and large multiplayer loads were not tested. This entry documents Studio work; game sources and screenshots are delivered separately.
+
+### Weapon Enchanting — 11 September 2026
+
+- Added weapon enchanting at the Mage's purple spawn house, with an arcane counter, crystal ornaments and a weapon-enchanting interaction.
+- Weapon rarity stars unlock one, two or three simultaneous, distinct enchants. Sharpness, Lifesteal, Executioner, Giant Slayer, Critical and Second Wind each have three tiers and working server-authoritative combat effects.
+- Spend 1–100 crystals per roll, with crystal cards ordered from Grove (Uncommon) through Frost (Rare), Ember (Epic) and Sun (Legendary). Frost, Ember and Sun shift 5, 10 and 15 percentage points from Tier I to Tier III respectively; Grove uses the base odds. Visible quality descriptions explain the bonuses and exact chances update with both type and quantity. Rerolls replace one copy’s full enchant set; variants remain separate and protected from fusion.
+- Added colorful illustrated navigation, an animated spellbook ritual, a complete Enchant Log with pet-style tooltips, the last 30 rolls, and enchant details on weapon cards, hover panels and Stats lore. Removed the Unenchanted placeholder; result names and effects align left, with uppercase Fredoka enchant names and black outlines.
+- Verified in Studio: 800 star/count combinations, real three-enchant UI rolls, combined damage and healing, and recovery from failed crystal and sword saves without duplicate charges or results. Crystal-quality follow-up checks covered all 400 crystal/count combinations, distinct 1–3 slot rolls, and a real 100-Sun UI roll that charged once and returned three Tier II/III enchants. Desktop and 340-pixel phone compositions were inspected. All 14 source snapshots were refreshed from Studio and validated. Physical devices and live cross-server reconnects remain untested. Saved to Roblox in the combined save at 12:38 UTC on 11 September 2026; not published live. This entry documents Studio work; game source and artwork are delivered separately.
+
+### Inventory Category Rail — 11 September 2026
+
+- Removed the redundant Cosmetics icon from the bottom of the inventory category rail; Cosmetics remains accessible through its rainbow party-hat button inside Swords.
+- Enlarged the remaining eight category icons and redistributed their rows to fit the rail, accounting for padding and gaps while preserving selected tilt, tooltips, unread badges and progression locks.
+
+Verified eight categories, the fitted bottom icon, selected artwork and retained Cosmetics button in a fresh Studio playtest. The updated shared module compiles and is exported locally. Saved to Roblox with the combined place changes on 11 September 2026 at 12:38 UTC. Not published live.
+
+### Expansion Material Artwork — 11 September 2026
+
+- Replaced all 36 Hell, Cosmic and Toxic material icons with vivid, thick-outline artwork, broad cel shading and clear silhouettes matched against the original material pack at inventory size.
+- Added matching silhouettes for ground-drop outlines and undiscovered previews. Inventory, forge and boss loot use the shared material catalog.
+- Preserved all material identities, Forge Power, affinities, rarity and drop metadata.
+
+Verified all 72 new image/silhouette assets loaded in a fresh Studio playtest, inspected the actual inventory alongside original materials, and checked representative drops from all three zones through the normal controller. All 72 materials retained their gameplay metadata. Three installed source snapshots compile. Saved to Roblox on 11 September 2026 at 12:52 UTC; not published live. This entry documents Studio changes; artwork and source are delivered separately.
+
+### Pack-Based Expansion Pets — 11 September 2026
+
+- Rebuilt all 45 expansion pets using the purchased pack's meshes as bases, retaining shaped ears, wings, horns and body profiles with themed accents and colors.
+- Replaced soft converted textures with sharper painted faces and matching outlined portraits. Standardized the front three-quarter view and cropped portraits to fill inventory cards consistently.
+- Preserved existing pet identities, bonuses, egg pools, fusion behavior and the original purchased pet library.
+
+Verified 135 Normal, Golden and Rainbow builds with moving poses, 90 actual image/model asset instances with no loading failures, source/variant model previews, inventory cards and representative followers in Studio. Saved player collections were not edited. Saved to Roblox at 13:30:58 UTC on 11 September 2026 and backed up locally; not published live. This entry documents Studio work; model sources and artwork are delivered separately.
+
+### Denser Mob Encounters and Sweeping Attacks — 12 September 2026
+
+- Added 91 fixed ordinary mob spawns across 18 areas, increasing total capacity from 182 to 273. Moved six older spawn points clear of obstructing scenery.
+- Reduced ordinary respawn delays to 1.5 seconds while preserving beginner difficulty and 90-second boss timers.
+- Normal attacks now hit every eligible mob once within a 180-degree swing and 15-stud base reach. Auto Attack uses the same reach and cleaves toward its nearest target. World obstacles, progression restrictions and spawn protection still prevent invalid hits.
+- Enlarged mob health displays by 12%, retaining their distance scaling and device layouts.
+
+Verified the complete 273-mob population and fixed-home respawn cycle in Studio. Real manual and automatic swings each hit four targets once, with protected, rear, distant, elevated and wall-obstructed targets excluded. Inspected health displays on desktop, phone and tablet; all seven scripts compiled and the final gameplay console was empty. Applied in Studio Edit and exported locally. Saved to Roblox at 09:26:57 UTC on 12 September 2026 in the confirmed combined save; no live publication performed. This entry documents Studio changes; game source and spawn data are delivered separately.
+
+### Simpler Enchanting and Mage Station — 12 September 2026
+
+- Added a large ENCHANTING sign, glowing walk-in circle and friendly wizard NPC at the Mage house.
+- Replaced the points slider with two simple choices: pick a crystal, then use 1, 5 or 10. Crystals appear in rarity order as Good, Better, Great and Best; whole-number Basic, Strong and Best enchant chances update immediately.
+- Kept the Enchant button visible at the bottom and added Enchant Again directly beside the results. Repeat rolls reuse the chosen crystal and amount, replace the entire enchant set and can give weaker results.
+- Added spiraling crystals, rotating magic circles, a glowing weapon, a success burst and sequential enchant reveals. Reduced motion provides a short, still ritual.
+- Shortened the result descriptions while preserving detailed tooltips and bold, uppercase, outlined enchant names. Existing rarity stars still determine one to three distinct enchants.
+- Removed per-frame hologram bobbing and redundant sign text writes; the Mage and Forge signs remain stable while their NPCs animate locally.
+
+Verified 12 probability tables and 4,800 seeded roll sets, two real consecutive three-enchant rolls with exact crystal charges and preserved weapon count, history updates, invalid offering rejection, reduced-motion interruption cleanup, and desktop, tablet, narrow phone and short-layout button placement. Saved to Roblox on 12 September 2026 at 09:26:57 UTC. Five final sources and the station builder are exported separately; this change is not published live.
+
+### Area Secret Blades and OP Weapon — 12 September 2026
+
+- Added 18 Secret swords, one per area and three per zone. Every mob in an area can drop its sword at 1 in 5,000, with a guaranteed drop by 5,000 credited kills and separate saved progress for each area.
+- Added a compact rainbow pity panel that takes the tutorial's place when it is complete, showing the current area's sword, odds and progress. Removed Secret weapon world showcases.
+- Added an Exclusive OP Weapon with a dark claw-guard blade, red glow and custom attacks at default sword timing. Its spinning pedestal is near the Grove egg, with the authentic Robux icon and a 15 Robux purchase display.
+- Preserved rewards when inventory space runs out and added purchase receipt replay protection and recovery from delayed saves.
+
+Verified area drops, guaranteed rewards, independent progress, full inventories and simulated purchase receipt recovery in Studio. Desktop, phone and tablet panel checks and 76 actual weapon hits passed. The final pedestal position, loaded currency icon and current 15 Robux price were visually verified. All 17 final sources compile and are exported locally. Applied in Studio Edit; the latest Roblox cloud save is unconfirmed and these revisions are not published live. Physical devices, production persistence and completed real paid checkout remain untested. This entry documents Studio changes; game source is delivered separately.
+
+
+### Aura Crates, Tiers and Abilities — 12 September 2026
+
+- Made the Auras inventory more compact, with animated previews, rarity/tier labels, duplicate counts, search and a floating crate with a shake-and-reveal opening.
+- Added one free first roll per saved profile, followed by 250-coin rolls. All nine outcomes and exact chances are shown before opening; eligible coin rolls follow Roblox account policy. Royal Radiance remains a separate VIP visual aura.
+- Added saved aura ownership and three-copy fusion from Normal to Golden to Rainbow, with 1.5× and 2× ability power at the upgraded tiers.
+- Added nine usable themed abilities, including healing, chain lightning, frost/runic bursts, flame eruptions, solar judgment, butterfly strikes and void pulses. G, controller LB and a touch button activate the equipped ability with server-validated ownership, range, sight, progression gates and a shared cooldown.
+- Kept coin spending and the rolled reward in one progression save. Retrying a delayed or uncertain request recovers the same result without a second charge.
+
+Verified 10,000 deterministic rolls against the displayed chances, 32 mutation/backend checks, isolated save/reload recovery, and a live failed-save retry with one charge and one reward. Actual mouse interactions covered opening, fusion, equipping and healing. All nine ability implementations passed temporary registered-target checks with normal attacks disabled; immediate recasts were rejected. Desktop and four simulated device layouts, loaded artwork, filtering, shared opening motion/sound and rapid reopening passed. All ten final runtime sources compile and match their exports; the final fresh Play console was clear. Saved to Roblox on 12 September 2026 at 10:25:06 UTC; not published live. Physical devices, production rejoin persistence and populated multiplayer performance remain untested. This documents Studio changes; game source is delivered separately.
+
+### 10,000-Kill Secret Pity and Flowing Rainbow — 12 September 2026
+
+- Changed every area's Secret weapon chance to 1 in 10,000 (0.01%), with a guaranteed reward by the 10,000th credited kill. Chance drops still happen before pity and reset only that area's counter; existing progress and waiting rewards are retained.
+- Updated the pity panel and weapon descriptions to the new values.
+- Added smoothly traveling rainbow colors with a wave ripple and gentle sway. Reduced motion keeps the gradient still.
+
+Verified the guaranteed boundary, early chance drops, independent area progress and saved-state preservation across all 18 areas in Studio. PC, tablet and phone text-fit checks and moving/still gradient checks passed. Three changed sources compile and are exported locally. Applied in Studio Edit; the latest cloud save remains unconfirmed and no live publication was performed. This supersedes the earlier 5,000-kill balance.
+
+### 12 September 2026 — Consistent Inventory Window Sizes
+
+All inventory categories now use the same outer panel dimensions and placement for the current device and viewport. Removed the smaller Aura window limit and standardized the safe screen area used by inventory layouts. Existing category contents and opening motion remain.
+
+Verified matching desktop bounds for all inventory panels and successful switching through all nine inventory destinations on simulated phone and tablet layouts. Both changed sources compile and are exported locally. Applied in Studio Edit; cloud save is not yet confirmed and the change has not been published live.
+
+### Roblox Game Pass Store Icons — 12 September 2026
+
+Uploaded and saved the existing in-game Store artwork to all nine actual Roblox game passes: double EXP, Infinite Stamina, double Coins, double Pet Luck, double Sword Luck, double Attack Speed, Dual Wield, five extra pet slots and VIP. Prices, descriptions and gameplay were unchanged.
+
+Verified the matching pass IDs against the current Store configuration and confirmed each Creator Dashboard save. Roblox is processing the images through moderation; the refreshed public Store still shows placeholders. This supersedes the earlier pending browser-upload notes. This update changes Roblox pass artwork directly and does not require a game-source commit or place publication.
+
+### Boss Combos and Mob Personalities — 12 September 2026
+
+- Added four themed combo choices for each of the 18 bosses, with weighted random selection and no immediate repeats. Ordinary enemies now choose varied attacks according to their fighting role.
+- Added independent attack rhythms, circling and caster spacing, varied idle movement, stronger full-body cuts, thrusts, spins, stomps and casting poses, and expressive slime anticipation.
+- Every combo strike has its own server-timed warning and locked aim. Damage remains server-owned; cancelled attacks stop, charges respect walls and arena boundaries, and beginner stats and warning minimums are preserved.
+
+Verified all 72 enemy profiles, 72 named boss combos and 12,759 shared animation/timing samples in Studio. All 12 attack types landed one real hit each; melee timing differed by at most 22 ms. Client poses, warning effects, cleanup and isolated cancellation/death/removal/safe-zone/dodge checks passed. Eight changed sources compile and are exported separately. Installed in Studio Edit, exported locally and saved to Roblox at 12:19:28 UTC on 12 September 2026 in the confirmed combined save; no live publication was performed. Populated multiplayer, physical devices and every complete boss fight remain untested. This entry documents Studio changes; game source is delivered separately.
+
+### Aura Level Milestones — 12 September 2026
+
+- Replaced aura crates with automatic level unlocks at levels 1, 10, 25, 50, 75, 100, 150, 200 and 300. Royal Radiance retains its VIP requirement.
+- Removed aura rolls, coin costs, duplicate fusion, active abilities, ability controls and combat bonuses. Rarity labels and cosmetic milestone tiers remain.
+- Updated the animated inventory with a five-column desktop collection, level requirements, unlocked/equipped states and progress toward the next milestone. Shared inventory dimensions and grey checkered styling are preserved.
+- Access is checked against the player's level on the server. Existing selections migrate to the cosmetic system; previous crate ownership cannot bypass milestone requirements.
+
+Verified 68 milestone, migration and request-validation checks, live level updates and equipping, rejection of removed actions, unchanged coins and absent ability controls. Final desktop UI was visually checked, responsive layout assertions passed at Phone and Tablet panel sizes, and all six changed sources compiled. Installed in Studio, exported separately and saved to Roblox at 12:19:28 UTC on 12 September 2026 in the confirmed combined save; nothing was published. This supersedes the earlier Aura Crates, Tiers and Abilities entry and documents Studio changes, not a game-source commit.
+
+### Friend Referral Rewards — 12 September 2026
+
+- Added a Friends & Community menu reached from Friends in Gifts, with Roblox's native invite flow, eligibility feedback and saved reward counts.
+- A genuinely new referred player who completes the tutorial and plays for 10 minutes earns a saved 15-minute Double Coins potion. The inviter can claim the same potion, including rewards earned while offline.
+- Added permanent first-join attribution, duplicate protection, retry recovery and full-bag handling. Potions use the existing Items inventory and coin-boost system. No unsolicited menu prompts were added.
+
+Verified 48 isolated eligibility, retry and transaction checks plus nine actual profile-backend migration/rejoin checks. Studio checks covered reward collection, duplicate rejection, a 900-second double-coin boost, loaded artwork, PC/Phone/Tablet menu compositions and repeated pop openings with the loaded quiet sound. All nine final sources compile and are exported separately. Saved to Roblox at 12:19:28 UTC on 12 September 2026; not published live. Real referred joins, production cross-server persistence and physical touch/gamepad devices remain untested. This entry documents Studio changes; game source is delivered separately.
+
+The same confirmed save also includes Aura Level Milestones and Boss Combos and Mob Personalities, superseding their earlier cloud-save-unconfirmed notes. No live publication was performed.
+
+### Shared Tooltip Pop System — 12 September 2026
+
+- Added shared tooltip configuration, default control descriptions and a simple title/body binding API for future UI.
+- Unified inventory hints, swords, pets, enchanting, reward receipts, active boosts, boss loot and equipped-sword names around a quick growing pop and shrinking exit.
+- Added a tiny hover bubble-pop sound, item-switch replay, cancellation-safe reopening, responsive scale support and reduced-motion/UI-mute handling. Existing richer contents and actions remain.
+
+All 11 sources compile and match the installed Studio sources. Live sword/category hints were visually inspected; pet popup and shared runtime checks covered scale, overshoot, exit, rapid reopening, responsive fitting, reduced motion and mute. The pop audio loaded successfully and the final test console was empty. Physical touch/gamepad devices, full mobile viewport testing and every specialized interaction remain untested. Installed in Studio and exported locally; cloud save is unconfirmed because Studio returned to an active playtest before saving. Not published live. This entry documents Studio work; game source is delivered separately.
+
+### Unified Rewards Menu and Friendship Tiers — 12 September 2026
+
+- Added one Rewards launcher below the coin display, with Playtime, Daily and Social Rewards tabs, colorful gift cards and separate phone/tablet/desktop layouts.
+- Preserved the 12 playtime gifts and added a saved seven-day daily track with a UTC reset countdown and no missed-day progress penalty.
+- Added permanent referral tiers for one through five successful friends, culminating in the Exclusive Balloon Blade appearance. Each qualifying referral still earns the existing Double Coins potion, including referrals beyond Tier V.
+- Added a verified community-membership Community Knight appearance, a same-server friend bonus capped at 15%, a weekly participating-friend boss quest and celebration-material potion crafting.
+- Put code redemption in Social Rewards; the Store has no code-entry section. Native Roblox invitations, community joining, Like/Favourite instructions and notification opt-in share the same menu.
+- Added original balloon-themed geometry, rainbow balloon effects and finishing-hit celebration effects, with custom default-timed attacks and existing cosmetic shoulder carry. Cosmetics remain appearance-only.
+
+Verified 80 isolated calendar/receipt checks and 40 runtime progression checks, uncertain-save recovery without duplicate grants, crafting consumption, actual daily/playtime claims and rejected forged referral counts. Device layouts, equipped balloon hand placement, animation phases and default timing parity were checked in Studio. All 21 current source exports compile; temporary tests were removed. Live like-count collection and personalized notification sending still require service connections; the UI does not claim these are active. Real friend-pair servers, production referrals/persistence and physical touch/gamepad devices remain untested. Installed in Studio, backed up locally and saved to Roblox at 14:02:25 UTC on 12 September 2026. Not published live. This entry documents Studio changes; complete sources are delivered separately.
+
+### Egg Coin Prices — 12 September 2026
+
+- Increased coin egg prices across all 18 areas, from 500 coins for the Basic Egg to 50 million for the Viridian Egg in Blight Heart. The final three eggs cost 30 million, 40 million and 50 million.
+- Scaled prices against current boss rewards and pet coin boosts while keeping the first tutorial hatch affordable. A billion coins now buys 20 final-area eggs. Final-area batches cost 150 million for three or 450 million for nine.
+- Updated all 18 world price plaques; hatching and affordability checks use the shared prices.
+
+Verified 272 server assertions covering all prices, batch payments, insufficient balances, duplicate-request replay, billion-coin deductions, tutorial affordability and live plaques. All 54 client batch-price checks also passed across the 18 eggs in the combined pet-update playtest. Both changed sources compile and contain only price edits. Applied in Studio Edit and exported locally; cloud save remains unconfirmed and this change is not published live. This entry documents Studio changes; game sources are delivered separately.
+
+### Notification Model Depth and Smooth Float — 12 September 2026
+
+- Enlarged item models within the existing rounded notification buttons, using an angled view, stronger directional shading and a soft silhouette backshadow.
+- Fixed camera framing for scale-sized previews. Actual model corners determine the fit, with clearance for floating motion and the shadow.
+- Revised the initially too-subtle float to use a wider arc and a 2.6-second cycle. Motion advances on rendered time and caps long-stall advances to avoid sudden catch-up jumps. Static artwork uses the same cycle.
+- Cached unchanged shelf layouts and cancelled superseded scroll tweens; preserved reduced motion, tooltips and five-second expiry.
+
+Compared the original and revised rendered previews. The final fresh Studio playtest measured 59.45 FPS over 191 frames, with all 570 post-initial camera samples advancing across three models. Twenty screenshot samples checked the actual visible trajectory; these are not a 60-FPS recording. Clearance passed for 25 sword models at both float extremes; reduced motion and automatic expiry passed. The module compiles and is exported locally. Saved to Roblox in the confirmed combined save at 16:31:02 UTC on 12 September 2026; not published live. Physical mobile hardware remains untested. This documents Studio changes; game source is delivered separately.
+
+### Rewards Visual Refresh — 12 September 2026
+
+- Restyled Rewards with a prominent pink heading, bold white outlined labels, brighter cyan/purple/yellow checker tabs, layered colorful card borders, larger reward artwork and shaded green claim buttons.
+- Updated referral, community and code panels to match. Added a roomier three-column Tablet layout alongside four-column PC and compact two-column Phone layouts.
+- Preserved reward requests, countdowns, tab switching and the shared pop entrance with quiet scroll sound.
+
+Verified PC, Phone and Tablet layout modes in Studio with no measured text overflow, working Daily-tab and close interactions, and distinct available/unavailable claim states. Opening animation settled correctly and its sound loaded. Physical mobile hardware was not tested. Installed in Studio Edit and exported locally; saved to Roblox at 16:16:53 UTC on 12 September 2026. Not published live. This entry documents Studio changes; game source is delivered separately.
+
+### Rings Equipment Layout — 12 September 2026
+
+- Replaced the horizontal equipment strip with a purple left equipment area: five standard ring slots around circular engraving and three premium slots below.
+- Expanded the searchable ring collection on the right, with compact filters, white artwork cards and equipment actions revealed on selection. Preserved shared inventory dimensions, category navigation and existing unlock requirements.
+- Added a totals tooltip to the Ring Slots heading and kept resized ring artwork in place during hover.
+
+Verified the actual Rings UI in Studio with temporary client-only inventory data at desktop, iPhone landscape and iPad sizes. Selection, the Equip callback, search, empty states and Forge/Rings switching passed. Three sources compile and match local exports. Real purchases, saved inventory mutations and physical mobile hardware were not exercised. Saved to Roblox at 16:31:02 UTC on 12 September 2026; not published live. This entry documents Studio changes; game source is delivered separately.
+
+### Pet Damage and Zone Progression — 12 September 2026
+
+- Reworked all 90 progression pets to add damage scaled from their area's ordinary swords, alongside their existing coin bonuses. Golden and Rainbow retain 2x and 4x stats; pet XP bonuses are removed.
+- Applied pet damage to normal sword attacks and SuperCombo, and updated pet cards, inspection, sorting and fusion summaries. Equip Best prioritizes damage.
+- Recalibrated XP requirements, enemy XP and boss difficulty for the new pet stats, rings, boosters, sword progression and updated egg prices. Zone entry levels are 1, 25, 75, 150, 225 and 300; internal boss quests now also state their area level requirement. Teleports, eggs and ring milestones match the progression.
+- Preserved owned pets, completed quest flags, player levels and progress toward the next level when migrating older XP curves.
+
+Verified 1,419 server-runtime checks covering pet stats, fusion, equipment limits, reward multipliers, migration and gates. All 25 sources compile; updated 72 enemy templates and all affected gate labels. Pet cards and Rainbow inspection were verified in Studio, with PC/Phone/Tablet layout-mode text-fit checks. The model estimates 76–109 minutes per zone with standard progression and 73–97 with regular boosts; fully stacked premium boosts can finish much faster. These are simulations, not observed completion times. Physical devices, complete boss fights, every hatch/fusion presentation and production rejoin persistence remain untested. Installed in Studio and exported locally. Saved to Roblox in the confirmed combined save at 16:31:02 UTC on 12 September 2026; not published live. This entry documents Studio changes; complete game source is delivered separately.
+
+### Rewards Interaction Animations and Lettering — 12 September 2026
+
+- Added hover enlargement, press squash and release animations to all 39 buttons in Rewards, including tabs and close, while keeping input bounds stationary.
+- Added card lift/tilt, staggered reveal pops when opening or scrolling into view, reward-ready pops, and a shrinking menu exit with a fading backdrop. Rapid reopening cancels the previous exit.
+- Gave Rewards regular rounded Fredoka One lettering with a thinner black outline and clearer tab labels through a scoped typography option.
+
+Verified live hover/press/release, card reveals, tab/close actions, rapid close/reopen, reduced-motion behavior and no text overflow in PC/Phone/Tablet layout modes. Three sources compile and match the final Studio Edit export. Physical touch/gamepad hardware remains untested. Saved to Roblox at 16:38:08 UTC on 12 September 2026; not published live. This entry documents Studio changes; game sources are delivered separately.
+
+
+## Rewards Notification Clearance — 12 September 2026
+
+### Fixed
+
+- Gameplay notifications now leave space below the Rewards launcher, including its artwork, label and hover enlargement. Compact-screen fallback positions also avoid the launcher.
+
+### Verification and Delivery
+
+- Verified the rendered notification and zero launcher overlaps in PC, Tablet and Phone layout modes. All 36 simulated viewport/layout/visibility cases passed, including compact portrait and landscape screens.
+- Applied in Roblox Studio and exported locally. This placement correction's cloud save is not yet confirmed; it has not been published live. This entry documents the Studio change only.
+
+### Rewards Card Clarity and Icon Shadows — 12 September 2026
+
+- Hid prize amounts on Playtime, Daily and referral reward cards and the weekly chest panel. Enlarged gift artwork while keeping timers, tier requirements and claim buttons visible.
+- Added soft silhouette shadows behind HUD launcher icons and Rewards artwork. Shadows follow the existing pop and tilt animations.
+- Kept the Rewards launcher label and all actual reward grants unchanged.
+
+Verified card layouts in PC, Phone and Tablet modes, shadow cropping and layering, launcher hover and reopening Rewards. All three sources compile and are exported locally. Applied in Studio; this revision's cloud save is not yet confirmed and it has not been published live. This entry documents Studio changes; game sources are delivered separately.
+
+### Pet Sword Reference — 12 September 2026
+
+- Changed pet damage to scale from the strongest unfused obtainable sword in its area, including its Secret sword. Five Normal pet ranks now use 8%, 12%, 18%, 25% and 35% of that reference.
+- The strongest Normal pet gives about 35%; Golden and Rainbow retain 2x and 4x scaling, approximately 70% and 140%. Existing coin bonuses, owned pets and XP requirements remain unchanged.
+
+Verified 828 fresh server-runtime checks across all 90 pets, strongest-sword selection, fusion tiers, coin scaling and absent pet XP. The final module compiles and matches the export; temporary checks were removed. With the stronger reference, existing-budget simulations estimate standard zone medians of 61–85 minutes; boosted completion varies and full-zone playtests remain unverified. This supersedes the ordinary-Rare-sword reference in the earlier rework. Saved to Roblox at 17:15:08 UTC on 12 September 2026; not published live. This entry documents Studio work; game source is delivered separately.
+
+### Enemy Damage Scaling — 12 September 2026
+
+- Corrected enemy damage across the 17 areas after Slime Grove to match the revised level and health progression. Blight Emperor now deals 905 damage per strike instead of 59; final-area ordinary enemies deal 302–503 instead of 17–26.
+- Preserved forgiving beginner damage and fixed per-enemy values, so health upgrades remain useful. XP, gates, boss health, rewards and attack warnings are unchanged.
+
+Verified all 72 enemy damage values and real damage applications, plus complete attack-to-hit checks for a beginner mob, an early boss and the final boss. All 18 spawned bosses matched the corrected catalog. Full fights and production multiplayer balance remain untested. Saved to Roblox at 18:11:02 UTC on 12 September 2026; not published live. This entry documents Studio changes; game source is delivered separately.
+
+### Pet Card Damage Display — 12 September 2026
+
+- Pet inventory cards now show the same blue-and-gold sword damage icon used by Swords, beside a larger bold outlined number. Removed the card's text-only “+… Damage” wording and matched the sword tooltip's compact number formatting.
+- Preserved actual pet damage, coin bonuses, portraits, stack counts and inventory behavior.
+
+Both changed sources compile and are exported locally. Verified the rendered desktop cards, loaded icon and empty state with temporary display-only data; 90 cards passed text-fit checks in Phone layout mode. Physical small viewports and mobile hardware remain untested. Saved to Roblox at 18:50:04 UTC on 12 September 2026; not published live. This entry documents the Studio change; game sources are delivered separately.
