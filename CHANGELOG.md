@@ -912,3 +912,11 @@ Verified live hover/press/release, card reveals, tab/close actions, rapid close/
 
 - Verified the rendered notification and zero launcher overlaps in PC, Tablet and Phone layout modes. All 36 simulated viewport/layout/visibility cases passed, including compact portrait and landscape screens.
 - Applied in Roblox Studio and exported locally. This placement correction's cloud save is not yet confirmed; it has not been published live. This entry documents the Studio change only.
+
+### Rewards Card Clarity and Icon Shadows — 12 September 2026
+
+- Hid prize amounts on Playtime, Daily and referral reward cards and the weekly chest panel. Enlarged gift artwork while keeping timers, tier requirements and claim buttons visible.
+- Added soft silhouette shadows behind HUD launcher icons and Rewards artwork. Shadows follow the existing pop and tilt animations.
+- Kept the Rewards launcher label and all actual reward grants unchanged.
+
+Verified card layouts in PC, Phone and Tablet modes, shadow cropping and layering, launcher hover and reopening Rewards. All three sources compile and are exported locally. Applied in Studio; this revision's cloud save is not yet confirmed and it has not been published live. This entry documents Studio changes; game sources are delivered separately.
