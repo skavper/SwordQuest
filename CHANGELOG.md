@@ -764,3 +764,12 @@ Verified the complete 273-mob population and fixed-home respawn cycle in Studio.
 - Removed per-frame hologram bobbing and redundant sign text writes; the Mage and Forge signs remain stable while their NPCs animate locally.
 
 Verified 12 probability tables and 4,800 seeded roll sets, two real consecutive three-enchant rolls with exact crystal charges and preserved weapon count, history updates, invalid offering rejection, reduced-motion interruption cleanup, and desktop, tablet, narrow phone and short-layout button placement. Saved to Roblox on 12 September 2026 at 09:26:57 UTC. Five final sources and the station builder are exported separately; this change is not published live.
+
+### Area Secret Blades and OP Weapon — 12 September 2026
+
+- Added 18 Secret swords, one per area and three per zone. Every mob in an area can drop its sword at 1 in 5,000, with a guaranteed drop by 5,000 credited kills and separate saved progress for each area.
+- Added a compact rainbow pity panel that takes the tutorial's place when it is complete, showing the current area's sword, odds and progress. Removed Secret weapon world showcases.
+- Added an Exclusive OP Weapon with a dark claw-guard blade, red glow and custom attacks at default sword timing. Its spinning pedestal is near the Grove egg, with the authentic Robux icon and a 15 Robux purchase display.
+- Preserved rewards when inventory space runs out and added purchase receipt replay protection and recovery from delayed saves.
+
+Verified area drops, guaranteed rewards, independent progress, full inventories and simulated purchase receipt recovery in Studio. Desktop, phone and tablet panel checks and 76 actual weapon hits passed. The final pedestal position, loaded currency icon and current 15 Robux price were visually verified. All 17 final sources compile and are exported locally. Applied in Studio Edit; the latest Roblox cloud save is unconfirmed and these revisions are not published live. Physical devices, production persistence and completed real paid checkout remain untested. This entry documents Studio changes; game source is delivered separately.
