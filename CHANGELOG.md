@@ -882,3 +882,12 @@ Verified PC, Phone and Tablet layout modes in Studio with no measured text overf
 - Added a totals tooltip to the Ring Slots heading and kept resized ring artwork in place during hover.
 
 Verified the actual Rings UI in Studio with temporary client-only inventory data at desktop, iPhone landscape and iPad sizes. Selection, the Equip callback, search, empty states and Forge/Rings switching passed. Three sources compile and match local exports. Real purchases, saved inventory mutations and physical mobile hardware were not exercised. Saved to Roblox at 16:31:02 UTC on 12 September 2026; not published live. This entry documents Studio changes; game source is delivered separately.
+
+### Pet Damage and Zone Progression — 12 September 2026
+
+- Reworked all 90 progression pets to add damage scaled from their area's ordinary swords, alongside their existing coin bonuses. Golden and Rainbow retain 2x and 4x stats; pet XP bonuses are removed.
+- Applied pet damage to normal sword attacks and SuperCombo, and updated pet cards, inspection, sorting and fusion summaries. Equip Best prioritizes damage.
+- Recalibrated XP requirements, enemy XP and boss difficulty for the new pet stats, rings, boosters, sword progression and updated egg prices. Zone entry levels are 1, 25, 75, 150, 225 and 300; internal boss quests now also state their area level requirement. Teleports, eggs and ring milestones match the progression.
+- Preserved owned pets, completed quest flags, player levels and progress toward the next level when migrating older XP curves.
+
+Verified 1,419 server-runtime checks covering pet stats, fusion, equipment limits, reward multipliers, migration and gates. All 25 sources compile; updated 72 enemy templates and all affected gate labels. Pet cards and Rainbow inspection were verified in Studio, with PC/Phone/Tablet layout-mode text-fit checks. The model estimates 76–109 minutes per zone with standard progression and 73–97 with regular boosts; fully stacked premium boosts can finish much faster. These are simulations, not observed completion times. Physical devices, complete boss fights, every hatch/fusion presentation and production rejoin persistence remain untested. Installed in Studio and exported locally. Saved to Roblox in the confirmed combined save at 16:31:02 UTC on 12 September 2026; not published live. This entry documents Studio changes; complete game source is delivered separately.
