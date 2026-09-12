@@ -858,3 +858,11 @@ Verified 80 isolated calendar/receipt checks and 40 runtime progression checks, 
 - Updated all 18 world price plaques; hatching and affordability checks use the shared prices.
 
 Verified 272 server assertions covering all prices, batch payments, insufficient balances, duplicate-request replay, billion-coin deductions, tutorial affordability and live plaques. All 54 client batch-price checks also passed across the 18 eggs in the combined pet-update playtest. Both changed sources compile and contain only price edits. Applied in Studio Edit and exported locally; cloud save remains unconfirmed and this change is not published live. This entry documents Studio changes; game sources are delivered separately.
+
+### Notification Model Depth and Smooth Float — 12 September 2026
+
+- Enlarged item models within the existing rounded notification buttons, using an angled view, stronger directional shading and a soft silhouette backshadow.
+- Fixed camera framing for scale-sized previews. Actual model corners now determine the fit, with clearance for floating motion and the shadow.
+- Replaced model-preview frame movement with continuous shared-camera motion on every rendered frame. Cached unchanged shelf layouts and cancelled superseded scroll tweens; preserved reduced motion, tooltips and five-second expiry.
+
+Verified three live model previews with synchronized shadows, fixed UI bounds and no clipped geometry throughout 53 sampled frames. Reduced motion stopped all three cameras and expiry removed every sample. Studio measured 15–20 FPS in this session; high-FPS playback and physical mobile devices remain unverified. The updated module compiles and is exported locally. Applied in Studio Edit; cloud save is unconfirmed because Studio returned to another active playtest before confirmation. Not published live. This entry documents Studio changes; game source is delivered separately.
