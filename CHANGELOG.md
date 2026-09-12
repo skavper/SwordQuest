@@ -862,10 +862,11 @@ Verified 272 server assertions covering all prices, batch payments, insufficient
 ### Notification Model Depth and Smooth Float — 12 September 2026
 
 - Enlarged item models within the existing rounded notification buttons, using an angled view, stronger directional shading and a soft silhouette backshadow.
-- Fixed camera framing for scale-sized previews. Actual model corners now determine the fit, with clearance for floating motion and the shadow.
-- Replaced model-preview frame movement with continuous shared-camera motion on every rendered frame. Cached unchanged shelf layouts and cancelled superseded scroll tweens; preserved reduced motion, tooltips and five-second expiry.
+- Fixed camera framing for scale-sized previews. Actual model corners determine the fit, with clearance for floating motion and the shadow.
+- Revised the initially too-subtle float to use a wider arc and a 2.6-second cycle. Motion advances on rendered time and caps long-stall advances to avoid sudden catch-up jumps. Static artwork uses the same cycle.
+- Cached unchanged shelf layouts and cancelled superseded scroll tweens; preserved reduced motion, tooltips and five-second expiry.
 
-Verified three live model previews with synchronized shadows, fixed UI bounds and no clipped geometry throughout 53 sampled frames. Reduced motion stopped all three cameras and expiry removed every sample. Studio measured 15–20 FPS in this session; high-FPS playback and physical mobile devices remain unverified. The updated module compiles and is exported locally. Applied in Studio Edit; cloud save is unconfirmed because Studio returned to another active playtest before confirmation. Not published live. This entry documents Studio changes; game source is delivered separately.
+Compared the original and revised rendered previews. The final fresh Studio playtest measured 59.45 FPS over 191 frames, with all 570 post-initial camera samples advancing across three models. Twenty screenshot samples checked the actual visible trajectory; these are not a 60-FPS recording. Clearance passed for 25 sword models at both float extremes; reduced motion and automatic expiry passed. The module compiles and is exported locally. Saved to Roblox in the confirmed combined save at 16:31:02 UTC on 12 September 2026; not published live. Physical mobile hardware remains untested. This documents Studio changes; game source is delivered separately.
 
 ### Rewards Visual Refresh — 12 September 2026
 
