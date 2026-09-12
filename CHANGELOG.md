@@ -927,3 +927,10 @@ Verified card layouts in PC, Phone and Tablet modes, shadow cropping and layerin
 - The strongest Normal pet gives about 35%; Golden and Rainbow retain 2x and 4x scaling, approximately 70% and 140%. Existing coin bonuses, owned pets and XP requirements remain unchanged.
 
 Verified 828 fresh server-runtime checks across all 90 pets, strongest-sword selection, fusion tiers, coin scaling and absent pet XP. The final module compiles and matches the export; temporary checks were removed. With the stronger reference, existing-budget simulations estimate standard zone medians of 61–85 minutes; boosted completion varies and full-zone playtests remain unverified. This supersedes the ordinary-Rare-sword reference in the earlier rework. Saved to Roblox at 17:15:08 UTC on 12 September 2026; not published live. This entry documents Studio work; game source is delivered separately.
+
+### Enemy Damage Scaling — 12 September 2026
+
+- Corrected enemy damage across the 17 areas after Slime Grove to match the revised level and health progression. Blight Emperor now deals 905 damage per strike instead of 59; final-area ordinary enemies deal 302–503 instead of 17–26.
+- Preserved forgiving beginner damage and fixed per-enemy values, so health upgrades remain useful. XP, gates, boss health, rewards and attack warnings are unchanged.
+
+Verified all 72 enemy damage values and real damage applications, plus complete attack-to-hit checks for a beginner mob, an early boss and the final boss. All 18 spawned bosses matched the corrected catalog. Full fights and production multiplayer balance remain untested. Saved to Roblox at 18:11:02 UTC on 12 September 2026; not published live. This entry documents Studio changes; game source is delivered separately.
