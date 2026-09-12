@@ -900,3 +900,15 @@ Verified 1,419 server-runtime checks covering pet stats, fusion, equipment limit
 - Gave Rewards regular rounded Fredoka One lettering with a thinner black outline and clearer tab labels through a scoped typography option.
 
 Verified live hover/press/release, card reveals, tab/close actions, rapid close/reopen, reduced-motion behavior and no text overflow in PC/Phone/Tablet layout modes. Three sources compile and match the final Studio Edit export. Physical touch/gamepad hardware remains untested. Saved to Roblox at 16:38:08 UTC on 12 September 2026; not published live. This entry documents Studio changes; game sources are delivered separately.
+
+
+## Rewards Notification Clearance — 12 September 2026
+
+### Fixed
+
+- Gameplay notifications now leave space below the Rewards launcher, including its artwork, label and hover enlargement. Compact-screen fallback positions also avoid the launcher.
+
+### Verification and Delivery
+
+- Verified the rendered notification and zero launcher overlaps in PC, Tablet and Phone layout modes. All 36 simulated viewport/layout/visibility cases passed, including compact portrait and landscape screens.
+- Applied in Roblox Studio and exported locally. This placement correction's cloud save is not yet confirmed; it has not been published live. This entry documents the Studio change only.
