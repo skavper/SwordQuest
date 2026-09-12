@@ -811,7 +811,7 @@ Verified the matching pass IDs against the current Store configuration and confi
 - Added independent attack rhythms, circling and caster spacing, varied idle movement, stronger full-body cuts, thrusts, spins, stomps and casting poses, and expressive slime anticipation.
 - Every combo strike has its own server-timed warning and locked aim. Damage remains server-owned; cancelled attacks stop, charges respect walls and arena boundaries, and beginner stats and warning minimums are preserved.
 
-Verified all 72 enemy profiles, 72 named boss combos and 12,759 shared animation/timing samples in Studio. All 12 attack types landed one real hit each; melee timing differed by at most 22 ms. Client poses, warning effects, cleanup and isolated cancellation/death/removal/safe-zone/dodge checks passed. Eight changed sources compile and are exported separately. Installed in Studio Edit; the latest cloud save is unconfirmed and no live publication was performed. Populated multiplayer, physical devices and every complete boss fight remain untested. This entry documents Studio changes; game source is delivered separately.
+Verified all 72 enemy profiles, 72 named boss combos and 12,759 shared animation/timing samples in Studio. All 12 attack types landed one real hit each; melee timing differed by at most 22 ms. Client poses, warning effects, cleanup and isolated cancellation/death/removal/safe-zone/dodge checks passed. Eight changed sources compile and are exported separately. Installed in Studio Edit, exported locally and saved to Roblox at 12:19:28 UTC on 12 September 2026 in the confirmed combined save; no live publication was performed. Populated multiplayer, physical devices and every complete boss fight remain untested. This entry documents Studio changes; game source is delivered separately.
 
 ### Aura Level Milestones — 12 September 2026
 
@@ -820,7 +820,7 @@ Verified all 72 enemy profiles, 72 named boss combos and 12,759 shared animation
 - Updated the animated inventory with a five-column desktop collection, level requirements, unlocked/equipped states and progress toward the next milestone. Shared inventory dimensions and grey checkered styling are preserved.
 - Access is checked against the player's level on the server. Existing selections migrate to the cosmetic system; previous crate ownership cannot bypass milestone requirements.
 
-Verified 68 milestone, migration and request-validation checks, live level updates and equipping, rejection of removed actions, unchanged coins and absent ability controls. Final desktop UI was visually checked, responsive layout assertions passed at Phone and Tablet panel sizes, and all six changed sources compiled. Installed in Studio and exported separately; cloud save is unconfirmed and nothing was published. This supersedes the earlier Aura Crates, Tiers and Abilities entry and documents Studio changes, not a game-source commit.
+Verified 68 milestone, migration and request-validation checks, live level updates and equipping, rejection of removed actions, unchanged coins and absent ability controls. Final desktop UI was visually checked, responsive layout assertions passed at Phone and Tablet panel sizes, and all six changed sources compiled. Installed in Studio, exported separately and saved to Roblox at 12:19:28 UTC on 12 September 2026 in the confirmed combined save; nothing was published. This supersedes the earlier Aura Crates, Tiers and Abilities entry and documents Studio changes, not a game-source commit.
 
 ### Friend Referral Rewards — 12 September 2026
 
