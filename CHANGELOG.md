@@ -753,3 +753,14 @@ Verified 135 Normal, Golden and Rainbow builds with moving poses, 90 actual imag
 - Enlarged mob health displays by 12%, retaining their distance scaling and device layouts.
 
 Verified the complete 273-mob population and fixed-home respawn cycle in Studio. Real manual and automatic swings each hit four targets once, with protected, rear, distant, elevated and wall-obstructed targets excluded. Inspected health displays on desktop, phone and tablet; all seven scripts compiled and the final gameplay console was empty. Applied in Studio Edit and exported locally. Cloud save remains unconfirmed; no live publication performed. This entry documents Studio changes; game source and spawn data are delivered separately.
+
+### Simpler Enchanting and Mage Station — 12 September 2026
+
+- Added a large ENCHANTING sign, glowing walk-in circle and friendly wizard NPC at the Mage house.
+- Replaced the points slider with two simple choices: pick a crystal, then use 1, 5 or 10. Crystals appear in rarity order as Good, Better, Great and Best; whole-number Basic, Strong and Best enchant chances update immediately.
+- Kept the Enchant button visible at the bottom and added Enchant Again directly beside the results. Repeat rolls reuse the chosen crystal and amount, replace the entire enchant set and can give weaker results.
+- Added spiraling crystals, rotating magic circles, a glowing weapon, a success burst and sequential enchant reveals. Reduced motion provides a short, still ritual.
+- Shortened the result descriptions while preserving detailed tooltips and bold, uppercase, outlined enchant names. Existing rarity stars still determine one to three distinct enchants.
+- Removed per-frame hologram bobbing and redundant sign text writes; the Mage and Forge signs remain stable while their NPCs animate locally.
+
+Verified 12 probability tables and 4,800 seeded roll sets, two real consecutive three-enchant rolls with exact crystal charges and preserved weapon count, history updates, invalid offering rejection, reduced-motion interruption cleanup, and desktop, tablet, narrow phone and short-layout button placement. Saved to Roblox on 12 September 2026 at 09:26:57 UTC. Five final sources and the station builder are exported separately; this change is not published live.
