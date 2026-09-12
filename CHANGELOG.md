@@ -792,3 +792,9 @@ Verified 10,000 deterministic rolls against the displayed chances, 32 mutation/b
 - Added smoothly traveling rainbow colors with a wave ripple and gentle sway. Reduced motion keeps the gradient still.
 
 Verified the guaranteed boundary, early chance drops, independent area progress and saved-state preservation across all 18 areas in Studio. PC, tablet and phone text-fit checks and moving/still gradient checks passed. Three changed sources compile and are exported locally. Applied in Studio Edit; the latest cloud save remains unconfirmed and no live publication was performed. This supersedes the earlier 5,000-kill balance.
+
+### 12 September 2026 — Consistent Inventory Window Sizes
+
+All inventory categories now use the same outer panel dimensions and placement for the current device and viewport. Removed the smaller Aura window limit and standardized the safe screen area used by inventory layouts. Existing category contents and opening motion remain.
+
+Verified matching desktop bounds for all inventory panels and successful switching through all nine inventory destinations on simulated phone and tablet layouts. Both changed sources compile and are exported locally. Applied in Studio Edit; cloud save is not yet confirmed and the change has not been published live.
