@@ -744,3 +744,12 @@ Verified all 72 new image/silhouette assets loaded in a fresh Studio playtest, i
 - Preserved existing pet identities, bonuses, egg pools, fusion behavior and the original purchased pet library.
 
 Verified 135 Normal, Golden and Rainbow builds with moving poses, 90 actual image/model asset instances with no loading failures, source/variant model previews, inventory cards and representative followers in Studio. Saved player collections were not edited. Saved to Roblox at 13:30:58 UTC on 11 September 2026 and backed up locally; not published live. This entry documents Studio work; model sources and artwork are delivered separately.
+
+### Denser Mob Encounters and Sweeping Attacks — 12 September 2026
+
+- Added 91 fixed ordinary mob spawns across 18 areas, increasing total capacity from 182 to 273. Moved six older spawn points clear of obstructing scenery.
+- Reduced ordinary respawn delays to 1.5 seconds while preserving beginner difficulty and 90-second boss timers.
+- Normal attacks now hit every eligible mob once within a 180-degree swing and 15-stud base reach. Auto Attack uses the same reach and cleaves toward its nearest target. World obstacles, progression restrictions and spawn protection still prevent invalid hits.
+- Enlarged mob health displays by 12%, retaining their distance scaling and device layouts.
+
+Verified the complete 273-mob population and fixed-home respawn cycle in Studio. Real manual and automatic swings each hit four targets once, with protected, rear, distant, elevated and wall-obstructed targets excluded. Inspected health displays on desktop, phone and tablet; all seven scripts compiled and the final gameplay console was empty. Applied in Studio Edit and exported locally. Cloud save remains unconfirmed; no live publication performed. This entry documents Studio changes; game source and spawn data are delivered separately.
