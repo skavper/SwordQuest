@@ -892,3 +892,11 @@ Verified the actual Rings UI in Studio with temporary client-only inventory data
 - Preserved owned pets, completed quest flags, player levels and progress toward the next level when migrating older XP curves.
 
 Verified 1,419 server-runtime checks covering pet stats, fusion, equipment limits, reward multipliers, migration and gates. All 25 sources compile; updated 72 enemy templates and all affected gate labels. Pet cards and Rainbow inspection were verified in Studio, with PC/Phone/Tablet layout-mode text-fit checks. The model estimates 76–109 minutes per zone with standard progression and 73–97 with regular boosts; fully stacked premium boosts can finish much faster. These are simulations, not observed completion times. Physical devices, complete boss fights, every hatch/fusion presentation and production rejoin persistence remain untested. Installed in Studio and exported locally. Saved to Roblox in the confirmed combined save at 16:31:02 UTC on 12 September 2026; not published live. This entry documents Studio changes; complete game source is delivered separately.
+
+### Rewards Interaction Animations and Lettering — 12 September 2026
+
+- Added hover enlargement, press squash and release animations to all 39 buttons in Rewards, including tabs and close, while keeping input bounds stationary.
+- Added card lift/tilt, staggered reveal pops when opening or scrolling into view, reward-ready pops, and a shrinking menu exit with a fading backdrop. Rapid reopening cancels the previous exit.
+- Gave Rewards regular rounded Fredoka One lettering with a thinner black outline and clearer tab labels through a scoped typography option.
+
+Verified live hover/press/release, card reveals, tab/close actions, rapid close/reopen, reduced-motion behavior and no text overflow in PC/Phone/Tablet layout modes. Three sources compile and match the final Studio Edit export. Physical touch/gamepad hardware remains untested. Saved to Roblox at 16:38:08 UTC on 12 September 2026; not published live. This entry documents Studio changes; game sources are delivered separately.
