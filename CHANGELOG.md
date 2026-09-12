@@ -752,7 +752,7 @@ Verified 135 Normal, Golden and Rainbow builds with moving poses, 90 actual imag
 - Normal attacks now hit every eligible mob once within a 180-degree swing and 15-stud base reach. Auto Attack uses the same reach and cleaves toward its nearest target. World obstacles, progression restrictions and spawn protection still prevent invalid hits.
 - Enlarged mob health displays by 12%, retaining their distance scaling and device layouts.
 
-Verified the complete 273-mob population and fixed-home respawn cycle in Studio. Real manual and automatic swings each hit four targets once, with protected, rear, distant, elevated and wall-obstructed targets excluded. Inspected health displays on desktop, phone and tablet; all seven scripts compiled and the final gameplay console was empty. Applied in Studio Edit and exported locally. Cloud save remains unconfirmed; no live publication performed. This entry documents Studio changes; game source and spawn data are delivered separately.
+Verified the complete 273-mob population and fixed-home respawn cycle in Studio. Real manual and automatic swings each hit four targets once, with protected, rear, distant, elevated and wall-obstructed targets excluded. Inspected health displays on desktop, phone and tablet; all seven scripts compiled and the final gameplay console was empty. Applied in Studio Edit and exported locally. Saved to Roblox at 09:26:57 UTC on 12 September 2026 in the confirmed combined save; no live publication performed. This entry documents Studio changes; game source and spawn data are delivered separately.
 
 ### Simpler Enchanting and Mage Station — 12 September 2026
 
