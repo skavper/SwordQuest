@@ -866,3 +866,11 @@ Verified 272 server assertions covering all prices, batch payments, insufficient
 - Replaced model-preview frame movement with continuous shared-camera motion on every rendered frame. Cached unchanged shelf layouts and cancelled superseded scroll tweens; preserved reduced motion, tooltips and five-second expiry.
 
 Verified three live model previews with synchronized shadows, fixed UI bounds and no clipped geometry throughout 53 sampled frames. Reduced motion stopped all three cameras and expiry removed every sample. Studio measured 15–20 FPS in this session; high-FPS playback and physical mobile devices remain unverified. The updated module compiles and is exported locally. Applied in Studio Edit; cloud save is unconfirmed because Studio returned to another active playtest before confirmation. Not published live. This entry documents Studio changes; game source is delivered separately.
+
+### Rewards Visual Refresh — 12 September 2026
+
+- Restyled Rewards with a prominent pink heading, bold white outlined labels, brighter cyan/purple/yellow checker tabs, layered colorful card borders, larger reward artwork and shaded green claim buttons.
+- Updated referral, community and code panels to match. Added a roomier three-column Tablet layout alongside four-column PC and compact two-column Phone layouts.
+- Preserved reward requests, countdowns, tab switching and the shared pop entrance with quiet scroll sound.
+
+Verified PC, Phone and Tablet layout modes in Studio with no measured text overflow, working Daily-tab and close interactions, and distinct available/unavailable claim states. Opening animation settled correctly and its sound loaded. Physical mobile hardware was not tested. Installed in Studio Edit and exported locally; cloud save confirmation is pending. Not published live. This entry documents Studio changes; game source is delivered separately.
