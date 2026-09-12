@@ -804,3 +804,11 @@ Verified matching desktop bounds for all inventory panels and successful switchi
 Uploaded and saved the existing in-game Store artwork to all nine actual Roblox game passes: double EXP, Infinite Stamina, double Coins, double Pet Luck, double Sword Luck, double Attack Speed, Dual Wield, five extra pet slots and VIP. Prices, descriptions and gameplay were unchanged.
 
 Verified the matching pass IDs against the current Store configuration and confirmed each Creator Dashboard save. Roblox is processing the images through moderation; the refreshed public Store still shows placeholders. This supersedes the earlier pending browser-upload notes. This update changes Roblox pass artwork directly and does not require a game-source commit or place publication.
+
+### Boss Combos and Mob Personalities — 12 September 2026
+
+- Added four themed combo choices for each of the 18 bosses, with weighted random selection and no immediate repeats. Ordinary enemies now choose varied attacks according to their fighting role.
+- Added independent attack rhythms, circling and caster spacing, varied idle movement, stronger full-body cuts, thrusts, spins, stomps and casting poses, and expressive slime anticipation.
+- Every combo strike has its own server-timed warning and locked aim. Damage remains server-owned; cancelled attacks stop, charges respect walls and arena boundaries, and beginner stats and warning minimums are preserved.
+
+Verified all 72 enemy profiles, 72 named boss combos and 12,759 shared animation/timing samples in Studio. All 12 attack types landed one real hit each; melee timing differed by at most 22 ms. Client poses, warning effects, cleanup and isolated cancellation/death/removal/safe-zone/dodge checks passed. Eight changed sources compile and are exported separately. Installed in Studio Edit; the latest cloud save is unconfirmed and no live publication was performed. Populated multiplayer, physical devices and every complete boss fight remain untested. This entry documents Studio changes; game source is delivered separately.
